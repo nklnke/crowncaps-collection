@@ -5,7 +5,6 @@
     <div class="row">
       <div v-for="cap in capsByTitle" :key="cap.article" class="cap">
         <img
-          class="v-catalog-item__image"
           v-bind:src="require('../src/assets/images/' + cap.image)"
           v-bind:alt="cap.name"
         >
@@ -37,7 +36,7 @@ export default {
   components: {},
   data() {
     return {
-      search: '',
+      search: "",
       caps: [],
     };
   },
