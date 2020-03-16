@@ -71,9 +71,24 @@
         <p>{{ cap.pivzavod }}, {{ cap.country }}</p>
         <p>{{ cap.description }}</p>
         <p>{{ cap.condition }}</p>
-        <p class="sm">{{ cap.tags }}</p>
+        <p>
+          <!-- v-for <a href="">{{ cap.tags }}</a> -->
+          {{ cap.tags }}
+        </p>
       </div>
     </div>
+
+    <footer class="footer bg-secondary">
+      <ul>
+        <li>vue.js</li>
+        <li>vuex</li>
+        <li>bootstrap</li>
+        <li>|</li>
+        <li>express.js</li>
+        <li>node.js</li>
+        <li>mongodb</li>
+      </ul>
+    </footer>
   </div>
 </template>
 
@@ -120,13 +135,13 @@ export default {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: $padding*2;
 }
 
 .row {
   justify-content: center;
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: $margin*2;
   padding-right: $padding;
   padding-left: $padding;
 }
@@ -150,9 +165,29 @@ export default {
     -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+  }
 
-    h4 {
-      text-decoration: underline;
+  p:last-child {
+    font-size: .75em;
+    text-decoration: underline;
+  }
+}
+footer {
+  padding: $margin;
+
+  font-size: .8em;
+  color: white;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+
+    list-style: none;
+
+    li {
+      margin: 0 $padding;
     }
   }
 }
