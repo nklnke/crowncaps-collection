@@ -1,84 +1,69 @@
 {
   "caps": [
     {
-      "name": "cap 1",
       "image": "1.jpg",
       "article": "01",
       "description": "descr1",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod1",
-
+      "pivzavod": "pivzavod1"
     },
     {
-      "name": "cap 2",
       "image": "2.jpg",
       "article": "02",
       "description": "descr2",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Украина",
-      "pivzavod": "pivzavod2",
-
+      "pivzavod": "pivzavod2"
     },
     {
-      "name": "cap 3",
       "image": "3.jpg",
       "article": "03",
       "description": "descr3",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod3",
- 
+      "pivzavod": "pivzavod3"
     },
     {
-      "name": "cap 4",
       "image": "4.jpg",
       "article": "04",
       "description": "descr4",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod4",
- 
+      "pivzavod": "pivzavod4"
     },
     {
-      "name": "cap 5",
       "image": "5.jpg",
       "article": "05",
       "description": "descr5",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod5",
-
+      "pivzavod": "pivzavod5"
     },
     {
-      "name": "cap 6",
       "image": "6.jpg",
       "article": "06",
       "description": "descr6",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod6",
- 
+      "pivzavod": "pivzavod6"
     },
     {
-      "name": "cap 7",
       "image": "7.jpg",
       "article": "07",
       "description": "descr7",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod7",
-
+      "pivzavod": "pivzavod7"
     },
     {
-      "name": "cap 666",
       "image": "5.jpg",
       "article": "666",
       "description": "descr666",
@@ -88,17 +73,15 @@
       "pivzavod": "pivzavod666"
     },
     {
-      "name": "cap 777",
       "image": "777.jpg",
       "article": "0777",
       "description": "descr777",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
       "country": "Россия",
-      "pivzavod": "pivzavod777",
+      "pivzavod": "pivzavod777"
     },
     {
-      "name": "cap 888",
       "image": "888.jpg",
       "article": "0888",
       "description": "descr888",

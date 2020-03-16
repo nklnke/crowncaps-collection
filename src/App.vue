@@ -19,12 +19,6 @@
             <a class="nav-link text-light" href="/">Collection</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="/">#####</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="/">#####</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-light" href="/">Contacts</a>
           </li>
         </ul>
@@ -37,7 +31,6 @@
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <!-- <vExchange v-if="CART.length /> -->
-
             <a class="dropdown-item" href="#">cap 1</a>
             <a class="dropdown-item" href="#">cap 2</a>
             <a class="dropdown-item" href="#">cap 3</a>
@@ -51,29 +44,34 @@
 
       <form class="form-inline my-2 my-lg-0">
         <input
+          v-model="search"
           class="form-control mr-sm-2"
-          
           type="search"
           placeholder="Search"
-          aria-label="Search"
-          v-model="search">
-        <!-- <button class="btn btn-outline-success my-2 my-sm-0 text-light" type="submit">Search</button> -->
+          aria-label="Search">
       </form>
     </header>
+
+    <form action="">
+      <div class="form-group">
+        <select class="form-control" id="">
+          <option>latest</option>
+          <option>by country</option>
+          <option>by condition</option>
+        </select>
+      </div>
+    </form>
 
     <div class="row">
       <div v-for="cap in capsByTitle" :key="cap.article" class="v-catalog-item col-md-2">
         <img
           v-bind:src="require('../src/assets/images/' + cap.image)"
           v-bind:alt="cap.name"
-        >
-        <h5>{{ cap.name }}</h5>
+          class="mw-100">
+        <p>{{ cap.pivzavod }}, {{ cap.country }}</p>
         <p>{{ cap.description }}</p>
-        <p>{{ cap.tags }}</p>
         <p>{{ cap.condition }}</p>
-        <p>{{ cap.country }}</p>
-        <p>{{ cap.pivzavod }}</p>
-
+        <p class="sm">{{ cap.tags }}</p>
       </div>
     </div>
   </div>
@@ -81,7 +79,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "crowncaps-collection",
   components: {},
   data() {
     return {
@@ -92,7 +90,6 @@ export default {
   computed: {
     capsByTitle() {
       return this.caps.filter(item =>
-        item.name.toLowerCase().indexOf(this.search) !== -1 ||
         item.description.toLowerCase().indexOf(this.search) !== -1 ||
         item.tags.toLowerCase().indexOf(this.search) !== -1 ||
         item.condition.toLowerCase().indexOf(this.search) !== -1 ||
@@ -123,27 +120,40 @@ export default {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: $padding*2;
 }
 
 .row {
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: $padding;
+  padding-left: $padding;
+}
+
+.form-group {
+  margin: $margin*2 $margin*2 0;
 }
 
 .v-catalog-item {
-  min-width: 140px;
-  min-height: 140px;
-  text-align: center;
+  min-width: 150px;
   padding: $padding;
-  margin: $margin $margin $margin; 
-
-
+  margin: $margin*2 $margin 0; 
+  text-align: center;
 
   border: 1px solid $lightgray;
   border-radius: $radius;
 
-  img {
-    max-height: 100%;
-    max-width: 100%;
+  &:hover {
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+    box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+
+    h4 {
+      text-decoration: underline;
+    }
   }
 }
 </style>
