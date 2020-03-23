@@ -6,8 +6,8 @@
           <li class="nav-item">
             <img
               src="./assets/images/1.jpg"
-              width="36"
-              height="36"
+              width="36px"
+              height="36px"
               class="d-block"
               role="img"
               focusable="false">
@@ -41,12 +41,12 @@
       <div class="form-group">
         <select class="form-control" id="">
           <option>latest</option>
-          <option v-on:click="sortByCountry">by country</option>
+          <option>by country</option>
           <option>by condition</option>
         </select>
       </div>
 
-      <button v-on:click="sortByCountry">sortByCountry</button>
+      <!-- <button v-on:click="sortByCountry">sortByCountry</button> -->
     </form>
 
     <div class="row">
@@ -104,12 +104,12 @@ export default {
       })
   },
   methods: {
-    sortByCountry: function () {
-      console.log(this.store.caps.country)
-    },
-    filterBy(option) {
-      this.filter = option;
-    }
+    // sortByCountry: function () {
+    //   console.log(this.$store.caps)
+    // },
+    // filterBy(option) {
+    //   this.filter = option;
+    // }
   }
 }
 </script>
@@ -161,7 +161,6 @@ export default {
 
   p:last-child {
     font-size: .75em;
-    text-decoration: underline;
   }
 }
 
