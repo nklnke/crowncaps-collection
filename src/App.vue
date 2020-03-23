@@ -24,42 +24,29 @@
         </ul>
       </div>
 
-      <ul class="navbar-nav flex-row ml-md-auto d-md-flex"> <!-- "d-none" class to hide element in low resolutions -->
-        <li class="nav-item dropdown">
-          <a class="nav-item nav-link dropdown-toggle mr-md-2 text-light" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Exchange <span class="badge badge-warning">5 pcs</span>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right">
-            <!-- <vExchange v-if="CART.length /> -->
-            <a class="dropdown-item" href="#">cap 1</a>
-            <a class="dropdown-item" href="#">cap 2</a>
-            <a class="dropdown-item" href="#">cap 3</a>
-            <a class="dropdown-item" href="#">cap 4</a>
-            <a class="dropdown-item" href="#">cap 5</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item active" href="#">Exchange</a>
-          </div>
-        </li>
+      <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            v-model="search"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search">
+        </form>
       </ul>
 
-      <form class="form-inline my-2 my-lg-0">
-        <input
-          v-model="search"
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search">
-      </form>
     </header>
 
     <form action="">
       <div class="form-group">
         <select class="form-control" id="">
           <option>latest</option>
-          <option>by country</option>
+          <option v-on:click="sortByCountry">by country</option>
           <option>by condition</option>
         </select>
       </div>
+
+      <button v-on:click="sortByCountry">sortByCountry</button>
     </form>
 
     <div class="row">
@@ -71,10 +58,7 @@
         <p>{{ cap.pivzavod }}, {{ cap.country }}</p>
         <p>{{ cap.description }}</p>
         <p>{{ cap.condition }}</p>
-        <p>
-          <!-- v-for <a href="">{{ cap.tags }}</a> -->
-          {{ cap.tags }}
-        </p>
+        <p>{{ cap.tags }}</p>
       </div>
     </div>
 
@@ -118,6 +102,14 @@ export default {
       .then(json => {
         this.caps = json;
       })
+  },
+  methods: {
+    sortByCountry: function () {
+      console.log(this.store.caps.country)
+    },
+    filterBy(option) {
+      this.filter = option;
+    }
   }
 }
 </script>
@@ -172,8 +164,9 @@ export default {
     text-decoration: underline;
   }
 }
+
 footer {
-  padding: $margin;
+  padding: $padding;
 
   font-size: .8em;
   color: white;
@@ -187,7 +180,7 @@ footer {
     list-style: none;
 
     li {
-      margin: 0 $padding;
+      margin: 0 $margin;
     }
   }
 }
