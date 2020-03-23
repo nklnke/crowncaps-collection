@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
     <header class="navbar navbar-expand bg-primary flex-column flex-md-row bd-navbar">
+
       <div class="navbar-nav-scroll">
         <ul class="navbar-nav bd-navbar-nav flex-row">
           <li class="nav-item">
@@ -55,6 +56,7 @@
           v-bind:src="require('../src/assets/images/' + cap.image)"
           v-bind:alt="cap.name"
           class="mw-100">
+        <h3>{{ cap.name }}</h3>
         <p>{{ cap.pivzavod }}, {{ cap.country }}</p>
         <p>{{ cap.description }}</p>
         <p>{{ cap.condition }}</p>
@@ -104,12 +106,12 @@ export default {
       })
   },
   methods: {
-    // sortByCountry: function () {
-    //   console.log(this.$store.caps)
-    // },
-    // filterBy(option) {
-    //   this.filter = option;
-    // }
+    sortByCountry: function () {
+      console.log(this.$store.caps)
+    },
+    filterBy(option) {
+      this.filter = option;
+    }
   }
 }
 </script>

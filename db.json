@@ -1,6 +1,7 @@
 {
   "caps": [
     {
+      "name": "name1",
       "image": "1.jpg",
       "article": "01",
       "description": "descr1",
@@ -10,6 +11,7 @@
       "pivzavod": "pivzavod1"
     },
     {
+      "name": "name2",
       "image": "2.jpg",
       "article": "02",
       "description": "descr2",
@@ -19,6 +21,7 @@
       "pivzavod": "pivzavod2"
     },
     {
+      "name": "name3",
       "image": "3.jpg",
       "article": "03",
       "description": "descr3",
@@ -28,6 +31,7 @@
       "pivzavod": "pivzavod3"
     },
     {
+      "name": "name4",
       "image": "4.jpg",
       "article": "04",
       "description": "descr4",
@@ -37,6 +41,7 @@
       "pivzavod": "pivzavod4"
     },
     {
+      "name": "name5",
       "image": "5.jpg",
       "article": "05",
       "description": "descr5",
@@ -46,6 +51,7 @@
       "pivzavod": "pivzavod5"
     },
     {
+      "name": "name6",
       "image": "6.jpg",
       "article": "06",
       "description": "descr6",
@@ -55,6 +61,7 @@
       "pivzavod": "pivzavod6"
     },
     {
+      "name": "name7",
       "image": "7.jpg",
       "article": "07",
       "description": "descr7",
@@ -64,6 +71,7 @@
       "pivzavod": "pivzavod7"
     },
     {
+      "name": "name8",
       "image": "5.jpg",
       "article": "666",
       "description": "descr666",
@@ -73,6 +81,7 @@
       "pivzavod": "pivzavod666"
     },
     {
+      "name": "name9",
       "image": "777.jpg",
       "article": "0777",
       "description": "descr777",
@@ -82,6 +91,7 @@
       "pivzavod": "pivzavod777"
     },
     {
+      "name": "name10",
       "image": "888.jpg",
       "article": "0888",
       "description": "descr888",
