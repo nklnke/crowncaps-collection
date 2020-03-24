@@ -51,7 +51,7 @@
     </form>
 
     <div class="row">
-      <div v-for="cap in capsByTitle" :key="cap.article" class="v-catalog-item col-md-2">
+      <div v-for="cap in capsByTitle" :key="cap.id" class="v-catalog-item col-md-2">
         <img
           v-bind:src="require('../src/assets/images/' + cap.image)"
           v-bind:alt="cap.name"

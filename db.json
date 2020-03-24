@@ -3,7 +3,7 @@
     {
       "name": "name1",
       "image": "1.jpg",
-      "article": "01",
+      "id": "0001",
       "description": "descr1",
       "tags": "орёл, f, tag3",
       "condition": "состояние",
@@ -13,7 +13,7 @@
     {
       "name": "name2",
       "image": "2.jpg",
-      "article": "02",
+      "id": "0002",
       "description": "descr2",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -23,7 +23,7 @@
     {
       "name": "name3",
       "image": "3.jpg",
-      "article": "03",
+      "id": "0003",
       "description": "descr3",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -33,7 +33,7 @@
     {
       "name": "name4",
       "image": "4.jpg",
-      "article": "04",
+      "id": "0004",
       "description": "descr4",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -43,7 +43,7 @@
     {
       "name": "name5",
       "image": "5.jpg",
-      "article": "05",
+      "id": "0005",
       "description": "descr5",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -53,7 +53,7 @@
     {
       "name": "name6",
       "image": "6.jpg",
-      "article": "06",
+      "id": "0006",
       "description": "descr6",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -63,7 +63,7 @@
     {
       "name": "name7",
       "image": "7.jpg",
-      "article": "07",
+      "id": "0007",
       "description": "descr7",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -73,7 +73,7 @@
     {
       "name": "name8",
       "image": "5.jpg",
-      "article": "666",
+      "id": "0666",
       "description": "descr666",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -83,7 +83,7 @@
     {
       "name": "name9",
       "image": "777.jpg",
-      "article": "0777",
+      "id": "0777",
       "description": "descr777",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
@@ -93,7 +93,7 @@
     {
       "name": "name10",
       "image": "888.jpg",
-      "article": "0888",
+      "id": "0888",
       "description": "descr888",
       "tags": "tag1, tag2, tag3",
       "condition": "состояние",
