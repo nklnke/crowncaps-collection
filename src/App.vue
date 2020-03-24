@@ -38,17 +38,15 @@
 
     </header>
 
-    <form action="">
-      <div class="form-group">
-        <select class="form-control" id="">
-          <option>latest</option>
-          <option>by country</option>
-          <option>by condition</option>
-        </select>
-      </div>
-
-      <!-- <button v-on:click="sortByCountry">sortByCountry</button> -->
-    </form>
+    <div class="countries-list">
+      <a href="" class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
+      <a href="" class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
+      <a href="" class="list-inline-item">Россия <span class="badge badge-light">249</span></a>
+      <a href="" class="list-inline-item">США <span class="badge badge-light">2</span></a>
+      <a href="" class="list-inline-item">Украина <span class="badge badge-light">4</span></a>
+      <a href="" class="list-inline-item">Чехия <span class="badge badge-light">6</span></a>
+      <a href="" class="list-inline-item">Южная Корея <span class="badge badge-light">1</span></a>
+    </div>
 
     <div class="row">
       <div v-for="cap in capsByTitle" :key="cap.id" class="v-catalog-item col-md-2">
@@ -67,12 +65,12 @@
     <footer class="footer bg-secondary">
       <ul>
         <li>vue.js</li>
-        <li>vuex</li>
+        <!-- <li>vuex</li> -->
         <li>bootstrap</li>
         <li>|</li>
-        <li>express.js</li>
+        <!-- <li>express.js</li> -->
         <li>node.js</li>
-        <li>mongodb</li>
+        <!-- <li>mongodb</li> -->
       </ul>
     </footer>
   </div>
@@ -118,7 +116,7 @@ export default {
 
 <style lang="scss" scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -142,6 +140,26 @@ export default {
 
 .form-group {
   margin: $margin*2 $margin*2 0;
+}
+
+.countries-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+
+  background: $lightblue;
+  
+  a {
+    padding: $padding*2 $padding;
+    color: white;
+
+    &:hover {
+      background-color: $blue;
+      text-decoration: none;
+    }
+  }
 }
 
 .v-catalog-item {
