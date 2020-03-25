@@ -39,26 +39,34 @@
     </header>
 
     <div class="countries-list">
-      <a href="" class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
-      <a href="" class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
-      <a href="" class="list-inline-item">Россия <span class="badge badge-light">249</span></a>
-      <a href="" class="list-inline-item">США <span class="badge badge-light">2</span></a>
-      <a href="" class="list-inline-item">Украина <span class="badge badge-light">4</span></a>
-      <a href="" class="list-inline-item">Чехия <span class="badge badge-light">6</span></a>
-      <a href="" class="list-inline-item">Южная Корея <span class="badge badge-light">1</span></a>
+      <!--
+      <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
+      <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
+      -->
+      <a class="list-inline-item">Все</a>
+      <a class="list-inline-item">Германия</a>
+      <a class="list-inline-item">Китай</a>
+      <a class="list-inline-item">Россия</a>
+      <a class="list-inline-item">США</a>
+      <a class="list-inline-item">Украина</a>
+      <a class="list-inline-item">Чехия</a>
+      <a class="list-inline-item">Южная Корея</a>
     </div>
 
     <div class="row">
-      <div v-for="cap in capsByTitle" :key="cap.id" class="v-catalog-item col-md-2">
+      <div v-for="cap in capsByTitle"
+           :key="cap.id"
+           class="v-catalog-item col-md-2 Все"
+           :class="cap.country">
         <img
           v-bind:src="require('../src/assets/images/' + cap.image)"
           v-bind:alt="cap.name"
           class="mw-100">
-        <h3>{{ cap.name }}</h3>
-        <p>{{ cap.pivzavod }}, {{ cap.country }}</p>
-        <p>{{ cap.description }}</p>
-        <p>{{ cap.condition }}</p>
-        <p>{{ cap.tags }}</p>
+        <h3>{{cap.name}}</h3>
+        <p>{{cap.pivzavod}}, {{cap.country}}</p>
+        <p>{{cap.description}}</p>
+        <p>{{cap.condition}}</p>
+        <p>{{cap.tags}}</p>
       </div>
     </div>
 
@@ -77,6 +85,8 @@
 </template>
 
 <script>
+import { countryFilter } from "./countryFilter.js";
+
 export default {
   name: "crowncaps-collection",
   components: {},
@@ -104,12 +114,12 @@ export default {
       })
   },
   methods: {
-    sortByCountry: function () {
-      console.log(this.$store.caps)
-    },
     filterBy(option) {
       this.filter = option;
     }
+  },
+  mounted() {
+    countryFilter();
   }
 }
 </script>
@@ -154,6 +164,7 @@ export default {
   a {
     padding: $padding*2 $padding;
     color: white;
+    cursor: pointer;
 
     &:hover {
       background-color: $blue;
