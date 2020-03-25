@@ -58,10 +58,9 @@
            :key="cap.id"
            class="v-catalog-item col-md-2 Все"
            :class="cap.country">
-        <img
-          v-bind:src="require('../src/assets/images/' + cap.image)"
-          v-bind:alt="cap.name"
-          class="mw-100">
+        <img v-bind:src="require('../src/assets/images/' + cap.image)"
+             v-bind:alt="cap.name"
+             class="mw-100">
         <h3>{{cap.name}}</h3>
         <p>{{cap.pivzavod}}, {{cap.country}}</p>
         <p>{{cap.description}}</p>
@@ -73,12 +72,12 @@
     <footer class="footer bg-secondary">
       <ul>
         <li>vue.js</li>
-        <!-- <li>vuex</li> -->
+        <li>vuex</li>
         <li>bootstrap</li>
         <li>|</li>
-        <!-- <li>express.js</li> -->
         <li>node.js</li>
-        <!-- <li>mongodb</li> -->
+        <!-- <li>express.js</li>
+        <li>mongodb</li> -->
       </ul>
     </footer>
   </div>
@@ -154,7 +153,7 @@ export default {
 
 .countries-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
@@ -162,11 +161,13 @@ export default {
   background: $lightblue;
   
   a {
-    padding: $padding*2 $padding;
+    padding: $padding*2 $padding*2;
+    margin: 0;
     color: white;
     cursor: pointer;
 
     &:hover {
+      color: white;
       background-color: $blue;
       text-decoration: none;
     }
