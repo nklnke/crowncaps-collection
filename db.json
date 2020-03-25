@@ -1,104 +1,26 @@
 {
   "caps": [
     {
-      "name": "name1",
-      "image": "1.jpg",
       "id": "0001",
-      "description": "descr1",
-      "tags": "орёл, f, tag3",
-      "condition": "состояние",
+      "name": "Červená Selka",
+      "image": "34851.53850c47.jpg",
+      "tags": "celka, целка",
+      "condition": "good",
       "country": "Россия",
-      "pivzavod": "pivzavod1"
+      "town": "Мытищи",
+      "pivzavod": "Московская Пивоваренная Компания",
+      "ccilink": "http://crowncaps.info/caps/34851"
     },
     {
-      "name": "name2",
-      "image": "2.jpg",
       "id": "0002",
-      "description": "descr2",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Украина",
-      "pivzavod": "pivzavod2"
-    },
-    {
-      "name": "name3",
-      "image": "3.jpg",
-      "id": "0003",
-      "description": "descr3",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
+      "name": "Červená Selka",
+      "image": "34851.53850c47.jpg",
+      "tags": "celka, целка",
+      "condition": "good",
       "country": "Россия",
-      "pivzavod": "pivzavod3"
-    },
-    {
-      "name": "name4",
-      "image": "4.jpg",
-      "id": "0004",
-      "description": "descr4",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod4"
-    },
-    {
-      "name": "name5",
-      "image": "5.jpg",
-      "id": "0005",
-      "description": "descr5",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod5"
-    },
-    {
-      "name": "name6",
-      "image": "6.jpg",
-      "id": "0006",
-      "description": "descr6",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod6"
-    },
-    {
-      "name": "name7",
-      "image": "7.jpg",
-      "id": "0007",
-      "description": "descr7",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod7"
-    },
-    {
-      "name": "name8",
-      "image": "5.jpg",
-      "id": "0666",
-      "description": "descr666",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod666"
-    },
-    {
-      "name": "name9",
-      "image": "777.jpg",
-      "id": "0777",
-      "description": "descr777",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod777"
-    },
-    {
-      "name": "name10",
-      "image": "888.jpg",
-      "id": "0888",
-      "description": "descr888",
-      "tags": "tag1, tag2, tag3",
-      "condition": "состояние",
-      "country": "Россия",
-      "pivzavod": "pivzavod888"
+      "town": "Мытищи",
+      "pivzavod": "Московская Пивоваренная Компания",
+      "ccilink": "http://crowncaps.info/caps/34851"
     }
   ]
 }
