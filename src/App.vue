@@ -62,10 +62,11 @@
              v-bind:alt="cap.name"
              class="mw-100">
         <h3>{{cap.name}}</h3>
-        <p>{{cap.pivzavod}}, {{cap.country}}</p>
-        <p>{{cap.description}}</p>
+        <p>{{cap.country}}, {{cap.town}}</p>
+        <p>{{cap.pivzavod}}</p>
         <p>{{cap.condition}}</p>
         <p>{{cap.tags}}</p>
+        <p><a :href="cap.ccilink">{{cap.ccilink}}</a></p>
       </div>
     </div>
 
@@ -98,7 +99,6 @@ export default {
   computed: {
     capsByTitle() {
       return this.caps.filter(item =>
-        item.description.toLowerCase().indexOf(this.search) !== -1 ||
         item.tags.toLowerCase().indexOf(this.search) !== -1 ||
         item.condition.toLowerCase().indexOf(this.search) !== -1 ||
         item.country.toLowerCase().indexOf(this.search) !== -1 ||
@@ -176,6 +176,7 @@ export default {
 
 .v-catalog-item {
   min-width: 150px;
+  min-height: 200px;
   padding: $padding;
   margin: $margin*2 $margin 0; 
   text-align: center;
@@ -189,10 +190,18 @@ export default {
     -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+
+    img {
+      filter: contrast(120%);
+    }
   }
 
   p:last-child {
     font-size: .75em;
+  }
+
+  img {
+    margin-bottom: $margin;
   }
 }
 
