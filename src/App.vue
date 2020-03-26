@@ -210,7 +210,7 @@ export default {
   }
 
   p:last-child {
-    font-size: .75em;
+    font-size: .8em;
   }
 
   img {
@@ -220,7 +220,7 @@ export default {
 }
 
 .tags {
-  // font-size: 0.75em;
+  // font-size: .75em;
   white-space: normal;
 }
 
@@ -230,7 +230,7 @@ export default {
 }
 
 footer {
-  padding: $padding/2;
+  padding: $padding;
 
   font-size: .8em;
   color: white;
