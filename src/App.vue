@@ -129,6 +129,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
   text-align: center;
+  line-height: 1.2;
 }
 
 .container-fluid {
@@ -176,6 +177,7 @@ export default {
 
 .v-catalog-item {
   min-width: 150px;
+  max-width: 220px;
   min-height: 200px;
   padding: $padding;
   margin: $margin*2 $margin 0; 
@@ -209,10 +211,12 @@ export default {
 
 .tags {
   // font-size: 0.75em;
+  white-space: normal;
 }
 
 .links a {
   display: block;
+  word-wrap: break-word;
 }
 
 footer {
