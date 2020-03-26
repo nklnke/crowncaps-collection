@@ -14,6 +14,9 @@
               focusable="false">
           </li>
           <li class="nav-item">
+            <a class="navbar-brand text-light">Collection of crowncaps</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-light" href="/">Home</a>
           </li>
           <li class="nav-item">
@@ -75,11 +78,12 @@
 
     <footer class="footer bg-secondary">
       <ul>
-        <li><a class="text-white" href="https://vuejs.org">vue.js</a></li>
-        <li><a class="text-white" href="https://vuex.vuejs.org">vuex</a></li>
-        <li><a class="text-white" href="https://getbootstrap.com">bootstrap</a></li>
+        <li><a class="text-white" href="https://vuejs.org" target="_blank">vue.js</a></li>
+        <li><a class="text-white" href="https://vuex.vuejs.org" target="_blank">vuex</a></li>
+        <li><a class="text-white" href="https://getbootstrap.com" target="_blank">bootstrap</a></li>
         <li>|</li>
-        <li><a class="text-white" href="https://nodejs.org">node.js</a></li>
+        <li><a class="text-white" href="https://nodejs.org" target="_blank">node.js</a></li>
+        <li><a class="text-white" href="https://github.com/typicode/json-server" target="_blank">json-server</a></li>
         <!-- <li>express.js</li>
         <li>mongodb</li> -->
       </ul>
@@ -130,6 +134,10 @@ export default {
   font-size: 15px;
   text-align: center;
   line-height: 1.2;
+}
+
+.nav-item {
+  margin-right: $margin/3;
 }
 
 .container-fluid {
