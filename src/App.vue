@@ -54,29 +54,32 @@
     </div>
 
     <div class="row">
-      <div v-for="cap in capsByTitle"
+      <div class="v-catalog-item col-md-2 Все"
+           v-for="cap in capsByTitle"
            :key="cap.id"
-           class="v-catalog-item col-md-2 Все"
            :class="cap.country">
         <img v-bind:src="require('../src/assets/images/' + cap.image)"
              v-bind:alt="cap.name"
              class="mw-100">
-        <h3>{{cap.name}}</h3>
+        <h5>{{cap.name}}</h5>
         <p>{{cap.country}}, {{cap.town}}</p>
         <p>{{cap.pivzavod}}</p>
-        <p>{{cap.condition}}</p>
-        <p>{{cap.tags}}</p>
-        <p><a :href="cap.ccilink">{{cap.ccilink}}</a></p>
+        <!-- <p>{{cap.condition}}</p> -->
+        <p class="tags badge badge-primary">{{cap.tags}}</p>
+        <p class="links">
+          <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
+          <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
+        </p>
       </div>
     </div>
 
     <footer class="footer bg-secondary">
       <ul>
-        <li>vue.js</li>
-        <li>vuex</li>
-        <li>bootstrap</li>
+        <li><a class="text-white" href="https://vuejs.org">vue.js</a></li>
+        <li><a class="text-white" href="https://vuex.vuejs.org">vuex</a></li>
+        <li><a class="text-white" href="https://getbootstrap.com">bootstrap</a></li>
         <li>|</li>
-        <li>node.js</li>
+        <li><a class="text-white" href="https://nodejs.org">node.js</a></li>
         <!-- <li>express.js</li>
         <li>mongodb</li> -->
       </ul>
@@ -112,14 +115,10 @@ export default {
         this.caps = json;
       })
   },
-  methods: {
-    filterBy(option) {
-      this.filter = option;
-    }
-  },
   mounted() {
     countryFilter();
-  }
+  },
+  methods: {}
 }
 </script>
 
@@ -128,6 +127,7 @@ export default {
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -161,7 +161,7 @@ export default {
   background: $lightblue;
   
   a {
-    padding: $padding*2 $padding*2;
+    padding: $padding $padding*2;
     margin: 0;
     color: white;
     cursor: pointer;
@@ -186,13 +186,14 @@ export default {
 
   &:hover {
     cursor: pointer;
+    // transform: scale(1.015);
 
     -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
 
     img {
-      filter: contrast(120%);
+      filter: contrast(115%);
     }
   }
 
@@ -201,12 +202,21 @@ export default {
   }
 
   img {
+    min-width: 100%;
     margin-bottom: $margin;
   }
 }
 
+.tags {
+  // font-size: 0.75em;
+}
+
+.links a {
+  display: block;
+}
+
 footer {
-  padding: $padding;
+  padding: $padding/2;
 
   font-size: .8em;
   color: white;
