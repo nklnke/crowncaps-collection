@@ -35,6 +35,30 @@
       "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
       "pzlink": "http://varnya.ru",
       "ccilink": "http://crowncaps.info/caps/34851"
+    },
+    {
+      "id": "0004",
+      "name": "Букет Чувашии",
+      "image": "0004.jpg",
+      "tags": "букет, чувашии, трелистник",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Чебоксары (Cheboksary)",
+      "pivzavod": "ОАО «Букет Чувашии» (Buket Chuvashii)",
+      "pzlink": "http://buketbeer.ru",
+      "ccilink": "http://crowncaps.info/caps/30542"
+    },
+    {
+      "id": "0005",
+      "name": "Полевская пивоварня",
+      "image": "0005.jpg",
+      "tags": "полевская, дерево",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Полевской (Polevskoy)",
+      "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
+      "pzlink": "http://varnya.ru",
+      "ccilink": "http://crowncaps.info/caps/148600"
     }
   ]
 }
