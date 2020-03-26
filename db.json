@@ -59,6 +59,66 @@
       "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
       "pzlink": "http://varnya.ru",
       "ccilink": "http://crowncaps.info/caps/148600"
+    },
+    {
+      "id": "0006",
+      "name": "Červená Selka",
+      "image": "0001.jpg",
+      "tags": "celka, целка",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "https://mosbrew.ru",
+      "ccilink": "http://crowncaps.info/caps/34851"
+    },
+    {
+      "id": "0007",
+      "name": "Apps Cider",
+      "image": "0002.jpg",
+      "tags": "apps, cider, сидр",
+      "condition": "good",
+      "country": "Украина",
+      "town": "Жашкiв (Zhashkiv)",
+      "pivzavod": "ТОВ «Напоï Плюс» (Napoji plus)",
+      "pzlink": "https://newproducts.ua",
+      "ccilink": "http://crowncaps.info/caps/67907"
+    },
+    {
+      "id": "0008",
+      "name": "Полевская пивоварня",
+      "image": "0003.jpg",
+      "tags": "полевская, дерево",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Полевской (Polevskoy)",
+      "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
+      "pzlink": "http://varnya.ru",
+      "ccilink": "http://crowncaps.info/caps/34851"
+    },
+    {
+      "id": "0009",
+      "name": "Букет Чувашии",
+      "image": "0004.jpg",
+      "tags": "букет, чувашии, трелистник",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Чебоксары (Cheboksary)",
+      "pivzavod": "ОАО «Букет Чувашии» (Buket Chuvashii)",
+      "pzlink": "http://buketbeer.ru",
+      "ccilink": "http://crowncaps.info/caps/30542"
+    },
+    {
+      "id": "0010",
+      "name": "Полевская пивоварня",
+      "image": "0005.jpg",
+      "tags": "полевская, дерево",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Полевской (Polevskoy)",
+      "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
+      "pzlink": "http://varnya.ru",
+      "ccilink": "http://crowncaps.info/caps/148600"
     }
   ]
 }
