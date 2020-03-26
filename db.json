@@ -3,23 +3,37 @@
     {
       "id": "0001",
       "name": "Červená Selka",
-      "image": "34851.53850c47.jpg",
+      "image": "0001.jpg",
       "tags": "celka, целка",
       "condition": "good",
       "country": "Россия",
       "town": "Мытищи",
-      "pivzavod": "Московская Пивоваренная Компания",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "https://mosbrew.ru",
       "ccilink": "http://crowncaps.info/caps/34851"
     },
     {
       "id": "0002",
-      "name": "Červená Selka",
-      "image": "34851.53850c47.jpg",
-      "tags": "celka, целка",
+      "name": "Apps Cider",
+      "image": "0002.jpg",
+      "tags": "apps, cider, сидр",
+      "condition": "good",
+      "country": "Украина",
+      "town": "Жашкiв (Zhashkiv)",
+      "pivzavod": "ТОВ «Напоï Плюс» (Napoji plus)",
+      "pzlink": "https://newproducts.ua",
+      "ccilink": "http://crowncaps.info/caps/67907"
+    },
+    {
+      "id": "0003",
+      "name": "Полевская пивоварня",
+      "image": "0003.jpg",
+      "tags": "полевская, дерево",
       "condition": "good",
       "country": "Россия",
-      "town": "Мытищи",
-      "pivzavod": "Московская Пивоваренная Компания",
+      "town": "Полевской (Polevskoy)",
+      "pivzavod": "ООО «Полевская пивоварня» (Polevskaya Pivovarnia)",
+      "pzlink": "http://varnya.ru",
       "ccilink": "http://crowncaps.info/caps/34851"
     }
   ]
