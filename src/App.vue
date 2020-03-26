@@ -106,9 +106,11 @@ export default {
   computed: {
     capsByTitle() {
       return this.caps.filter(item =>
+        item.name.toLowerCase().indexOf(this.search) !== -1 ||
         item.tags.toLowerCase().indexOf(this.search) !== -1 ||
-        item.condition.toLowerCase().indexOf(this.search) !== -1 ||
+        // item.condition.toLowerCase().indexOf(this.search) !== -1 ||
         item.country.toLowerCase().indexOf(this.search) !== -1 ||
+        item.town.toLowerCase().indexOf(this.search) !== -1 ||
         item.pivzavod.toLowerCase().indexOf(this.search) !== -1)
     },
   },
