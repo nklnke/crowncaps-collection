@@ -138,7 +138,12 @@ export default {
   line-height: 1.2;
 }
 
-.nav-item {
+a[href]:not([class]) {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.nav-item:not(:last-child) {
   margin-right: $margin/3;
 }
 
@@ -210,7 +215,7 @@ export default {
   }
 
   p:last-child {
-    font-size: .8em;
+    font-size: .8rem;
   }
 
   img {
@@ -220,7 +225,7 @@ export default {
 }
 
 .tags {
-  // font-size: .75em;
+  // font-size: .75rem;
   white-space: normal;
 }
 
@@ -232,7 +237,7 @@ export default {
 footer {
   padding: $padding;
 
-  font-size: .8em;
+  font-size: .8rem;
   color: white;
 
   ul {
