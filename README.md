@@ -9,8 +9,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need:
-- node.js
-- ...
+- node.js [Download](https://nodejs.org/)
+- json-server
+```
+npm install json-server
+```
 
 ### Installing
 
@@ -21,7 +24,6 @@ npm install
 
 ### Starting json server
 ```
-npm install json-server
 json-server --watch db.json
 ```
 
@@ -40,16 +42,14 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ## Built With
 
 * [Vue.js](https://vuejs.org/) - The web framework used
+* [json-server](https://github.com/typicode/json-server) - fake REST API
 
 ## Authors
 
-* **Danil Kozlov** - *Initial work* - [nklnke](https://github.com/nklnke)
+* **Danil Kozlov** - [nklnke](https://github.com/nklnke)
 
 ## License
 
