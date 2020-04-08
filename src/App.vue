@@ -78,7 +78,7 @@
 
         <!-- <capModal /> -->
 
-        <!-- modal window -->
+        <!-- capModal window -->
         <div class="modal fade" id="capModal" tabindex="-1" role="dialog" aria-labelledby="capModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <!-- /modal window -->
+        <!-- /capModal window -->
 
       </div>
     </div>
