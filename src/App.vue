@@ -76,6 +76,8 @@
           <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
         </p>
 
+        <!-- <capModal /> -->
+
         <!-- modal window -->
         <div class="modal fade" id="capModal" tabindex="-1" role="dialog" aria-labelledby="capModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
@@ -127,10 +129,13 @@
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
+// import capModal from './components/cap-modal';
 
 export default {
   name: "crowncaps-collection",
-  components: {},
+  components: {
+    // capModal
+  },
   data() {
     return {
       search: "",
