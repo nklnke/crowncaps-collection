@@ -67,7 +67,9 @@
         <h5>{{cap.name}}</h5>
         <p>{{cap.country}}, {{cap.town}}</p>
         <p>{{cap.pivzavod}}</p>
-        <!-- <p>{{cap.condition}}</p> -->
+        <div v-if="!cap.condition" class="alert alert-danger">
+          BAD
+        </div>
         <p class="tags badge badge-primary">{{cap.tags}}</p>
         <p class="links">
           <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
