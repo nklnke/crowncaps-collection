@@ -17,10 +17,10 @@
             <a class="navbar-brand text-light">Collection of crowncaps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="/">Home</a>
+            <a class="nav-link text-light" href="/">Row</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="/">List of all caps</a>
+            <a class="nav-link text-light" href="/">List</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Contacts</a>
@@ -94,7 +94,7 @@
                     class="mw-100">
                 <p>{{cap.country}}, {{cap.town}}</p>
                 <p>{{cap.pivzavod}}</p>
-                <div v-if="!cap.condition" class="alert alert-danger">BAD</div>
+                <div v-if="!cap.condition" class="condition alert alert-danger">BAD</div>
                 <p class="tags badge badge-primary">{{cap.tags}}</p>
                 <p class="links">
                   <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
