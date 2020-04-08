@@ -19,8 +19,12 @@
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Row</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-slash">/</li>
             <a class="nav-link text-light" href="/">List</a>
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/">Show only bad</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Contacts</a>
@@ -28,7 +32,7 @@
         </ul>
       </div>
 
-      <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
+      <div class="navbar-nav flex-row ml-md-auto d-md-flex">
         <form class="form-inline my-2 my-lg-0">
           <input
             v-model="search"
@@ -37,7 +41,7 @@
             placeholder="Search"
             aria-label="Search">
         </form>
-      </ul>
+      </div>
 
     </header>
 
@@ -182,8 +186,25 @@ a[href]:not([class]) {
   text-decoration: underline;
 }
 
+header {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li:not(:last-child) {
+      // border-right: 1px solid $lightblue;
+    }
+  }
+}
+
 .nav-item:not(:last-child) {
   margin-right: $margin/3;
+}
+
+.nav-slash {
+  color: white;
+  padding: $padding/2 $padding/4 $padding/2 0;
 }
 
 .container-fluid {
@@ -284,6 +305,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
+    padding-left: 0;
 
     list-style: none;
 
