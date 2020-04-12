@@ -39,7 +39,8 @@
             class="form-control"
             type="search"
             placeholder="Search"
-            aria-label="Search">
+            aria-label="Search"
+          >
         </form>
       </div>
 
@@ -49,10 +50,12 @@
       <!--
       <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
       <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
+      // регуляркой отсечь всё, что после ` <`
       -->
       <a class="list-inline-item">Все</a>
       <a class="list-inline-item">Германия</a>
       <a class="list-inline-item">Китай</a>
+      <a class="list-inline-item">Мексика</a>
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Украина</a>
@@ -66,14 +69,18 @@
            :key="cap.id"
            :class="cap.country"
            data-toggle="modal"
-           data-target="#capModal">
-        <img v-bind:src="require('../src/assets/images/' + cap.image)"
-             v-bind:alt="cap.name"
-             class="mw-100">
+           data-target="#capModal"
+      >
+        <img :src="require('../src/assets/images/' + cap.image)"
+             :alt="cap.name"
+             class="mw-100"
+        >
         <h5>{{cap.name}}</h5>
         <p>{{cap.country}}, {{cap.town}}</p>
         <p>{{cap.pivzavod}}</p>
-        <div v-if="!cap.condition" class="alert alert-danger">BAD</div>
+        <div v-if="cap.condition!='good'" class="alert alert-danger">
+          {{cap.condition}}
+        </div>
         <p class="tags badge badge-primary">{{cap.tags}}</p>
         <p class="links">
           <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
@@ -93,12 +100,18 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img v-bind:src="require('../src/assets/images/' + cap.image)"
-                    v-bind:alt="cap.name"
-                    class="mw-100">
+                <img :src="require('../src/assets/images/' + cap.image)"
+                     :alt="cap.name"
+                     class="mw-100"
+                >
                 <p>{{cap.country}}, {{cap.town}}</p>
                 <p>{{cap.pivzavod}}</p>
-                <div v-if="!cap.condition" class="condition alert alert-danger">BAD</div>
+                <div v-if="cap.condition!='good'" class="alert alert-danger">
+                  Cap condition: {{cap.condition}}
+                </div>
+                <div v-else class="alert alert-success">
+                  Cap condition: {{cap.condition}}
+                </div>
                 <p class="tags badge badge-primary">{{cap.tags}}</p>
                 <p class="links">
                   <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
@@ -285,7 +298,6 @@ header {
 }
 
 .tags {
-  // font-size: .75rem;
   white-space: normal;
 }
 
