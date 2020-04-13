@@ -12,7 +12,7 @@ What things you need:
 - node.js [Download](https://nodejs.org/)
 - json-server
 ```
-npm install json-server
+npm install -g json-server
 ```
 
 ### Installing
@@ -46,6 +46,7 @@ npm run lint
 
 * [Vue.js](https://vuejs.org/) - The web framework used
 * [json-server](https://github.com/typicode/json-server) - fake REST API
+* [Bootstrap](https://getbootstrap.com/) - CSS framework
 
 ## Authors
 
