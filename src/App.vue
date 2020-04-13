@@ -2,7 +2,7 @@
   <div id="app" class="container-fluid">
     <header class="navbar navbar-expand bg-primary flex-column flex-md-row bd-navbar">
 
-      <div class="navbar-nav-scroll">
+      <nav class="navbar-nav-scroll">
         <ul class="navbar-nav bd-navbar-nav flex-row">
           <li class="nav-item">
             <img
@@ -30,7 +30,7 @@
             <a class="nav-link text-light" href="/">Contacts</a>
           </li>
         </ul>
-      </div>
+      </nav>
 
       <div class="navbar-nav flex-row ml-md-auto d-md-flex">
         <form class="form-inline my-2 my-lg-0">
