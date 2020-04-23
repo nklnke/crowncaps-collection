@@ -44,7 +44,7 @@ npm run lint
 
 ## Built With
 
-* [Vue.js](https://vuejs.org/) - The web framework used
+* [Vue.js](https://vuejs.org/) - The web framework
 * [json-server](https://github.com/typicode/json-server) - fake REST API
 * [Bootstrap](https://getbootstrap.com/) - CSS framework
 
