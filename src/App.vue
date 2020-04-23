@@ -6,7 +6,7 @@
         <ul class="navbar-nav bd-navbar-nav flex-row">
           <li class="nav-item">
             <img
-              src="./assets/images/1.jpg"
+              src="./assets/images/blank.png"
               width="36px"
               height="36px"
               class="d-block"
@@ -25,9 +25,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Show only bad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="/">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -81,7 +78,7 @@
         <div v-if="cap.condition!='good'" class="alert alert-danger">
           {{cap.condition}}
         </div>
-        <p class="tags badge badge-primary">{{cap.tags}}</p>
+        <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
         <p class="links">
           <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
           <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
@@ -128,19 +125,6 @@
 
       </div>
     </div>
-
-    <footer class="footer bg-secondary">
-      <ul>
-        <li><a class="text-white" href="https://vuejs.org" target="_blank">vue.js</a></li>
-        <li><a class="text-white" href="https://vuex.vuejs.org" target="_blank">vuex</a></li>
-        <li><a class="text-white" href="https://getbootstrap.com" target="_blank">bootstrap</a></li>
-        <li>|</li>
-        <li><a class="text-white" href="https://nodejs.org" target="_blank">node.js</a></li>
-        <li><a class="text-white" href="https://github.com/typicode/json-server" target="_blank">json-server</a></li>
-        <!-- <li>express.js</li>
-        <li>mongodb</li> -->
-      </ul>
-    </footer>
   </div>
 </template>
 
@@ -211,8 +195,14 @@ header {
   }
 }
 
-.nav-item:not(:last-child) {
-  margin-right: $margin/3;
+.nav-item {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:not(:last-child) {
+    margin-right: $margin/3;
+  }
 }
 
 .nav-slash {
