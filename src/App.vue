@@ -51,7 +51,9 @@
       -->
       <a class="list-inline-item">Все</a>
       <a class="list-inline-item">Германия</a>
+      <a class="list-inline-item">Казахстан</a>
       <a class="list-inline-item">Китай</a>
+      <a class="list-inline-item">Латвия</a>
       <a class="list-inline-item">Мексика</a>
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">США</a>
@@ -62,7 +64,7 @@
 
     <div class="row">
       <div class="v-catalog-item col-md-2 Все"
-           v-for="cap in capsByTitle"
+           v-for="cap in filterCapsArray"
            :key="cap.id"
            :class="cap.country"
            data-toggle="modal"
@@ -144,7 +146,7 @@ export default {
     };
   },
   computed: {
-    capsByTitle() {
+    filterCapsArray() {
       return this.caps.filter(item =>
         item.name.toLowerCase().indexOf(this.search) !== -1 ||
         item.tags.toLowerCase().indexOf(this.search) !== -1 ||
@@ -266,7 +268,6 @@ header {
 
   &:hover {
     cursor: pointer;
-    // transform: scale(1.015);
 
     -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
@@ -291,9 +292,15 @@ header {
   white-space: normal;
 }
 
-.links a {
-  display: block;
-  word-wrap: break-word;
+.links {
+  a {
+    display: block;
+    word-wrap: break-word;
+
+    &:first-child {
+      margin-bottom: $margin/4;
+    }
+  }
 }
 
 footer {
