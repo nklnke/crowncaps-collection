@@ -49,8 +49,11 @@
       <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
       // регуляркой отсечь всё, что после ` <`
       -->
-      <a class="list-inline-item">Все</a>
+      <a class="list-inline-item">Все</a><!-- <span class="badge badge-light">2</span> -->
+      <a class="list-inline-item">Австрия</a>
       <a class="list-inline-item">Германия</a>
+      <a class="list-inline-item">Греция</a>
+      <a class="list-inline-item">Дания</a>
       <a class="list-inline-item">Казахстан</a>
       <a class="list-inline-item">Китай</a>
       <a class="list-inline-item">Латвия</a>
@@ -58,6 +61,7 @@
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Украина</a>
+      <a class="list-inline-item">Хорватия</a>
       <a class="list-inline-item">Чехия</a>
       <a class="list-inline-item">Южная Корея</a>
     </div>
@@ -75,7 +79,9 @@
              class="mw-100"
         >
         <h5>{{cap.name}}</h5>
-        <p>{{cap.country}}, {{cap.town}}</p>
+        <p class="cursive">
+          {{cap.country}}, {{cap.town}}
+        </p>
         <p>{{cap.pivzavod}}</p>
         <div v-if="cap.condition!='good'" class="alert alert-danger">
           {{cap.condition}}
@@ -175,9 +181,21 @@ export default {
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 15px;
+  font-size: $font-size;
   text-align: center;
   line-height: 1.2;
+}
+
+.cursive {
+  font-style: italic;
+  font-size: .933333*$font-size;
+}
+
+.badge {
+  position: relative;
+  height: fit-content;
+  margin-top: 15px;
+  margin-left: -25px;
 }
 
 a[href]:not([class]) {
