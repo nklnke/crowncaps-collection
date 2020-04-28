@@ -49,7 +49,7 @@
       <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
       // регуляркой отсечь всё, что после ` <`
       -->
-      <a class="list-inline-item">Все</a><!-- <span class="badge badge-light">2</span> -->
+      <a class="list-inline-item">Все</a><!-- <span class="badge badge-light counter">2</span> -->
       <a class="list-inline-item">Австрия</a>
       <a class="list-inline-item">Германия</a>
       <a class="list-inline-item">Греция</a>
@@ -191,7 +191,7 @@ export default {
   font-size: .933333*$font-size;
 }
 
-.badge {
+.counter {
   position: relative;
   height: fit-content;
   margin-top: 15px;
