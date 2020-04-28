@@ -14,7 +14,7 @@
               focusable="false">
           </li>
           <li class="nav-item">
-            <a class="navbar-brand text-light">Collection of crowncaps</a>
+            <a class="navbar-brand text-light" href="/">Collection of crowncaps</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Row</a>
@@ -51,6 +51,7 @@
       -->
       <a class="list-inline-item">Все</a><!-- <span class="badge badge-light counter">2</span> -->
       <a class="list-inline-item">Австрия</a>
+      <a class="list-inline-item">Бельгия</a>
       <a class="list-inline-item">Германия</a>
       <a class="list-inline-item">Греция</a>
       <a class="list-inline-item">Дания</a>
@@ -89,6 +90,7 @@
         <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
         <p class="links">
           <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
+          <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
           <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
         </p>
 
@@ -120,6 +122,7 @@
                 <p class="tags badge badge-primary">{{cap.tags}}</p>
                 <p class="links">
                   <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
+                  <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
                   <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
                 </p>
               </div>
