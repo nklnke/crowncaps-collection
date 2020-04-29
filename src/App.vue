@@ -54,6 +54,7 @@
       <a class="list-inline-item">Бельгия</a>
       <a class="list-inline-item">Германия</a>
       <a class="list-inline-item">Греция</a>
+      <a class="list-inline-item">Грузия</a>
       <a class="list-inline-item">Дания</a>
       <a class="list-inline-item">Казахстан</a>
       <a class="list-inline-item">Китай</a>
@@ -314,6 +315,8 @@ header {
 }
 
 .links {
+  margin-bottom: 0;
+
   a {
     display: block;
     word-wrap: break-word;
