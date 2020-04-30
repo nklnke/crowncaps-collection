@@ -90,13 +90,13 @@
         </div>
         <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
         <p class="links">
-          <a :href="cap.pzlink" target="_blank">
+          <a v-if="cap.pzlink" :href="cap.pzlink" target="_blank">
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
           <a v-if="cap.pzlink_alt" :href="cap.pzlink_alt" target="_blank">
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
-          <a :href="cap.ccilink" target="_blank">
+          <a v-if="cap.ccilink" :href="cap.ccilink" target="_blank">
             <img src="./assets/icons/cci.svg" class="pzicon" alt="CC.I link">
           </a>
         </p>
@@ -322,7 +322,7 @@ header {
   margin-bottom: 0;
 
   a {
-    margin: $margin/4;
+    margin: $margin/4 $margin/2 0;
     word-wrap: break-word;
 
     &:first-child {
