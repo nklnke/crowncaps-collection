@@ -6,7 +6,7 @@
         <ul class="navbar-nav bd-navbar-nav flex-row">
           <li class="nav-item">
             <img
-              src="./assets/images/blank.png"
+              src="./assets/icons/logo.png"
               width="36px"
               height="36px"
               class="d-block"
@@ -78,7 +78,7 @@
       >
         <img :src="require('../src/assets/images/' + cap.image)"
              :alt="cap.name"
-             class="mw-100"
+             class="mw-100 cap-image"
         >
         <h5>{{cap.name}}</h5>
         <p class="cursive">
@@ -90,9 +90,15 @@
         </div>
         <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
         <p class="links">
-          <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
+          <!-- <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a> -->
+          <!-- <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a> -->
+          <a :href="cap.pzlink" target="_blank">
+            <img src="./assets/icons/factory.svg" class="pzicon" alt="">
+          </a>
           <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
-          <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
+          <a :href="cap.ccilink" target="_blank">
+            <img src="./assets/icons/cci.svg" class="pzicon" alt="">
+          </a>
         </p>
 
         <!-- <capModal /> -->
@@ -264,7 +270,7 @@ header {
   background: $lightblue;
   
   a {
-    padding: $padding $padding*2;
+    padding: $padding $padding*1.5;
     margin: 0;
     color: white;
     cursor: pointer;
@@ -300,11 +306,7 @@ header {
     }
   }
 
-  p:last-child {
-    font-size: .8rem;
-  }
-
-  img {
+  .cap-image {
     min-width: 100%;
     margin-bottom: $margin;
   }
@@ -315,16 +317,26 @@ header {
 }
 
 .links {
+  display: flex;
+  justify-content: center;
   margin-bottom: 0;
 
   a {
-    display: block;
+    margin: $margin/4;
     word-wrap: break-word;
 
     &:first-child {
       margin-bottom: $margin/4;
     }
+
+    &:hover {
+      filter: blur(2px);
+    }
   }
+}
+
+.pzicon {
+  max-height: 25px;
 }
 
 footer {
