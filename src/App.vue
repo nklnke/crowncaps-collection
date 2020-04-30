@@ -90,14 +90,14 @@
         </div>
         <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
         <p class="links">
-          <!-- <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a> -->
-          <!-- <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a> -->
           <a :href="cap.pzlink" target="_blank">
-            <img src="./assets/icons/factory.svg" class="pzicon" alt="">
+            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
-          <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
+          <a v-if="cap.pzlink_alt" :href="cap.pzlink_alt" target="_blank">
+            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
+          </a>
           <a :href="cap.ccilink" target="_blank">
-            <img src="./assets/icons/cci.svg" class="pzicon" alt="">
+            <img src="./assets/icons/cci.svg" class="pzicon" alt="CC.I link">
           </a>
         </p>
 
