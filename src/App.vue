@@ -57,6 +57,7 @@
       <a class="list-inline-item">Греция</a>
       <a class="list-inline-item">Грузия</a>
       <a class="list-inline-item">Дания</a>
+      <a class="list-inline-item">Испания</a>
       <a class="list-inline-item">Казахстан</a>
       <a class="list-inline-item">Китай</a>
       <a class="list-inline-item">Латвия</a>
@@ -275,7 +276,7 @@ header {
   background: $lightblue;
   
   a {
-    padding: $padding;
+    padding: $padding/2 $padding;
     margin: 0;
     color: white;
     cursor: pointer;
@@ -300,7 +301,7 @@ header {
   border-radius: $radius;
 
   &:hover {
-    cursor: pointer;
+    cursor: help;
 
     -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
     -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
