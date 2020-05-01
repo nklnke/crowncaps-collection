@@ -52,6 +52,7 @@
       <a class="list-inline-item">Все</a><!-- <span class="badge badge-light counter">2</span> -->
       <a class="list-inline-item">Австрия</a>
       <a class="list-inline-item">Бельгия</a>
+      <a class="list-inline-item">Великобритания</a>
       <a class="list-inline-item">Германия</a>
       <a class="list-inline-item">Греция</a>
       <a class="list-inline-item">Грузия</a>
@@ -63,6 +64,7 @@
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Украина</a>
+      <a class="list-inline-item">Финляндия</a>
       <a class="list-inline-item">Хорватия</a>
       <a class="list-inline-item">Чехия</a>
       <a class="list-inline-item">Южная Корея</a>
@@ -94,6 +96,9 @@
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
           <a v-if="cap.pzlink_alt" :href="cap.pzlink_alt" target="_blank">
+            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
+          </a>
+          <a v-if="cap.pzlink_another_alt" :href="cap.pzlink_another_alt" target="_blank">
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
           <a v-if="cap.ccilink" :href="cap.ccilink" target="_blank">
@@ -270,7 +275,7 @@ header {
   background: $lightblue;
   
   a {
-    padding: $padding $padding*1.5;
+    padding: $padding;
     margin: 0;
     color: white;
     cursor: pointer;
