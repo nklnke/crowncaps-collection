@@ -51,6 +51,7 @@
       -->
       <a class="list-inline-item">Все</a><!-- <span class="badge badge-light counter">2</span> -->
       <a class="list-inline-item">Австрия</a>
+      <a class="list-inline-item">Армения</a>
       <a class="list-inline-item">Бельгия</a>
       <a class="list-inline-item">Великобритания</a>
       <a class="list-inline-item">Германия</a>
@@ -62,13 +63,15 @@
       <a class="list-inline-item">Китай</a>
       <a class="list-inline-item">Латвия</a>
       <a class="list-inline-item">Мексика</a>
+      <a class="list-inline-item">Нидерланды</a>
       <a class="list-inline-item">Россия</a>
+      <a class="list-inline-item">Румыния</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Украина</a>
       <a class="list-inline-item">Финляндия</a>
       <a class="list-inline-item">Хорватия</a>
       <a class="list-inline-item">Чехия</a>
-      <a class="list-inline-item">Южная Корея</a>
+      <a class="list-inline-item">Юж.Корея</a>
     </div>
 
     <div class="row">
@@ -276,7 +279,7 @@ header {
   background: $lightblue;
   
   a {
-    padding: $padding/2 $padding;
+    padding: $padding/1.5 $padding;
     margin: 0;
     color: white;
     cursor: pointer;
