@@ -67,6 +67,7 @@
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">Румыния</a>
       <a class="list-inline-item">США</a>
+      <a class="list-inline-item">Таиланд</a>
       <a class="list-inline-item">Украина</a>
       <a class="list-inline-item">Финляндия</a>
       <a class="list-inline-item">Хорватия</a>
@@ -88,7 +89,8 @@
         >
         <h5>{{cap.name}}</h5>
         <p class="cursive">
-          {{cap.country}}, {{cap.town}}
+          {{cap.country}}<br>
+          {{cap.town}}
         </p>
         <p>{{cap.pivzavod}}</p>
         <div v-if="cap.condition!='good'" class="alert alert-danger">
@@ -103,6 +105,9 @@
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
           <a v-if="cap.pzlink_another_alt" :href="cap.pzlink_another_alt" target="_blank">
+            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
+          </a>
+          <a v-if="cap.pzlink_super_alt" :href="cap.pzlink_super_alt" target="_blank">
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
           </a>
           <a v-if="cap.ccilink" :href="cap.ccilink" target="_blank">
@@ -345,7 +350,7 @@ header {
 }
 
 .pzicon {
-  max-height: 25px;
+  max-height: 20px;
 }
 
 footer {
