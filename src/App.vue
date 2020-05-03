@@ -68,6 +68,7 @@
       <a class="list-inline-item">Румыния</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Таиланд</a>
+      <a class="list-inline-item">Турция</a>
       <a class="list-inline-item">Украина</a>
       <a class="list-inline-item">Финляндия</a>
       <a class="list-inline-item">Хорватия</a>
@@ -282,9 +283,9 @@ header {
   height: 100%;
 
   background: $lightblue;
-  
+
   a {
-    padding: $padding/1.5 $padding;
+    padding: $padding/1.5 $padding/1.15;
     margin: 0;
     color: white;
     cursor: pointer;
