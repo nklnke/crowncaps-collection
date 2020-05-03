@@ -26,6 +26,9 @@
           <li class="nav-item">
             <a class="nav-link text-light" href="/">Show only bad</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://github.com/nklnke/crowncaps-collection" target="_blank">Github</a>
+          </li>
         </ul>
       </nav>
 
@@ -158,6 +161,21 @@
 
       </div>
     </div>
+
+    <footer class="footer bg-secondary">
+      <ul>
+        <li>source: <a class="text-white" href="https://github.com/nklnke/crowncaps-collection" target="_blank">github</a></li>
+        <li>|</li>
+        <li><a class="text-white" href="https://vuejs.org" target="_blank">vue.js</a></li>
+        <li><a class="text-white" href="https://vuex.vuejs.org" target="_blank">vuex</a></li>
+        <li><a class="text-white" href="https://getbootstrap.com" target="_blank">bootstrap</a></li>
+        <li>|</li>
+        <li><a class="text-white" href="https://nodejs.org" target="_blank">node.js</a></li>
+        <li><a class="text-white" href="https://github.com/typicode/json-server" target="_blank">json-server</a></li>
+        <!-- <li>express.js</li>
+        <li>mongodb</li> -->
+      </ul>
+    </footer>
   </div>
 </template>
 
