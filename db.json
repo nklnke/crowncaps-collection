@@ -1588,6 +1588,16 @@
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
       "ccilink": "http://crowncaps.info/caps/57371"
     },
+    { "id": "125-1", "name": "Dr. Diesel",
+      "image": "125-1.jpg",
+      "tags": "Dr. Diesel, патра",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/171833"
+    },
     { "id": "125", "name": "Dr. Diesel",
       "image": "125.jpg",
       "tags": "Dr. Diesel, radler",
