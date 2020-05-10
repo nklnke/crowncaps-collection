@@ -6,6 +6,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need:
 - node.js [Download](https://nodejs.org/)
+- vue-cli
+```
+npm install -g @vue/cli
+```
 - json-server
 ```
 npm install -g json-server
@@ -41,6 +45,7 @@ npm run lint
 ## Built With
 
 * [Vue.js](https://vuejs.org/) - The web framework
+* [Vue-CLI](https://cli.vuejs.org//) - Tooling command line interface for Vue.js
 * [json-server](https://github.com/typicode/json-server) - fake REST API
 * [Bootstrap](https://getbootstrap.com/) - CSS framework
 
