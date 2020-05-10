@@ -1,5 +1,23 @@
 {
   "caps": [
+    { "id": "285", "name": "Pepsi max",
+      "image": "285.jpg",
+      "tags": "Pepsi, max",
+      "condition": "пошорканная",
+      "country": "Финляндия",
+      "town": "Helsinki",
+      "pivzavod": "Hartwall Ltd.",
+      "pzlink": "http://www.hartwall.fi/en/",
+      "ccilink": "http://crowncaps.info/caps/59372"
+    },
+    { "id": "284", "name": "Chebars brewery",
+      "image": "284.jpg",
+      "tags": "Chebars",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Самара (Samara)",
+      "pivzavod": "ООО `Волга Б.Т.` (OOO Volga B.T.)"
+    },
     { "id": "283", "name": "Мотор",
       "image": "283.jpg",
       "tags": "Мотор",
