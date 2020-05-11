@@ -100,7 +100,7 @@
         <div v-if="cap.condition!='good'" class="alert alert-danger">
           {{cap.condition}}
         </div>
-        <p class="tags badge badge-primary">{{cap.tags.toLowerCase()}}</p>
+        <p class="tags badge badge-primary">{{cap.tags | toLowerCase}}</p>
         <p class="links">
           <a v-if="cap.pzlink" :href="cap.pzlink" target="_blank">
             <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
@@ -164,16 +164,15 @@
 
     <footer class="footer bg-secondary">
       <ul>
-        <li>source: <a class="text-white" href="https://github.com/nklnke/crowncaps-collection" target="_blank">github</a></li>
+        <li><a class="text-white" href="https://github.com/nklnke/crowncaps-collection" target="_blank">github</a></li>
         <li>|</li>
         <li><a class="text-white" href="https://vuejs.org" target="_blank">vue.js</a></li>
+        <li><a class="text-white" href="https://cli.vuejs.org/" target="_blank">vue-cli</a></li>
         <li><a class="text-white" href="https://vuex.vuejs.org" target="_blank">vuex</a></li>
         <li><a class="text-white" href="https://getbootstrap.com" target="_blank">bootstrap</a></li>
         <li>|</li>
         <li><a class="text-white" href="https://nodejs.org" target="_blank">node.js</a></li>
         <li><a class="text-white" href="https://github.com/typicode/json-server" target="_blank">json-server</a></li>
-        <!-- <li>express.js</li>
-        <li>mongodb</li> -->
       </ul>
     </footer>
   </div>
@@ -199,7 +198,6 @@ export default {
       return this.caps.filter(item =>
         item.name.toLowerCase().indexOf(this.search) !== -1 ||
         item.tags.toLowerCase().indexOf(this.search) !== -1 ||
-        // item.condition.toLowerCase().indexOf(this.search) !== -1 ||
         item.country.toLowerCase().indexOf(this.search) !== -1 ||
         item.town.toLowerCase().indexOf(this.search) !== -1 ||
         item.pivzavod.toLowerCase().indexOf(this.search) !== -1)
@@ -214,6 +212,11 @@ export default {
   },
   mounted() {
     countryFilter();
+  },
+  filters: {
+    toLowerCase: function(str) {
+      return str.toLowerCase();
+    }
   },
   methods: {}
 }
