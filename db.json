@@ -2854,6 +2854,16 @@
       "pzlink": "https://corporate.baltika.ru/",
       "ccilink": "http://crowncaps.info/caps/1551"
     },
+    { "id": "1-1", "name": "Carlsberg",
+      "image": "1-1.jpg",
+      "tags": "carlsberg, карлсберг",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург",
+      "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
+      "pzlink": "http://baltika.ru/",
+      "ccilink": "http://crowncaps.info/caps/174873"
+    },
     { "id": "1-0", "name": "Carlsberg",
       "image": "1-0.jpg",
       "tags": "carlsberg, карлсберг",
@@ -2861,7 +2871,7 @@
       "country": "Россия",
       "town": "Санкт-Петербург",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
-      "pzlink": "https://corporate.baltika.ru/",
+      "pzlink": "https://baltika.ru/",
       "ccilink": "http://crowncaps.info/caps/171275"
     },
     { "id": "0", "name": "Corona Extra",
