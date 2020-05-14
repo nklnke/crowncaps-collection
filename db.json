@@ -1707,13 +1707,13 @@
     },
     { "id": "116", "name": "Affligem Blonde",
       "image": "116.jpg",
-      "tags": "Affligem, Blonde",
+      "tags": "Affligem, Blonde, щит, меч, герб",
       "condition": "небольшая царапка",
       "country": "Россия",
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/158739"
+      "ccilink": "http://crowncaps.info/caps/111028"
     },
     { "id": "115", "name": "ГОСТ",
       "image": "115.jpg",
@@ -1822,6 +1822,16 @@
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
       "ccilink": "http://crowncaps.info/caps/34476"
+    },
+    { "id": "104-1", "name": "Булгарпиво",
+      "image": "104-1.jpg",
+      "tags": "булгарпиво",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Набережные Челны (Naberezhnye Chelny)",
+      "pivzavod": "ОАО `Булгарпиво` (Bulgarpivo)",
+      "pzlink": "http://www.bulgarpivo.ru/",
+      "ccilink": "http://crowncaps.info/caps/156268"
     },
     { "id": "104", "name": "Булгарпиво",
       "image": "104.jpg",
