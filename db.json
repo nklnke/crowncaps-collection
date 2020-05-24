@@ -1577,6 +1577,15 @@
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
       "ccilink": "http://crowncaps.info/caps/134394"
     },
+    { "id": "131-1", "name": "Amber Weiss",
+      "image": "131-1.jpg",
+      "tags": "Amber, Weiss",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Калуга (Kaluga)",
+      "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
+      "ccilink": "http://crowncaps.info/caps/158279"
+    },
     { "id": "131", "name": "Amber Weiss",
       "image": "131.jpg",
       "tags": "Amber, Weiss",
