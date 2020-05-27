@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "289", "name": "Gletcher brewery",
+      "image": "289.jpg",
+      "tags": "Gletcher",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "ООО «Глетчер» (Gletcher)",
+      "pzlink": "http://gletcherbrewery.com/",
+      "ccilink": "http://crowncaps.info/caps/118405"
+    },
     { "id": "288", "name": "Юзберг",
       "image": "288.jpg",
       "tags": "Юзберг",
@@ -750,6 +760,16 @@
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
       "ccilink": "http://crowncaps.info/caps/158119"
+    },
+    { "id": "213-1", "name": "Victory Art Brew",
+      "image": "213-1.jpg",
+      "tags": "Victory, Art",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Ивантеевка (Ivanteevka)",
+      "pivzavod": "ООО «Промолюди» (Promolyudi)",
+      "pzlink": "http://victoryartbrew.com/",
+      "ccilink": "http://crowncaps.info/caps/78915"
     },
     { "id": "213", "name": "Victory Art Brew",
       "image": "213.jpg",
