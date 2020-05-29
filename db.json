@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "290", "name": "Klášter Original",
+      "image": "290.jpg",
+      "tags": "Klaster",
+      "condition": "пара lil коцек",
+      "country": "Чехия",
+      "town": "Mnichovo Hradiště",
+      "pivzavod": "Pivovar Klášter (Klášter Brewery Trade, a.s.)",
+      "pzlink": "http://pivovarklaster.cz/en/brewery",
+      "ccilink": "http://crowncaps.info/caps/85345"
+    },
     { "id": "289", "name": "Gletcher brewery",
       "image": "289.jpg",
       "tags": "Gletcher",
@@ -7,7 +17,7 @@
       "country": "Россия",
       "town": "Клин (Klin)",
       "pivzavod": "ООО «Глетчер» (Gletcher)",
-      "pzlink": "http://gletcherbrewery.com/",
+      "pzlink": "http://gletcherbrewery.com",
       "ccilink": "http://crowncaps.info/caps/118405"
     },
     { "id": "288", "name": "Юзберг",
@@ -17,7 +27,7 @@
       "country": "Россия",
       "town": "Чириково (Chirikovo)",
       "pivzavod": "ООО «Суздальская пивоварня» (Suzdalskaya Pivovarnia)",
-      "pzlink": "http://www.yuzberg.com/",
+      "pzlink": "http://yuzberg.com",
       "ccilink": "http://crowncaps.info/caps/85175"
     },
     { "id": "287", "name": "Cidre Royal",
@@ -27,7 +37,7 @@
       "country": "Украина",
       "town": "Золотоноша, Черкаська обл. (Zolotonosha, Cherkaska obl.)",
       "pivzavod": "ДП «Роял Фрут Гарден Іст» (Royal Fruit Garden East)",
-      "pzlink": "http://www.royalfruit.com.ua/",
+      "pzlink": "http://royalfruit.com.ua",
       "ccilink": "http://crowncaps.info/caps/140119"
     },
     { "id": "286", "name": "Лимонаш",
