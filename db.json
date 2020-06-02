@@ -65,7 +65,8 @@
       "condition": "good",
       "country": "Россия",
       "town": "Самара (Samara)",
-      "pivzavod": "ООО `Волга Б.Т.` (OOO Volga B.T.)"
+      "pivzavod": "ООО `Волга Б.Т.` (OOO Volga B.T.)",
+      "my_photo": true
     },
     { "id": "284", "name": "Chebars brewery",
       "image": "284.jpg",
