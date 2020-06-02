@@ -67,6 +67,7 @@
       <a class="list-inline-item">Латвия</a>
       <a class="list-inline-item">Мексика</a>
       <a class="list-inline-item">Нидерланды</a>
+      <a class="list-inline-item">Польша</a>
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">Румыния</a>
       <a class="list-inline-item">США</a>
