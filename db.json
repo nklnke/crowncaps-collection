@@ -59,9 +59,17 @@
       "pzlink": "http://www.hartwall.fi/en/",
       "ccilink": "http://crowncaps.info/caps/59372"
     },
+    { "id": "284-1", "name": "Chebars brewery",
+      "image": "284-1.jpg",
+      "tags": "Chebars, кольцо",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Самара (Samara)",
+      "pivzavod": "ООО `Волга Б.Т.` (OOO Volga B.T.)"
+    },
     { "id": "284", "name": "Chebars brewery",
       "image": "284.jpg",
-      "tags": "Chebars",
+      "tags": "Chebars, кольцо",
       "condition": "good",
       "country": "Россия",
       "town": "Самара (Samara)",
