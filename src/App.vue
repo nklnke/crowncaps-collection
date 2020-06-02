@@ -183,6 +183,10 @@
 import { countryFilter } from "./modules/countryFilter.js";
 // import capModal from './components/cap-modal';
 
+// All caps counter
+let allCaps = document.getElementsByClassName("Все").length;
+console.log(allCaps);
+
 export default {
   name: "crowncaps-collection",
   components: {
