@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "291", "name": "Кěр Сăри",
+      "image": "291.jpg",
+      "tags": "букет, чувашии, кер, сари",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Чебоксары (Cheboksary)",
+      "pivzavod": "ОАО «Букет Чувашии» (Buket Chuvashii)",
+      "pzlink": "http://www.buketbeer.ru",
+      "ccilink": "http://crowncaps.info/caps/171095"
+    },
     { "id": "290", "name": "Klášter Original",
       "image": "290.jpg",
       "tags": "Klaster",
