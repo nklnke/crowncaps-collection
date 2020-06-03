@@ -14,20 +14,22 @@
               focusable="false">
           </li>
           <li class="nav-item">
-            <a class="navbar-brand text-light" href="/">Collection of crowncaps</a>
+            <a class="navbar-brand text-light btn btn-primary" href="/">Collection of crowncaps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="/">Row</a>
+            <a class="nav-link text-light btn btn-primary" href="/">Row</a>
           </li>
-          <li class="nav-slash">/</li>
-            <a class="nav-link text-light" href="/">List</a>
+            <a class="nav-link text-light btn btn-primary" href="/">List</a>
           <li class="nav-item">
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="/">Show only bad</a>
+            <a class="nav-link text-light btn btn-primary" href="/">Show only bad</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="https://github.com/nklnke/crowncaps-collection" target="_blank">Github</a>
+            <a class="nav-link text-light btn btn-primary" href="https://github.com/nklnke/crowncaps-collection" target="_blank">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light btn btn-primary" href="" target="_blank" id="capsCounterBtn">allCapsCounter</a>
           </li>
         </ul>
       </nav>
@@ -181,11 +183,8 @@
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
+import { allCapsCounter } from "./modules/allCapsCounter.js";
 // import capModal from './components/cap-modal';
-
-// All caps counter
-let allCaps = document.getElementsByClassName("Все").length;
-console.log(allCaps);
 
 export default {
   name: "crowncaps-collection",
@@ -206,7 +205,7 @@ export default {
         item.country.toLowerCase().indexOf(this.search) !== -1 ||
         item.town.toLowerCase().indexOf(this.search) !== -1 ||
         item.pivzavod.toLowerCase().indexOf(this.search) !== -1)
-    },
+    }
   },
   beforeMount() {
     fetch('http://localhost:3000/caps')
@@ -217,6 +216,7 @@ export default {
   },
   mounted() {
     countryFilter();
+    allCapsCounter();
   },
   filters: {
     toLowerCase: function(str) {
@@ -235,6 +235,10 @@ export default {
   font-size: $font-size;
   text-align: center;
   line-height: 1.2;
+}
+
+.btn-primary {
+  transition: 0s;
 }
 
 .cursive {
