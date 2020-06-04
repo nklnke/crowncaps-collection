@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "292", "name": "Хамовнический пивовар",
+      "image": "292.jpg",
+      "tags": "Хамовнический, пивовар, хамовники",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/175144"
+    },
     { "id": "291", "name": "Кěр Сăри",
       "image": "291.jpg",
       "tags": "букет, чувашии, кер, сари",
@@ -7,7 +17,7 @@
       "country": "Россия",
       "town": "Чебоксары (Cheboksary)",
       "pivzavod": "ОАО «Букет Чувашии» (Buket Chuvashii)",
-      "pzlink": "http://www.buketbeer.ru",
+      "pzlink": "http://buketbeer.ru",
       "ccilink": "http://crowncaps.info/caps/171095"
     },
     { "id": "290", "name": "Klášter Original",
@@ -902,7 +912,7 @@
     },
     { "id": "204", "name": "Варница",
       "image": "204.jpg",
-      "tags": "Варница, bier, birra",
+      "tags": "Варница, bier, birra, cerveza, alus, piwo, герб, меч, щит",
       "condition": "good",
       "country": "Россия",
       "town": "Кардымово (Kardymovo)",
