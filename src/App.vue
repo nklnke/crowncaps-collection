@@ -29,7 +29,7 @@
             <a class="nav-link text-light btn btn-primary" href="https://github.com/nklnke/crowncaps-collection" target="_blank">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light btn btn-primary" href="" target="_blank" id="capsCounterBtn">allCapsCounter</a>
+            <a class="nav-link text-light btn btn-primary" href="" target="_blank" id="capsCounterBtn"></a>
           </li>
         </ul>
       </nav>
@@ -72,6 +72,7 @@
       <a class="list-inline-item">Польша</a>
       <a class="list-inline-item">Россия</a>
       <a class="list-inline-item">Румыния</a>
+      <a class="list-inline-item">СССР</a>
       <a class="list-inline-item">США</a>
       <a class="list-inline-item">Таиланд</a>
       <a class="list-inline-item">Турция</a>
