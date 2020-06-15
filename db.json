@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "294", "name": "Шымкентское",
+      "image": "294.jpg",
+      "tags": "Шымкентское, мягкое",
+      "condition": "good",
+      "country": "Казахстан",
+      "town": "Шымкент (Shimkent)",
+      "pivzavod": "ТОО «Шымкентпиво» (Shimkientpivo)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/170285"
+    },
     { "id": "293", "name": "Жигулевское 2",
       "image": "293.jpg",
       "tags": "Жигулевское, лпз, ссср",
