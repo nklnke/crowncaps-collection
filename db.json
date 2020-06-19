@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "295", "name": "МАZАЙ",
+      "image": "295.jpg",
+      "tags": "МАZАЙ, раскрути, Маzая",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Бочкари (Bochkari)",
+      "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
+      "pzlink": "http://www.bochkari.ru/",
+      "ccilink": "http://crowncaps.info/caps/176497"
+    },
     { "id": "294", "name": "Шымкентское",
       "image": "294.jpg",
       "tags": "Шымкентское, мягкое",
