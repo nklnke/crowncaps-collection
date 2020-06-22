@@ -1,5 +1,25 @@
 {
   "caps": [
+    { "id": "297", "name": "I'nice",
+      "image": "297.jpg",
+      "tags": "inice",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Москва (Moscow)",
+      "pivzavod": "МПБК «Очаково» (MPBK «Ochakovo»)",
+      "pzlink": "http://www.ochakovo.ru/",
+      "ccilink": "http://crowncaps.info/caps/161231"
+    },
+    { "id": "296", "name": "Slon Black",
+      "image": "296.jpg",
+      "tags": "slon, black, монументал, крафт",
+      "condition": "good",
+      "country": "Россия",
+      "town": "п. Прохладный (Prokhladny)",
+      "pivzavod": "ООО «Монументал Крафт» (Alibi Brewery)",
+      "pzlink": "http://alibibeer.ru/",
+      "ccilink": "http://crowncaps.info/caps/113703"
+    },
     { "id": "295", "name": "МАZАЙ",
       "image": "295.jpg",
       "tags": "МАZАЙ, раскрути, Маzая",
