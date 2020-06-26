@@ -78,6 +78,7 @@
       <a class="list-inline-item">Турция</a>
       <a class="list-inline-item">Украина</a>
       <a class="list-inline-item">Финляндия</a>
+      <a class="list-inline-item">Франция</a>
       <a class="list-inline-item">Хорватия</a>
       <a class="list-inline-item">Чехия</a>
       <a class="list-inline-item">Юж.Корея</a>
