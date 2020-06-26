@@ -1,5 +1,25 @@
 {
   "caps": [
+    { "id": "302", "name": "Fuller's - London Pride",
+      "image": "302.jpg",
+      "tags": "Fullers, London, Pride",
+      "condition": "good",
+      "country": "Великобритания",
+      "town": "Fuller Smith & Turner plc",
+      "pivzavod": "Chiswick, London",
+      "pzlink": "http://www.fullers.co.uk/",
+      "ccilink": "http://crowncaps.info/caps/125526"
+    },
+    { "id": "301", "name": "Kronenbourg 1664",
+      "image": "301.jpg",
+      "tags": "Kronenbourg, 1664",
+      "condition": "good",
+      "country": "Франция",
+      "town": "Obernai (K2), Alsace (before 2000 Strasbourg K1)",
+      "pivzavod": "Brasseries Kronenbourg S.a.s. (Carlsberg)",
+      "pzlink": "http://www.brasseries-kronenbourg.com/",
+      "ccilink": "http://crowncaps.info/caps/79690"
+    },
     { "id": "300", "name": "Три медведя",
       "image": "300.jpg",
       "tags": "Три, медведя, нашим, характером",
