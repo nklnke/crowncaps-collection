@@ -1,5 +1,15 @@
 {
   "caps": [
+    { "id": "303", "name": "Miller Genuine Draft",
+      "image": "303.jpg",
+      "tags": "Miller, Genuine, Draft",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
+      "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
+      "ccilink": "http://crowncaps.info/caps/182364"
+    },
     { "id": "302", "name": "Fuller's - London Pride",
       "image": "302.jpg",
       "tags": "Fullers, London, Pride",
@@ -1038,9 +1048,9 @@
       "pzlink": "http://www.rodenbach.be/",
       "ccilink": "http://crowncaps.info/caps/153304"
     },
-    { "id": "202", "name": "Miller",
+    { "id": "202", "name": "Miller Genuine Draft",
       "image": "202.jpg",
-      "tags": "Miller",
+      "tags": "Miller, Genuine, Draft",
       "condition": "good",
       "country": "Россия",
       "town": "Санкт-Петербург (Saint Petersburg)",
