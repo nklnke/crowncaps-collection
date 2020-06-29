@@ -155,6 +155,7 @@
                   <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
                   <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
                 </p>
+                <p class="cap-position">Position: {{cap.position}}</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -380,6 +381,10 @@ header {
       filter: blur(2px);
     }
   }
+}
+
+.cap-position {
+  margin-top: $margin;
 }
 
 .pzicon {
