@@ -82,6 +82,7 @@
       <a class="list-inline-item">Хорватия</a>
       <a class="list-inline-item">Чехия</a>
       <a class="list-inline-item">Юж.Корея</a>
+      <a class="list-inline-item">N/A</a>
     </div>
 
     <div class="row">
@@ -271,6 +272,10 @@ header {
       // border-right: 1px solid $lightblue;
     }
   }
+}
+
+.navbar-brand {
+  line-height: 28px;
 }
 
 .nav-item {
