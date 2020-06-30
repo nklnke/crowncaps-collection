@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "308", "name": "Бочкари",
+      "image": "308.jpg",
+      "tags": "Бочкари, Der, Geschmask, auf, dem, Gipfel, Perfektion",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Бочкари (Bochkari)",
+      "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
+      "pzlink": "http://www.bochkari.ru/",
+      "ccilink": "http://crowncaps.info/caps/173171",
+      "position": "Album 2, page 4, line 2"
+    },
+    { "id": "307", "name": "Zubr Gold",
+      "image": "307.jpg",
+      "tags": "Zubr, Gold",
+      "condition": "good",
+      "country": "Чехия",
+      "town": "Přerov",
+      "pivzavod": "Zubr Pivovar Přerov",
+      "pzlink": "http://www.zubr.cz/",
+      "ccilink": "http://crowncaps.info/caps/102690",
+      "position": "Album 2, page 4, line 4"
+    },
     { "id": "306", "name": "Chebars brewery",
       "image": "306.jpg",
       "tags": "Chebars, кольцо",
@@ -7,7 +29,8 @@
       "country": "Россия",
       "town": "Самара (Samara)",
       "pivzavod": "ООО `Волга Б.Т.` (OOO Volga B.T.)",
-      "my_photo": true
+      "my_photo": true,
+      "position": "Album 2, page 4, line 3"
     },
     { "id": "305", "name": "Barley Bros",
       "image": "305.jpg",
@@ -18,7 +41,7 @@
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "pzlink": "http://baltika.ru/",
       "ccilink": "http://crowncaps.info/caps/154321",
-      "position": "123"
+      "position": ""
     },
     { "id": "304", "name": "Лысковский пивоваренный завод",
       "image": "304.jpg",
@@ -117,7 +140,8 @@
       "town": "Бочкари (Bochkari)",
       "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
       "pzlink": "http://www.bochkari.ru/",
-      "ccilink": "http://crowncaps.info/caps/176497"
+      "ccilink": "http://crowncaps.info/caps/176497",
+      "position": "Album 2, page 4, line 2"
     },
     { "id": "294", "name": "Шымкентское",
       "image": "294.jpg",
@@ -1135,7 +1159,8 @@
       "town": "Přerov",
       "pivzavod": "Zubr Pivovar Přerov",
       "pzlink": "http://www.zubr.cz/",
-      "ccilink": "http://crowncaps.info/caps/97761"
+      "ccilink": "http://crowncaps.info/caps/97761",
+      "position": "Album 2, page 4, line 4"
     },
     { "id": "196", "name": "Варница",
       "image": "196.jpg",
@@ -1187,7 +1212,7 @@
       "pzlink": "https://abinbevefes.ru/",
       "ccilink": "http://crowncaps.info/caps/137855"
     },
-    { "id": "191", "name": "Weissberg",
+    { "id": "191", "name": "Бочкари Weissberg",
       "image": "191.jpg",
       "tags": "Weissberg, бочкари",
       "condition": "good",
@@ -1195,9 +1220,10 @@
       "town": "Бочкари (Bochkari)",
       "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
       "pzlink": "http://www.bochkari.ru/",
-      "ccilink": "http://crowncaps.info/caps/137855"
+      "ccilink": "http://crowncaps.info/caps/137855",
+      "position": "Album 2, page 4, line 2"
     },
-    { "id": "190", "name": "Бочкари",
+    { "id": "190", "name": "Бочкари Craft",
       "image": "190.jpg",
       "tags": "Бочкари, craft",
       "condition": "good",
@@ -1205,7 +1231,8 @@
       "town": "Бочкари (Bochkari)",
       "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
       "pzlink": "http://www.bochkari.ru/",
-      "ccilink": "http://crowncaps.info/caps/105447"
+      "ccilink": "http://crowncaps.info/caps/105447",
+      "position": "Album 2, page 4, line 2"
     },
     { "id": "189", "name": "Бочкари",
       "image": "189.jpg",
@@ -1215,7 +1242,8 @@
       "town": "Бочкари (Bochkari)",
       "pivzavod": "Бочкарёвский Пивоваренный Завод (Bochkariovsky Pivovarenny Zavod)",
       "pzlink": "http://www.bochkari.ru/",
-      "ccilink": "http://crowncaps.info/caps/160707"
+      "ccilink": "http://crowncaps.info/caps/160707",
+      "position": "Album 2, page 4, line 2"
     },
     { "id": "188", "name": "Москва",
       "image": "188.jpg",
