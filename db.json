@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "310", "name": "Grimbergen",
+      "image": "310.jpg",
+      "tags": "Grimbergen",
+      "condition": "good",
+      "country": "Польша",
+      "town": "Warszawa, Mazowieckie",
+      "pivzavod": "Carlsberg Polska Sp. z o.o.",
+      "pzlink": "http://www.carlsbergpolska.pl/_layouts/AgeGate/AgeGate.aspx?ReturnUrl=/Pages/Default.aspx",
+      "ccilink": "http://crowncaps.info/caps/167800",
+      "position": "Album 3, page 1, line 6"
+    },
+    { "id": "309", "name": "Sunny Breeze",
+      "image": "309.jpg",
+      "tags": "Sunny, Breeze, color, yellow, Цвет, жёлтый, оранжевый, orange, qr, код",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "ООО «Браво Премиум» (Bravo Premium)",
+      "pzlink": "http://www.bravo-premium.ru/",
+      "ccilink": "http://crowncaps.info/caps/182726",
+      "position": "Album 1, page 4, line 3"
+    },
     { "id": "308", "name": "Бочкари",
       "image": "308.jpg",
       "tags": "Бочкари, Der, Geschmask, auf, dem, Gipfel, Perfektion",
@@ -2233,7 +2255,8 @@
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
       "pzlink": "http://www.sabmillerrus.ru/",
-      "ccilink": "http://crowncaps.info/caps/56144"
+      "ccilink": "http://crowncaps.info/caps/56144",
+      "position":"Album 3, page 4, line 6"
     },
     { "id": "93", "name": "Белый медведь",
       "image": "93.jpg",
