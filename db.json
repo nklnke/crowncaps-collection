@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "311", "name": "Kriek Boon",
+      "image": "311.jpg",
+      "tags": "Kriek, Boon",
+      "condition": "good",
+      "country": "Бельгия",
+      "town": "Lembeek",
+      "pivzavod": "Brouwerij Boon N.V.",
+      "pzlink": "http://www.boon.be/",
+      "ccilink": "http://crowncaps.info/caps/40661",
+      "position": "Album 3, page 5, line 1"
+    },
     { "id": "310", "name": "Grimbergen",
       "image": "310.jpg",
       "tags": "Grimbergen",
@@ -132,7 +143,8 @@
       "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
-      "ccilink": "http://crowncaps.info/caps/180538"
+      "ccilink": "http://crowncaps.info/caps/180538",
+      "position":"Album 3, page 3, line 4"
     },
     { "id": "297", "name": "I'nice",
       "image": "297.jpg",
@@ -347,7 +359,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Контрактная пивоварня «Бакунин» (Bakunin contract brewery)",
       "pzlink": "http://www.bakuninbrewery.com/",
-      "ccilink": "http://crowncaps.info/caps/141202"
+      "ccilink": "http://crowncaps.info/caps/141202",
+      "position":"Album 3, page 4, line 4"
     },
     { "id": "277", "name": "Вишнёвый эль",
       "image": "277.jpg",
@@ -357,7 +370,8 @@
       "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
-      "ccilink": "http://crowncaps.info/caps/157450"
+      "ccilink": "http://crowncaps.info/caps/157450",
+      "position":"Album 3, page 3, line 4"
     },
     { "id": "276", "name": "Тинькофф",
       "image": "276.jpg",
@@ -540,13 +554,14 @@
     },
     { "id": "258", "name": "Ayinger",
       "image": "258.jpg",
-      "tags": "Ayinger",
+      "tags": "Ayinger, дом",
       "condition": "вмятина",
       "country": "Германия",
       "town": "Aying, Bayern",
       "pivzavod": "Brauerei Aying Franz Inselkammer KG",
       "pzlink": "http://www.ayinger.de/",
-      "ccilink": "http://crowncaps.info/caps/25202"
+      "ccilink": "http://crowncaps.info/caps/25202",
+      "position":"Album 3, page 5, line 1"
     },
     { "id": "257", "name": "Březňák",
       "image": "257.jpg",
