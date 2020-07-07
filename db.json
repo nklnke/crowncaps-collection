@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "312", "name": "Крафт Издат грИПАедов",
+      "image": "312.jpg",
+      "tags": "Крафт, Издат, грИПАедов, цвет, color, gold, золото, стрелки, arrows",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Волжский (Volzhsky)",
+      "pivzavod": "Волжский филиал ОАО «САН Инбев» (AB InBev)",
+      "ccilink": "http://crowncaps.info/caps/111226",
+      "pzlink": "https://abinbevefes.ru/",
+      "position": "Album 1, page 4, line 5"
+    },
     { "id": "311", "name": "Kriek Boon",
       "image": "311.jpg",
       "tags": "Kriek, Boon",
@@ -31,7 +42,7 @@
       "pivzavod": "ООО «Браво Премиум» (Bravo Premium)",
       "pzlink": "http://www.bravo-premium.ru/",
       "ccilink": "http://crowncaps.info/caps/182726",
-      "position": "Album 1, page 4, line 3"
+      "position": "Album 1, page 4, line 4"
     },
     { "id": "308", "name": "Бочкари",
       "image": "308.jpg",
@@ -2234,23 +2245,25 @@
     },
     { "id": "97", "name": "Stella Artois",
       "image": "97.jpg",
-      "tags": "Stella Artois",
+      "tags": "Stella, Artois",
       "condition": "good",
       "country": "Россия",
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/165434"
+      "ccilink": "http://crowncaps.info/caps/165434",
+      "position": "Album 3, page 5, line 1"
     },
     { "id": "96", "name": "Stella Artois",
       "image": "96.jpg",
-      "tags": "Stella Artois",
+      "tags": "Stella, Artois",
       "condition": "good",
       "country": "Россия",
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/128734"
+      "ccilink": "http://crowncaps.info/caps/128734",
+      "position": "Album 3, page 5, line 1"
     },
     { "id": "95", "name": "Stella Artois",
       "image": "95.jpg",
@@ -2260,7 +2273,8 @@
       "town": "Leuven, Vlaams-Brabant",
       "pivzavod": "Brouwerij Artois (AB Inbev)",
       "pzlink": "http://www.stellaartois.com/",
-      "ccilink": "http://crowncaps.info/caps/101373"
+      "ccilink": "http://crowncaps.info/caps/101373",
+      "position": "Album 3, page 5, line 1"
     },
     { "id": "94", "name": "Redd's",
       "image": "94.jpg",
