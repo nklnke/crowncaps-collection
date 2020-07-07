@@ -153,7 +153,11 @@
                 <p class="tags badge badge-primary">{{cap.tags}}</p>
                 <p class="links">
                   <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
+                </p>
+                <p class="links">
                   <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
+                </p>
+                <p class="links">
                   <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
                 </p>
                 <p class="cap-position">Position: {{cap.position}}</p>
