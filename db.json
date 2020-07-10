@@ -1,6 +1,17 @@
 {
   "caps": [
-    { "id": "315", "name": "Балтика ",
+    { "id": "316", "name": "Guinness",
+      "image": "316.jpg",
+      "tags": "Guinness, original, extra, stout",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
+      "ccilink": "http://crowncaps.info/caps/163109",
+      "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
+      "position":"Album 1, page 1, line 6"
+    },
+    { "id": "315", "name": "Балтика",
       "image": "315.jpg",
       "tags": "балтика, цвет, color, золото, gold",
       "condition": "good",
@@ -8,8 +19,7 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "ccilink": "http://crowncaps.info/caps/174874",
-      "pzlink": "http://baltika.ru/",
-      "position": "Album 1, page 4, line 4"
+      "pzlink": "http://baltika.ru/"
     },
     { "id": "314", "name": "Sunny Breeze",
       "image": "314.jpg",
@@ -1428,7 +1438,8 @@
       "country": "Россия",
       "town": "Лакинск (Lakinsk)",
       "pivzavod": "«Лакинский пивзавод» (Lakinsk pivzavod)",
-      "ccilink": "http://crowncaps.info/caps/149623"
+      "ccilink": "http://crowncaps.info/caps/149623",
+      "position":"Album 3, page 5, line 2"
     },
     { "id": "177", "name": "Сокол кола",
       "image": "177.jpg",
@@ -2614,7 +2625,8 @@
       "town": "Sparta, Attica",
       "pivzavod": "Mythos Brewery S.A.",
       "pzlink": "http://www.mythosbrewery.gr/",
-      "ccilink": "http://crowncaps.info/caps/33237"
+      "ccilink": "http://crowncaps.info/caps/33237",
+      "position":"Album 3, page 5, line 2"
     },
     { "id": "63", "name": "Somersby",
       "image": "63.jpg",
@@ -3024,13 +3036,14 @@
     },
     { "id": "21", "name": "Guinness",
       "image": "21.jpg",
-      "tags": "guinness",
+      "tags": "Guinness",
       "condition": "good",
       "country": "Россия",
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/136528"
+      "ccilink": "http://crowncaps.info/caps/136528",
+      "position":"Album 1, page 1, line 6"
     },
     { "id": "20", "name": "Хамовнический пивовар",
       "image": "20.jpg",
