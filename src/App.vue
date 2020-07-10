@@ -1,203 +1,145 @@
-<template>
-  <div id="app" class="container-fluid">
-    <header class="navbar navbar-expand bg-primary flex-column flex-md-row bd-navbar">
+<template lang="pug">
+  #app.container-fluid
+    header.navbar.navbar-expand.bg-primary.flex-column.flex-md-row.bd-navbar
+      nav.navbar-nav-scroll
+        ul.navbar-nav.bd-navbar-nav.flex-row
+          li.nav-item
+            img.d-block(src='./assets/icons/logo.png' width='36px' height='36px' role='img' focusable='false')
+          li.nav-item
+            a.navbar-brand.text-light.btn.btn-primary(href='/') Collection of crowncaps
+          li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='/') Row
+          a.nav-link.text-light.btn.btn-primary(href='/') List
+          li.nav-item
+          li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='/') Show only bad
+          li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
+          li.nav-item
+            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href='' target='_blank')
+      .navbar-nav.flex-row.ml-md-auto.d-md-flex
+        form.form-inline.my-2.my-lg-0
+          input.form-control(v-model='search' type='search' placeholder='Search' aria-label='Search')
 
-      <nav class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item">
-            <img
-              src="./assets/icons/logo.png"
-              width="36px"
-              height="36px"
-              class="d-block"
-              role="img"
-              focusable="false">
-          </li>
-          <li class="nav-item">
-            <a class="navbar-brand text-light btn btn-primary" href="/">Collection of crowncaps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light btn btn-primary" href="/">Row</a>
-          </li>
-            <a class="nav-link text-light btn btn-primary" href="/">List</a>
-          <li class="nav-item">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light btn btn-primary" href="/">Show only bad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light btn btn-primary" href="https://github.com/nklnke/crowncaps-collection" target="_blank">Github</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light btn btn-primary" href="" target="_blank" id="capsCounterBtn"></a>
-          </li>
-        </ul>
-      </nav>
+    .countries-list
+      //-
+        <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
+        <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
+        регуляркой отсечь всё, что после ` <`
+      a.list-inline-item Все
+      //- <span class="badge badge-light counter">2</span>
+      a.list-inline-item Австрия
+      a.list-inline-item Армения
+      a.list-inline-item Бельгия
+      a.list-inline-item Великобритания
+      a.list-inline-item Германия
+      a.list-inline-item Греция
+      a.list-inline-item Грузия
+      a.list-inline-item Дания
+      a.list-inline-item Испания
+      a.list-inline-item Казахстан
+      a.list-inline-item Китай
+      a.list-inline-item Латвия
+      a.list-inline-item Мексика  
+      a.list-inline-item Нидерланды
+      a.list-inline-item Польша
+      a.list-inline-item Россия
+      a.list-inline-item Румыния
+      a.list-inline-item СССР
+      a.list-inline-item США
+      a.list-inline-item Таиланд
+      a.list-inline-item Турция
+      a.list-inline-item Украина
+      a.list-inline-item Финляндия
+      a.list-inline-item Франция
+      a.list-inline-item Хорватия
+      a.list-inline-item Чехия
+      a.list-inline-item Юж.Корея
+      a.list-inline-item N/A
 
-      <div class="navbar-nav flex-row ml-md-auto d-md-flex">
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            v-model="search"
-            class="form-control"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          >
-        </form>
-      </div>
+    .row
+      //- в следующей строке что-то не то, подсветка летит из-за неё
+      .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' :class='cap.country' data-toggle='modal' data-target='#capModal')
+        img.mw-100.cap-image(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
+        h5 {{cap.name}}
+        p.cursive
+          | {{cap.country}}
+          | {{cap.town}}
+        p {{cap.pivzavod}}
+        .alert.alert-danger(v-if="cap.condition!='good'")
+          | {{cap.condition}}
+        p.tags.badge.badge-primary {{cap.tags | toLowerCase}}
+        p.links
+          a(v-if='cap.pzlink' :href='cap.pzlink' target='_blank')
+            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+          a(v-if='cap.pzlink_alt' :href='cap.pzlink_alt' target='_blank')
+            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+          a(v-if='cap.pzlink_another_alt' :href='cap.pzlink_another_alt' target='_blank')
+            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+          a(v-if='cap.pzlink_super_alt' :href='cap.pzlink_super_alt' target='_blank')
+            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+          a(v-if='cap.ccilink' :href='cap.ccilink' target='_blank')
+            img.pzicon(src='./assets/icons/cci.svg' alt='CC.I link')
 
-    </header>
+        //- <capModal />
 
-    <div class="countries-list">
-      <!--
-      <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
-      <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
-      // регуляркой отсечь всё, что после ` <`
-      -->
-      <a class="list-inline-item">Все</a><!-- <span class="badge badge-light counter">2</span> -->
-      <a class="list-inline-item">Австрия</a>
-      <a class="list-inline-item">Армения</a>
-      <a class="list-inline-item">Бельгия</a>
-      <a class="list-inline-item">Великобритания</a>
-      <a class="list-inline-item">Германия</a>
-      <a class="list-inline-item">Греция</a>
-      <a class="list-inline-item">Грузия</a>
-      <a class="list-inline-item">Дания</a>
-      <a class="list-inline-item">Испания</a>
-      <a class="list-inline-item">Казахстан</a>
-      <a class="list-inline-item">Китай</a>
-      <a class="list-inline-item">Латвия</a>
-      <a class="list-inline-item">Мексика</a>
-      <a class="list-inline-item">Нидерланды</a>
-      <a class="list-inline-item">Польша</a>
-      <a class="list-inline-item">Россия</a>
-      <a class="list-inline-item">Румыния</a>
-      <a class="list-inline-item">СССР</a>
-      <a class="list-inline-item">США</a>
-      <a class="list-inline-item">Таиланд</a>
-      <a class="list-inline-item">Турция</a>
-      <a class="list-inline-item">Украина</a>
-      <a class="list-inline-item">Финляндия</a>
-      <a class="list-inline-item">Франция</a>
-      <a class="list-inline-item">Хорватия</a>
-      <a class="list-inline-item">Чехия</a>
-      <a class="list-inline-item">Юж.Корея</a>
-      <a class="list-inline-item">N/A</a>
-    </div>
+        //- capModal window
 
-    <div class="row">
-      <div class="v-catalog-item col-md-2 Все"
-           v-for="cap in filterCapsArray"
-           :key="cap.id"
-           :class="cap.country"
-           data-toggle="modal"
-           data-target="#capModal"
-      >
-        <img :src="require('../src/assets/images/' + cap.image)"
-             :alt="cap.name"
-             class="mw-100 cap-image"
-        >
-        <h5>{{cap.name}}</h5>
-        <p class="cursive">
-          {{cap.country}}<br>
-          {{cap.town}}
-        </p>
-        <p>{{cap.pivzavod}}</p>
-        <div v-if="cap.condition!='good'" class="alert alert-danger">
-          {{cap.condition}}
-        </div>
-        <p class="tags badge badge-primary">{{cap.tags | toLowerCase}}</p>
-        <p class="links">
-          <a v-if="cap.pzlink" :href="cap.pzlink" target="_blank">
-            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
-          </a>
-          <a v-if="cap.pzlink_alt" :href="cap.pzlink_alt" target="_blank">
-            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
-          </a>
-          <a v-if="cap.pzlink_another_alt" :href="cap.pzlink_another_alt" target="_blank">
-            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
-          </a>
-          <a v-if="cap.pzlink_super_alt" :href="cap.pzlink_super_alt" target="_blank">
-            <img src="./assets/icons/factory.svg" class="pzicon" :alt="cap.pivzavod">
-          </a>
-          <a v-if="cap.ccilink" :href="cap.ccilink" target="_blank">
-            <img src="./assets/icons/cci.svg" class="pzicon" alt="CC.I link">
-          </a>
-        </p>
+        #capModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='capModalLabel' aria-hidden='true')
+          .modal-dialog.modal-dialog-centered(role='document')
+            .modal-content
+              .modal-header
+                h5#capModalLabel.modal-title {{cap.name}}
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                  span(aria-hidden='true') &times;
+              .modal-body
+                img.mw-100(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
+                p {{cap.country}}, {{cap.town}}
+                p {{cap.pivzavod}}
+                .alert.alert-danger(v-if="cap.condition!='good'")
+                  | Cap condition: {{cap.condition}}
+                .alert.alert-success(v-else='')
+                  | Cap condition: {{cap.condition}}
+                p.tags.badge.badge-primary {{cap.tags}}
+                p.links
+                  a(:href='cap.pzlink' target='_blank') {{cap.pzlink}}
+                p.links
+                  a(:href='cap.pzlink_alt' target='_blank') {{cap.pzlink_alt}}
+                p.links
+                  a(:href='cap.ccilink' target='_blank') {{cap.ccilink}}
+                p.cap-position Position: {{cap.position}}
+              .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
 
-        <!-- <capModal /> -->
-
-        <!-- capModal window -->
-        <div class="modal fade" id="capModal" tabindex="-1" role="dialog" aria-labelledby="capModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="capModalLabel">{{cap.name}}</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <img :src="require('../src/assets/images/' + cap.image)"
-                     :alt="cap.name"
-                     class="mw-100"
-                >
-                <p>{{cap.country}}, {{cap.town}}</p>
-                <p>{{cap.pivzavod}}</p>
-                <div v-if="cap.condition!='good'" class="alert alert-danger">
-                  Cap condition: {{cap.condition}}
-                </div>
-                <div v-else class="alert alert-success">
-                  Cap condition: {{cap.condition}}
-                </div>
-                <p class="tags badge badge-primary">{{cap.tags}}</p>
-                <p class="links">
-                  <a :href="cap.pzlink" target="_blank">{{cap.pzlink}}</a>
-                </p>
-                <p class="links">
-                  <a :href="cap.pzlink_alt" target="_blank">{{cap.pzlink_alt}}</a>
-                </p>
-                <p class="links">
-                  <a :href="cap.ccilink" target="_blank">{{cap.ccilink}}</a>
-                </p>
-                <p class="cap-position">Position: {{cap.position}}</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /capModal window -->
-
-      </div>
-    </div>
-
-    <footer class="footer bg-secondary">
-      <ul>
-        <li><a class="text-white" href="https://github.com/nklnke/crowncaps-collection" target="_blank">github</a></li>
-        <li>|</li>
-        <li><a class="text-white" href="https://vuejs.org" target="_blank">vue.js</a></li>
-        <li><a class="text-white" href="https://cli.vuejs.org/" target="_blank">vue-cli</a></li>
-        <li><a class="text-white" href="https://vuex.vuejs.org" target="_blank">vuex</a></li>
-        <li><a class="text-white" href="https://getbootstrap.com" target="_blank">bootstrap</a></li>
-        <li>|</li>
-        <li><a class="text-white" href="https://nodejs.org" target="_blank">node.js</a></li>
-        <li><a class="text-white" href="https://github.com/typicode/json-server" target="_blank">json-server</a></li>
-      </ul>
-    </footer>
-  </div>
+    footer.footer.bg-secondary
+      ul
+        li
+          a.text-white(href='https://github.com/nklnke/crowncaps-collection' target='_blank') github
+        li |
+        li
+          a.text-white(href='https://vuejs.org' target='_blank') vue.js
+        li
+          a.text-white(href='https://cli.vuejs.org/' target='_blank') vue-cli
+        li
+          a.text-white(href='https://vuex.vuejs.org' target='_blank') vuex
+        li
+          a.text-white(href='https://getbootstrap.com' target='_blank') bootstrap
+        li |
+        li
+          a.text-white(href='https://nodejs.org' target='_blank') node.js
+        li
+          a.text-white(href='https://github.com/typicode/json-server' target='_blank') json-server
 </template>
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
 import { allCapsCounter } from "./modules/allCapsCounter.js";
-// import capModal from './components/cap-modal';
+//- import capModal from './components/cap-modal';
 
 export default {
   name: "crowncaps-collection",
   components: {
-    // capModal
+    //- capModal
   },
   data() {
     return {
@@ -207,20 +149,22 @@ export default {
   },
   computed: {
     filterCapsArray() {
-      return this.caps.filter(item =>
-        item.name.toLowerCase().indexOf(this.search) !== -1 ||
-        item.tags.toLowerCase().indexOf(this.search) !== -1 ||
-        item.country.toLowerCase().indexOf(this.search) !== -1 ||
-        item.town.toLowerCase().indexOf(this.search) !== -1 ||
-        item.pivzavod.toLowerCase().indexOf(this.search) !== -1)
-    }
+      return this.caps.filter(
+        (item) =>
+          item.name.toLowerCase().indexOf(this.search) !== -1 ||
+          item.tags.toLowerCase().indexOf(this.search) !== -1 ||
+          item.country.toLowerCase().indexOf(this.search) !== -1 ||
+          item.town.toLowerCase().indexOf(this.search) !== -1 ||
+          item.pivzavod.toLowerCase().indexOf(this.search) !== -1
+      );
+    },
   },
   beforeMount() {
-    fetch('http://localhost:3000/caps')
-      .then(response => response.json())
-      .then(json => {
+    fetch("http://localhost:3000/caps")
+      .then((response) => response.json())
+      .then((json) => {
         this.caps = json;
-      })
+      });
   },
   mounted() {
     countryFilter();
@@ -229,10 +173,10 @@ export default {
   filters: {
     toLowerCase: function(str) {
       return str.toLowerCase();
-    }
+    },
   },
-  methods: {}
-}
+  methods: {},
+};
 </script>
 
 <style lang="scss" scoped>
@@ -251,7 +195,7 @@ export default {
 
 .cursive {
   font-style: italic;
-  font-size: .933333*$font-size;
+  font-size: 0.933333 * $font-size;
 }
 
 .counter {
@@ -308,13 +252,13 @@ header {
   justify-content: center;
   margin-right: 0;
   margin-left: 0;
-  margin-bottom: $margin*2;
+  margin-bottom: $margin * 2;
   padding-right: $padding;
   padding-left: $padding;
 }
 
 .form-group {
-  margin: $margin*2 $margin*2 0;
+  margin: $margin * 2 $margin * 2 0;
 }
 
 .countries-list {
@@ -345,7 +289,7 @@ header {
   max-width: 220px;
   min-height: 200px;
   padding: $padding;
-  margin: $margin*2 $margin 0; 
+  margin: $margin * 2 $margin 0;
   text-align: center;
 
   border: 1px solid $lightgray;
@@ -354,9 +298,9 @@ header {
   &:hover {
     cursor: help;
 
-    -webkit-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
-    -moz-box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
-    box-shadow: 0px 0px 25px -10px rgba(158,158,158,1);
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
+    box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
 
     img {
       filter: contrast(115%);
@@ -403,7 +347,7 @@ header {
 footer {
   padding: $padding;
 
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: white;
 
   ul {
