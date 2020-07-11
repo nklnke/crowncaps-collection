@@ -5,7 +5,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need:
-- node.js [Download](https://nodejs.org/)
+- node.js
+[Download](https://nodejs.org/)
 - vue-cli
 ```
 npm install -g @vue/cli
