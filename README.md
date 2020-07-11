@@ -5,7 +5,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need:
-- node.js
+- node.js  
 [Download](https://nodejs.org/)
 - vue-cli
 ```
