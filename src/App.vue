@@ -58,8 +58,7 @@
       a.list-inline-item N/A
 
     .row
-      //- в следующей строке что-то не то, подсветка летит из-за неё
-      .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' :class='cap.country' data-toggle='modal' data-target='#capModal')
+      .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' v-bind:class='cap.country' data-toggle='modal' data-target='#capModal')
         img.mw-100.cap-image(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
         h5 {{cap.name}}
         p.cursive
