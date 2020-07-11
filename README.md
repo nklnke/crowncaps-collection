@@ -5,13 +5,12 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need:
-- node.js  
-[Download](https://nodejs.org/)
-- vue-cli
+- Download and install [Node.js](https://nodejs.org/)
+- Install [Vue-cli](https://cli.vuejs.org/)
 ```
 npm install -g @vue/cli
 ```
-- json-server
+- Install [json-server](https://github.com/typicode/json-server)
 ```
 npm install -g json-server
 ```
