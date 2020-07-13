@@ -1,6 +1,8 @@
 <template lang="pug">
   #app.container-fluid
+
     header.navbar.navbar-expand.bg-primary.flex-column.flex-md-row.bd-navbar
+
       nav.navbar-nav-scroll
         ul.navbar-nav.bd-navbar-nav.flex-row
           li.nav-item
@@ -17,6 +19,7 @@
             a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
           li.nav-item
             a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href='' target='_blank')
+
       .navbar-nav.flex-row.ml-md-auto.d-md-flex
         form.form-inline.my-2.my-lg-0
           input.form-control(v-model='search' type='search' placeholder='Search' aria-label='Search')
@@ -37,6 +40,7 @@
       a.list-inline-item Грузия
       a.list-inline-item Дания
       a.list-inline-item Испания
+      a.list-inline-item Италия
       a.list-inline-item Казахстан
       a.list-inline-item Китай
       a.list-inline-item Латвия
@@ -62,8 +66,7 @@
         img.mw-100.cap-image(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
         h5 {{cap.name}}
         p.cursive
-          | {{cap.country}}
-          | {{cap.town}}
+          | {{cap.country}}, {{cap.town}}
         p {{cap.pivzavod}}
         .alert.alert-danger(v-if="cap.condition!='good'")
           | {{cap.condition}}
@@ -83,7 +86,6 @@
         //- <capModal />
 
         //- capModal window
-
         #capModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='capModalLabel' aria-hidden='true')
           .modal-dialog.modal-dialog-centered(role='document')
             .modal-content
@@ -97,7 +99,7 @@
                 p {{cap.pivzavod}}
                 .alert.alert-danger(v-if="cap.condition!='good'")
                   | Cap condition: {{cap.condition}}
-                .alert.alert-success(v-else='')
+                .alert.alert-success(v-else)
                   | Cap condition: {{cap.condition}}
                 p.tags.badge.badge-primary {{cap.tags}}
                 p.links
