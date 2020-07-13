@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "317", "name": "Perroni",
+      "image": "317.jpg",
+      "tags": "birra, perroni, roma",
+      "condition": "good",
+      "country": "Италия",
+      "town": "Roma",
+      "pivzavod": "Birra Peroni S.p.A.",
+      "ccilink": "http://crowncaps.info/caps/146631",
+      "pzlink": "http://www.peroni.it/",
+      "position":"Album 3, page 5, line 2"
+    },
     { "id": "316", "name": "Guinness",
       "image": "316.jpg",
       "tags": "Guinness, original, extra, stout",
