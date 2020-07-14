@@ -1,6 +1,17 @@
 {
   "caps": [
-    { "id": "317", "name": "Perroni",
+    { "id": "318", "name": "Spitfire",
+      "image": "318.jpg",
+      "tags": "spitfire, круг, цвет, color, белый, синий, красный, white, blue, red",
+      "condition": "good",
+      "country": "Великобритания",
+      "town": "Faversham, Kent",
+      "pivzavod": "Shepherd Neame Ltd",
+      "ccilink": "http://crowncaps.info/caps/15429",
+      "pzlink": "http://www.shepherdneame.co.uk/",
+      "position":"Album 3, page 5, line 2"
+    },
+    { "id": "317", "name": "Birra Perroni",
       "image": "317.jpg",
       "tags": "birra, perroni, roma",
       "condition": "good",
@@ -529,7 +540,7 @@
     },
     { "id": "267", "name": "Reissdorf Kölsch",
       "image": "267.jpg",
-      "tags": "Reissdorf, Kölsch, kolsch",
+      "tags": "Reissdorf, Kölsch, kolsch, круг, цвет, color, белый, синий, красный, white, blue, red",
       "condition": "lil коцки",
       "country": "Германия",
       "town": "Ostheim vor der Rhön, Bayern",
