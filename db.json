@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "319", "name": "Asahi スーパードライ",
+      "image": "319.jpg",
+      "tags": "asahi",
+      "condition": "good",
+      "country": "Италия",
+      "town": "Roma",
+      "pivzavod": "Birra Peroni S.p.A.",
+      "ccilink": "http://www.peroni.it/",
+      "pzlink": "http://crowncaps.info/caps/71986",
+      "position":"Album 3, page 5, line 3"
+    },
     { "id": "318", "name": "Spitfire",
       "image": "318.jpg",
       "tags": "spitfire, круг, цвет, color, белый, синий, красный, white, blue, red",
