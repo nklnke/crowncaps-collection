@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "320", "name": "Искусство варить. Немецкое",
+      "image": "320.jpg",
+      "tags": "Искусство, варить, Немецкое, трёхсосенское",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
+      "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
+      "ccilink": "http://crowncaps.info/caps/153287",
+      "pzlink": "http://trehsosensky.ru/",
+      "position":"Album 3, page 4, line 1"
+    },
     { "id": "319", "name": "Asahi スーパードライ",
       "image": "319.jpg",
       "tags": "asahi",
@@ -7,8 +18,8 @@
       "country": "Италия",
       "town": "Roma",
       "pivzavod": "Birra Peroni S.p.A.",
-      "ccilink": "http://www.peroni.it/",
-      "pzlink": "http://crowncaps.info/caps/71986",
+      "ccilink": "http://crowncaps.info/caps/71986",
+      "pzlink": "http://www.peroni.it/",
       "position":"Album 3, page 5, line 3"
     },
     { "id": "318", "name": "Spitfire",
@@ -1940,12 +1951,13 @@
     },
     { "id": "132", "name": "John Copper",
       "image": "132.jpg",
-      "tags": "John, Copper",
+      "tags": "john, copper",
       "condition": "good",
       "country": "Россия",
       "town": "Ульяновск (Ulyanovsk)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/134394"
+      "ccilink": "http://crowncaps.info/caps/134394",
+      "position": "Album 3, page 5, line 3"
     },
     { "id": "131-1", "name": "Amber Weiss",
       "image": "131-1.jpg",
