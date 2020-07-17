@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "322", "name": "Free Masai",
+      "image": "322.jpg",
+      "tags": "Free, Masai, qr, код",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Нижний Ломов (Nizhny Lomov); Пенза (Penza)",
+      "pivzavod": "ООО «Нижнеломовский ликеро-водочный завод»; ООО «Объединённые пензенские водочные заводы»",
+      "pzlink": "http://www.rupeppers.ru/",
+      "ccilink": "http://crowncaps.info/caps/169987",
+      "position":"Album 3, page 5, line 3"
+    },
+    { "id": "321", "name": "Fuller's - London Pride",
+      "image": "321.jpg",
+      "tags": "Fullers, London, Pride",
+      "condition": "lil вмятинка",
+      "country": "Великобритания",
+      "town": "Fuller Smith & Turner plc",
+      "pivzavod": "Chiswick, London",
+      "pzlink": "http://www.fullers.co.uk/",
+      "ccilink": "http://crowncaps.info/caps/125531",
+      "position":"Album 3, page 4, line 4"
+    },
     { "id": "320", "name": "Искусство варить. Немецкое",
       "image": "320.jpg",
       "tags": "Искусство, варить, Немецкое, трёхсосенское",
@@ -201,7 +223,8 @@
       "town": "Fuller Smith & Turner plc",
       "pivzavod": "Chiswick, London",
       "pzlink": "http://www.fullers.co.uk/",
-      "ccilink": "http://crowncaps.info/caps/125526"
+      "ccilink": "http://crowncaps.info/caps/125526",
+      "position":"Album 3, page 4, line 4"
     },
     { "id": "301", "name": "Kronenbourg 1664",
       "image": "301.jpg",
@@ -730,7 +753,8 @@
       "town": "Oettingen, Bayern",
       "pivzavod": "Oettinger Brauerei GmbH",
       "pzlink": "http://oettinger-bier.de/",
-      "ccilink": "http://crowncaps.info/caps/34884"
+      "ccilink": "http://crowncaps.info/caps/34884",
+      "position":"Album 3, page 4, line 3"
     },
     { "id": "251", "name": "Samuel Smith Old Brewery",
       "image": "251.jpg",
@@ -861,7 +885,8 @@
       "town": "Edinburgh",
       "pivzavod": "Scottish & Newcastle Breweries Ltd.",
       "pzlink": "http://newcastlebrown.com/",
-      "ccilink": "http://crowncaps.info/caps/49935"
+      "ccilink": "http://crowncaps.info/caps/49935",
+      "position":"Album 3, page 5, line 3"
     },
     { "id": "238", "name": "Boon Rawd Brewery",
       "image": "238.jpg",
