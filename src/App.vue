@@ -44,7 +44,7 @@
       a.list-inline-item Казахстан
       a.list-inline-item Китай
       a.list-inline-item Латвия
-      a.list-inline-item Мексика  
+      a.list-inline-item Мексика
       a.list-inline-item Нидерланды
       a.list-inline-item Польша
       a.list-inline-item Россия
