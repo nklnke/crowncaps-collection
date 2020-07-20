@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "324", "name": "Tsingtao",
+      "image": "324.jpg",
+      "tags": "Tsingtao",
+      "condition": "good",
+      "country": "Китай",
+      "town": "Qingdao, Shandong",
+      "pivzavod": "Tsingtao Brewery Co.",
+      "pzlink": "http://www.tsingtaobeer.com/",
+      "ccilink": "http://crowncaps.info/caps/145969",
+      "position":"Album 2, page 2, line 6"
+    },
+    { "id": "323", "name": "Ниагара",
+      "image": "323.jpg",
+      "tags": "Ниагара",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Челябинск (Chelyabinsk)",
+      "pivzavod": "ООО «Национальная водная компания „Ниагара“» (Niagara)",
+      "pzlink": "http://niagara-drinks.ru/",
+      "ccilink": "http://crowncaps.info/caps/94254",
+      "position":"Album 3, page 5, line 3"
+    },
     { "id": "322", "name": "Free Masai",
       "image": "322.jpg",
       "tags": "Free, Masai, qr, код",
@@ -1900,7 +1922,8 @@
       "town": "Qingdao, Shandong",
       "pivzavod": "Tsingtao Brewery Co.",
       "pzlink": "http://www.tsingtaobeer.com/",
-      "ccilink": "http://crowncaps.info/caps/127221"
+      "ccilink": "http://crowncaps.info/caps/127221",
+      "position":"Album 2, page 2, line 6"
     },
     { "id": "138", "name": "Bavaria",
       "image": "138.jpg",
