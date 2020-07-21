@@ -1,5 +1,28 @@
 {
   "caps": [
+    { "id": "326", "name": "Таркос",
+      "image": "326.jpg",
+      "tags": "Таркос",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Воронеж (Voronezh)",
+      "pivzavod": "ООО «Пивоварня С» (Pivovarnya S)",
+      "pzlink": "http://brew-lab.ru/",
+      "ccilink": "http://crowncaps.info/caps/154891",
+      "position": "Album 3, page 5, line 4"
+    },
+    { "id": "325", "name": "Лось и Кедр",
+      "image": "325.jpg",
+      "tags": "Лось, Кедр",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Барнаул (Barnaul)",
+      "pivzavod": "ООО «МПА-1» (MPA-1); ООО «Позитив-А» («Лось и Кедр»)",
+      "pzlink": "http://www.cider-cider.ru/",
+      "pzlink_alt": "https://vk.com/club155783751",
+      "ccilink": "http://crowncaps.info/caps/152205",
+      "position": "Album 3, page 5, line 4"
+    },
     { "id": "324", "name": "Tsingtao",
       "image": "324.jpg",
       "tags": "Tsingtao",
@@ -1779,7 +1802,8 @@
       "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
-      "ccilink": "http://crowncaps.info/caps/145980"
+      "ccilink": "http://crowncaps.info/caps/145980",
+      "position": "Album 3, page 5, line 4"
     },
     { "id": "152", "name": "Оболонь",
       "image": "152.jpg",
