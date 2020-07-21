@@ -6,7 +6,7 @@
       nav.navbar-nav-scroll
         ul.navbar-nav.bd-navbar-nav.flex-row
           li.nav-item
-            img.d-block(src='./assets/icons/logo.png' width='36px' height='36px' role='img' focusable='false')
+            img.logo(src="./assets/icons/logo.png" role="img" focusable="false")
           li.nav-item
             a.navbar-brand.text-light.btn.btn-primary(href='/') Collection of crowncaps
           li.nav-item
@@ -16,13 +16,15 @@
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Show only bad
           li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='/') Caps for exchange
+          li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
           li.nav-item
-            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href='' target='_blank')
+            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank")
 
       .navbar-nav.flex-row.ml-md-auto.d-md-flex
         form.form-inline.my-2.my-lg-0
-          input.form-control(v-model='search' type='search' placeholder='Search' aria-label='Search')
+          input.form-control(v-model="search" type="search" placeholder="Search" aria-label="Search")
 
     .countries-list
       //-
@@ -112,7 +114,7 @@
               .modal-footer
                 button.btn.btn-secondary(type='button' data-dismiss='modal') Close
 
-    footer.footer.bg-secondary
+    footer.footer.bg-secondary.fixed-bottom
       ul
         li
           a.text-white(href='https://github.com/nklnke/crowncaps-collection' target='_blank') github
@@ -130,11 +132,16 @@
           a.text-white(href='https://nodejs.org' target='_blank') node.js
         li
           a.text-white(href='https://github.com/typicode/json-server' target='_blank') json-server
+        li
+          #btnTop.fixed-action-btn.smooth-scroll(style='bottom: 45px; right: 24px; display: none;')
+            a.btn-floating.btn-large.red(href='#topSection')
+              i.fa.fa-arrow-up
 </template>
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
 import { allCapsCounter } from "./modules/allCapsCounter.js";
+//- import { backToTop } from "./modules/backToTop.js";
 //- import capModal from './components/cap-modal';
 
 export default {
@@ -170,6 +177,7 @@ export default {
   mounted() {
     countryFilter();
     allCapsCounter();
+    //- backToTop();
   },
   filters: {
     toLowerCase: function(str) {
@@ -225,6 +233,11 @@ header {
 
 .navbar-brand {
   line-height: 28px;
+}
+
+.logo {
+  height: 36px;
+  width: 36px;
 }
 
 .nav-item {
