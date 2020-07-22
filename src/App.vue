@@ -250,11 +250,6 @@ header {
   }
 }
 
-.nav-slash {
-  color: white;
-  padding: $padding/2 $padding/4 $padding/2 0;
-}
-
 .container-fluid {
   margin-left: 0;
   margin-right: 0;
