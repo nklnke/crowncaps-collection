@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "327", "name": "F&S Brewery",
+      "image": "327.jpg",
+      "tags": "F&S, Brewery",
+      "condition": "lil коцки",
+      "country": "Россия",
+      "town": "д. Шишкино (Shishkino)",
+      "pivzavod": "ООО «Ф энд С Брювери» (F&S Brewery)",
+      "pzlink": "http://brew-lab.ru/",
+      "ccilink": "http://crowncaps.info/caps/154891",
+      "position": "Album 3, page 5, line 4"
+    },
     { "id": "326", "name": "Таркос",
       "image": "326.jpg",
       "tags": "Таркос",
