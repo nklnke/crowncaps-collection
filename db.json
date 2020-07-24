@@ -1,5 +1,28 @@
 {
   "caps": [
+    { "id": "329", "name": "Барнаульский пивоваренный завод",
+      "image": "329.jpg",
+      "tags": "Барнаульский, пивоваренный, завод",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Барнаул (Barnaul)",
+      "pivzavod": "ОАО «Барнаульский пивоваренный завод» (Barnaulsky Brewery)",
+      "pzlink": "http://www.bpz.su/",
+      "ccilink": "http://crowncaps.info/caps/55614",
+      "position": "Album 2, page 2, line 1"
+    },
+    { "id": "328", "name": "Patronus",
+      "image": "328.jpg",
+      "tags": "patronus, p, letter, logo",
+      "condition": "lil коцка",
+      "country": "Германия",
+      "town": "Mannheim, Baden-Württemberg; Neckarsulm, Baden-Württemberg",
+      "pivzavod": "Privatbrauerei Eichbaum GmbH & Co. KG; Lidl Dienstleistung GmbH & Co. KG",
+      "pzlink": "http://www.eichbaum.de/",
+      "pzlink_alt": "http://www.lidl.de/",
+      "ccilink": "http://crowncaps.info/caps/128543",
+      "position": "Album 3, page 5, line 4"
+    },
     { "id": "327", "name": "F&S Brewery",
       "image": "327.jpg",
       "tags": "F&S, Brewery",
@@ -2068,7 +2091,8 @@
       "town": "Москва (Moscow)",
       "pivzavod": "МПБК «Очаково» (MPBK «Ochakovo»)",
       "pzlink": "http://www.ochakovo.ru/",
-      "ccilink": "http://crowncaps.info/caps/121881"
+      "ccilink": "http://crowncaps.info/caps/121881",
+      "position": "Album 3, page 5, line 5"
     },
     { "id": "129", "name": "Барнаульский пивоваренный завод",
       "image": "129.jpg",
@@ -2078,7 +2102,8 @@
       "town": "Барнаул (Barnaul)",
       "pivzavod": "ОАО «Барнаульский пивоваренный завод» (Barnaulsky Brewery)",
       "pzlink": "http://www.bpz.su/",
-      "ccilink": "http://crowncaps.info/caps/55613"
+      "ccilink": "http://crowncaps.info/caps/55613",
+      "position": "Album 2, page 2, line 1"
     },
     { "id": "128", "name": "Пивоваренный завод Альпина",
       "image": "128.jpg",
