@@ -188,189 +188,156 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-#app {
-  font-family: Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: $font-size;
-  text-align: center;
-  line-height: 1.2;
-}
+<style lang="sass" scoped>
+#app
+  font-family: Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-size: $font-size
+  text-align: center
+  line-height: 1.2
 
-.btn-primary {
-  transition: 0s;
-}
+.btn-primary
+  transition: 0s
 
-.cursive {
-  font-style: italic;
-  font-size: 0.933333 * $font-size;
-}
+.cursive
+  font-style: italic
+  font-size: 0.933333 * $font-size
 
-.counter {
-  position: relative;
-  height: fit-content;
-  margin-top: 15px;
-  margin-left: -25px;
-}
+.counter
+  position: relative
+  height: fit-content
+  margin-top: 15px
+  margin-left: -25px
 
-a[href]:not([class]) {
-  color: $blue;
-  text-decoration: underline;
-}
+a[href]:not([class])
+  color: $blue
+  text-decoration: underline
 
-header {
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+header
+  ul
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
 
-    li:not(:last-child) {
-      // border-right: 1px solid $lightblue;
-    }
-  }
-}
+    li:not(:last-child)
+      //- border-right: 1px solid $lightblue
 
-.navbar-brand {
-  line-height: 28px;
-}
+.navbar-brand
+  line-height: 28px
 
-.logo {
-  height: 36px;
-  width: 36px;
-}
+.logo
+  height: 36px
+  width: 36px
 
-.nav-item {
-  &:hover {
-    cursor: pointer;
-  }
+.nav-item
+  &:hover
+    cursor: pointer
 
-  &:not(:last-child) {
-    margin-right: $margin/3;
-  }
-}
+  &:not(:last-child)
+    margin-right: $margin/3
 
-.container-fluid {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
+.container-fluid
+  margin-left: 0
+  margin-right: 0
+  padding-left: 0
+  padding-right: 0
 
-.row {
-  justify-content: center;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: $margin * 2;
-  padding-right: $padding;
-  padding-left: $padding;
-}
+.row
+  justify-content: center
+  margin-right: 0
+  margin-left: 0
+  margin-bottom: $margin * 2
+  padding-right: $padding
+  padding-left: $padding
 
-.form-group {
-  margin: $margin * 2 $margin * 2 0;
-}
+.form-group
+  margin: $margin * 2 $margin * 2 0
 
-.countries-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
+.countries-list
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  width: 100%
+  height: 100%
 
-  background: $lightblue;
+  background: $lightblue
 
-  a {
-    padding: $padding/1.5 $padding/1.15;
+  a
+    padding: $padding/1.5 $padding/1.15
+    margin: 0
+    color: white
+    cursor: pointer
+
+    &:hover
+      color: white
+      background-color: $blue
+      text-decoration: none
+
+.v-catalog-item
+  min-width: 150px
+  max-width: 220px
+  min-height: 200px
+  padding: $padding
+  margin: $margin * 2 $margin 0
+  text-align: center
+
+  border: 1px solid $lightgray
+  border-radius: $radius
+
+  &:hover
+    cursor: help
+
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1)
+    -moz-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1)
+    box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1)
+
+    img
+      filter: contrast(115%)
+
+  .cap-image
+    min-width: 100%
+    margin-bottom: $margin
+
+.tags
+  white-space: normal
+
+.links
+  display: flex
+  justify-content: center
+  margin-bottom: 0
+
+  a
+    margin: $margin/4 $margin/2 0
+    word-wrap: break-word
+
+    &:first-child
+      margin-bottom: $margin/4
+
+    &:hover
+      filter: blur(2px)
+
+.cap-position
+  margin-top: $margin
+
+.pzicon
+  max-height: 20px
+
+footer
+  padding: $padding
+
+  font-size: 0.8rem
+  color: white
+
+  ul
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
     margin: 0;
-    color: white;
-    cursor: pointer;
+    padding-left: 0
 
-    &:hover {
-      color: white;
-      background-color: $blue;
-      text-decoration: none;
-    }
-  }
-}
+    list-style: none
 
-.v-catalog-item {
-  min-width: 150px;
-  max-width: 220px;
-  min-height: 200px;
-  padding: $padding;
-  margin: $margin * 2 $margin 0;
-  text-align: center;
-
-  border: 1px solid $lightgray;
-  border-radius: $radius;
-
-  &:hover {
-    cursor: help;
-
-    -webkit-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
-    -moz-box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
-    box-shadow: 0px 0px 25px -10px rgba(158, 158, 158, 1);
-
-    img {
-      filter: contrast(115%);
-    }
-  }
-
-  .cap-image {
-    min-width: 100%;
-    margin-bottom: $margin;
-  }
-}
-
-.tags {
-  white-space: normal;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0;
-
-  a {
-    margin: $margin/4 $margin/2 0;
-    word-wrap: break-word;
-
-    &:first-child {
-      margin-bottom: $margin/4;
-    }
-
-    &:hover {
-      filter: blur(2px);
-    }
-  }
-}
-
-.cap-position {
-  margin-top: $margin;
-}
-
-.pzicon {
-  max-height: 20px;
-}
-
-footer {
-  padding: $padding;
-
-  font-size: 0.8rem;
-  color: white;
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding-left: 0;
-
-    list-style: none;
-
-    li {
-      margin: 0 $margin;
-    }
-  }
-}
+    li
+      margin: 0 $margin
 </style>
