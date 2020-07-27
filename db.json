@@ -1,5 +1,60 @@
 {
   "caps": [
+    { "id": "334", "name": "Солодов",
+      "image": "334.jpg",
+      "tags": "Солодов",
+      "condition": "very bad (сплющенная, царапки)",
+      "country": "Россия",
+      "town": "Казань (Kazan)",
+      "pivzavod": "Пивоварня Москва-Эфес в г. Казань (Pivovarnia Moskva-Efes)",
+      "pzlink": "http://www.efesrussia.ru/factory/f3.html",
+      "ccilink": "http://crowncaps.info/caps/58873",
+      "position":"Album 3, page 5, line 7"
+    },
+    { "id": "333", "name": "В игре!",
+      "image": "333.jpg",
+      "tags": "игре, правильным, отдохнёшь, красиво",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
+      "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
+      "ccilink": "http://crowncaps.info/caps/52750",
+      "position":"Album 1, page 2, line 6"
+    },
+    { "id": "332", "name": "Kozel Nefiltrovaný",
+      "image": "332.jpg",
+      "tags": "Kozel, Nefiltrovany",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Калуга (Kaluga)",
+      "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
+      "pzlink": "http://www.sabmillerrus.ru/",
+      "ccilink": "http://crowncaps.info/caps/72695",
+      "position":"Album 3, page 2, line 2"
+    },
+    { "id": "331", "name": "Slon Green",
+      "image": "331.jpg",
+      "tags": "slon, black, монументал, крафт, собака",
+      "condition": "good",
+      "country": "Россия",
+      "town": "п. Прохладный (Prokhladny)",
+      "pivzavod": "ООО «Монументал Крафт» (Alibi Brewery)",
+      "pzlink": "http://alibibeer.ru/",
+      "ccilink": "http://crowncaps.info/caps/113700",
+      "position":"Album 3, page 2, line 2"
+    },
+    { "id": "330", "name": "Dilijan beer ԴԻԼԻՋԱՆ",
+      "image": "330.jpg",
+      "tags": "Dilijan",
+      "condition": "good",
+      "country": "Армения",
+      "town": "Dilijan",
+      "pivzavod": "ООО «А. и Т. Акопяны» (A&T Hakobyans LLC)",
+      "pzlink": "http://www.dilijanbeer.am/",
+      "ccilink": "http://crowncaps.info/caps/117289",
+      "position": "Album 3, page 1, line 2"
+    },
     { "id": "329", "name": "Барнаульский пивоваренный завод",
       "image": "329.jpg",
       "tags": "Барнаульский, пивоваренный, завод",
@@ -358,7 +413,7 @@
     },
     { "id": "296", "name": "Slon Black",
       "image": "296.jpg",
-      "tags": "slon, black, монументал, крафт",
+      "tags": "slon, black, монументал, крафт, собака",
       "condition": "good",
       "country": "Россия",
       "town": "п. Прохладный (Prokhladny)",
@@ -453,7 +508,8 @@
       "town": "Чириково (Chirikovo)",
       "pivzavod": "ООО «Суздальская пивоварня» (Suzdalskaya Pivovarnia)",
       "pzlink": "http://yuzberg.com",
-      "ccilink": "http://crowncaps.info/caps/85175"
+      "ccilink": "http://crowncaps.info/caps/85175",
+      "position":"Album 3, page 3, line 6"
     },
     { "id": "287", "name": "Cidre Royal",
       "image": "287.jpg",
@@ -954,7 +1010,8 @@
       "town": "Plzeň",
       "pivzavod": "Plzeňský Prazdroj a.s.",
       "pzlink": "http://www.prazdroj.cz/en/",
-      "ccilink": "http://crowncaps.info/caps/70724"
+      "ccilink": "http://crowncaps.info/caps/70724",
+      "position":"Album 3, page 5, line 5"
     },
     { "id": "239", "name": "Newcastle",
       "image": "239.jpg",
@@ -1279,7 +1336,8 @@
       "town": "Yerevan",
       "pivzavod": "Beer of Yerevan CJSC",
       "pzlink": "http://www.kilikia.am/",
-      "ccilink": "http://crowncaps.info/caps/136603"
+      "ccilink": "http://crowncaps.info/caps/136603",
+      "position": "Album 3, page 1, line 2"
     },
     { "id": "208", "name": "Original Czech Beer",
       "image": "208.jpg",
@@ -1289,7 +1347,8 @@
       "town": "Nová Paka",
       "pivzavod": "Pivovar Nová Paka a.s.",
       "pzlink": "http://www.novopackepivo.cz/?over18=Y",
-      "ccilink": "http://crowncaps.info/caps/45636"
+      "ccilink": "http://crowncaps.info/caps/45636",
+      "position": "Album 3, page 5, line 5"
     },
     { "id": "207", "name": "Первый пивзавод",
       "image": "207.jpg",
@@ -2927,7 +2986,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/121924"
+      "ccilink": "http://crowncaps.info/caps/121924",
+      "position":"Album 3, page 5, line 5"
     },
     { "id": "48", "name": "Strongbow",
       "image": "48.jpg",
@@ -2937,7 +2997,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/160491"
+      "ccilink": "http://crowncaps.info/caps/160491",
+      "position":"Album 3, page 5, line 5"
     },
     { "id": "47", "name": "Mr. Craft",
       "image": "47.jpg",
