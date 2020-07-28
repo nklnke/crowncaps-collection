@@ -1,5 +1,17 @@
 {
   "caps": [
+    { "id": "335", "name": "Sapporo",
+      "image": "335.jpg",
+      "tags": "Sapporo, star, звезда",
+      "condition": "good",
+      "country": "Япония, США, Канада",
+      "town": "Tokyo; La Crosse (Wisconsin); Guelph, Ontario",
+      "pivzavod": "Пивоварня Москва-Эфес в г. Казань (Pivovarnia Moskva-Efes)",
+      "pzlink": "http://www.sapporobeer.jp/english/",
+      "pzlink_alt": "http://www.sleeman.com/",
+      "ccilink": "http://crowncaps.info/caps/180660",
+      "position":"Album 3, page 5, line 6"
+    },
     { "id": "334", "name": "Солодов",
       "image": "334.jpg",
       "tags": "Солодов",
@@ -9,7 +21,7 @@
       "pivzavod": "Пивоварня Москва-Эфес в г. Казань (Pivovarnia Moskva-Efes)",
       "pzlink": "http://www.efesrussia.ru/factory/f3.html",
       "ccilink": "http://crowncaps.info/caps/58873",
-      "position":"Album 3, page 5, line 7"
+      "position":"Album 3, page 5, line 6"
     },
     { "id": "333", "name": "В игре!",
       "image": "333.jpg",
