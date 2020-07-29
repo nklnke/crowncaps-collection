@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "337", "name": "Weihenstephaner",
+      "image": "337.jpg",
+      "tags": "Weihenstephaner, Garantierte, Reinheit",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Freising, Bayern",
+      "pivzavod": "Bayerische Staatsbrauerei Weihenstephan",
+      "pzlink": "http://www.weihenstephaner.de/",
+      "ccilink": "http://crowncaps.info/caps/88671",
+      "position":"Album 3, page 5, line 6"
+    },
+    { "id": "336", "name": "Medovarus",
+      "image": "336.jpg",
+      "tags": "medovarus, organic, brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "ООО «Медоварус» (Medovarus)",
+      "pzlink": "http://www.medovarus.ru/",
+      "ccilink": "http://crowncaps.info/caps/119952",
+      "position":"Album 3, page 5, line 6"
+    },
     { "id": "335", "name": "Sapporo",
       "image": "335.jpg",
       "tags": "Sapporo, star, звезда",
