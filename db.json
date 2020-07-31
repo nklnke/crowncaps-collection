@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "339", "name": "Мотор",
+      "image": "339.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165400",
+      "position":"Album 3, page 3, line 5"
+    },
+    { "id": "338", "name": "Birra Perroni",
+      "image": "338.jpg",
+      "tags": "perroni, roma, колос, цвет, color, красный, red",
+      "condition": "good",
+      "country": "Италия",
+      "town": "Roma",
+      "pivzavod": "Birra Peroni S.p.A.",
+      "ccilink": "http://crowncaps.info/caps/114908",
+      "pzlink": "http://www.peroni.it/",
+      "position":"Album 3, page 5, line 2"
+    },
     { "id": "337", "name": "Weihenstephaner",
       "image": "337.jpg",
       "tags": "Weihenstephaner, Garantierte, Reinheit",
@@ -221,7 +243,7 @@
       "pivzavod": "Shepherd Neame Ltd",
       "ccilink": "http://crowncaps.info/caps/15429",
       "pzlink": "http://www.shepherdneame.co.uk/",
-      "position":"Album 3, page 5, line 2"
+      "position":"Album 3, page 5, line 6"
     },
     { "id": "317", "name": "Birra Perroni",
       "image": "317.jpg",
@@ -599,7 +621,8 @@
       "town": "Мытищи (Mytischi)",
       "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
       "pzlink": "http://mosbrew.ru/",
-      "ccilink": "http://crowncaps.info/caps/165389"
+      "ccilink": "http://crowncaps.info/caps/165389",
+      "position":"Album 3, page 3, line 5"
     },
     { "id": "282", "name": "Мотор",
       "image": "282.jpg",
@@ -609,7 +632,8 @@
       "town": "Мытищи (Mytischi)",
       "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
       "pzlink": "http://mosbrew.ru/",
-      "ccilink": "http://crowncaps.info/caps/165392"
+      "ccilink": "http://crowncaps.info/caps/165392",
+      "position":"Album 3, page 3, line 5"
     },
     { "id": "281", "name": "Томское пиво",
       "image": "281.jpg",
