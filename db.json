@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "341", "name": "Мотор",
+      "image": "341.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165394",
+      "position":"Album 3, page 3, line 5"
+    },
+    { "id": "340", "name": "Мотор",
+      "image": "340.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165396",
+      "position":"Album 3, page 3, line 5"
+    },
     { "id": "339", "name": "Мотор",
       "image": "339.jpg",
       "tags": "Мотор",
