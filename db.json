@@ -1,5 +1,49 @@
 {
   "caps": [
+    { "id": "345", "name": "Brewlok Craft",
+      "image": "345.jpg",
+      "tags": "Brewlok, Craft, classic, brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Воронеж (Voronezh)",
+      "pivzavod": "ООО «Кварта» (Kvarta)",
+      "pzlink": "http://www.brewlok.ru/",
+      "ccilink": "http://crowncaps.info/caps/181587",
+      "position":"Album 3, page 6, line 2"
+    },
+    { "id": "344", "name": "Cortes",
+      "image": "344.jpg",
+      "tags": "Cortes, twist, off",
+      "condition": "good",
+      "country": "Польша",
+      "town": "Rakszawa, Podkarpackie",
+      "pivzavod": "Van Pur S.A.",
+      "pzlink": "http://www.vanpur.com/",
+      "ccilink": "http://crowncaps.info/caps/136819",
+      "position":"Album 3, page 6, line 2"
+    },
+    { "id": "343", "name": "Вишня в дубе",
+      "image": "343.jpg",
+      "tags": "Вишня, дубе",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
+      "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
+      "pzlink": "http://trehsosensky.ru/",
+      "ccilink": "http://crowncaps.info/caps/158118",
+      "position":"Album 3, page 3, line 4"
+    },
+    { "id": "342", "name": "Bud non-alcohol",
+      "image": "342.jpg",
+      "tags": "Bud, non-alcohol",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
+      "pzlink": "https://abinbevefes.ru/",
+      "ccilink": "http://crowncaps.info/caps/111118",
+      "position":"Album 1, page 1, line 3"
+    },
     { "id": "341", "name": "Мотор",
       "image": "341.jpg",
       "tags": "Мотор",
@@ -685,7 +729,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "ООО «АФ Брю» (AF Brew)",
       "pzlink": "http://afbrew.net/",
-      "ccilink": "http://crowncaps.info/caps/79072"
+      "ccilink": "http://crowncaps.info/caps/79072",
+      "position":"Album 3, page 6, line 1"
     },
     { "id": "278", "name": "Бакунин",
       "image": "278.jpg",
@@ -1588,7 +1633,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/137855"
+      "ccilink": "http://crowncaps.info/caps/137855",
+      "position":"Album 1, page 1, line 4"
     },
     { "id": "191", "name": "Бочкари Weissberg",
       "image": "191.jpg",
@@ -3306,7 +3352,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/118102"
+      "ccilink": "http://crowncaps.info/caps/118102",
+      "position": "Album 3, page 6, line 1"
     },
     { "id": "23", "name": "Крым",
       "image": "23.jpg",
@@ -3467,7 +3514,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/148733"
+      "ccilink": "http://crowncaps.info/caps/148733",
+      "position":"Album 1, page 1, line 4"
     },
     { "id": "8", "name": "Bud",
       "image": "8.jpg",
@@ -3477,7 +3525,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/77920"
+      "ccilink": "http://crowncaps.info/caps/77920",
+      "position":"Album 1, page 1, line 3"
     },
     { "id": "7", "name": "Bud",
       "image": "7.jpg",
@@ -3487,7 +3536,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/72696"
+      "ccilink": "http://crowncaps.info/caps/72696",
+      "position":"Album 1, page 1, line 3"
     },
     { "id": "6", "name": "Bud",
       "image": "6.jpg",
@@ -3497,7 +3547,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/111122"
+      "ccilink": "http://crowncaps.info/caps/111122",
+      "position":"Album 1, page 1, line 3"
     },
     { "id": "5", "name": "Bud",
       "image": "5.jpg",
@@ -3507,7 +3558,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/78485"
+      "ccilink": "http://crowncaps.info/caps/78485",
+      "position":"Album 1, page 1, line 3"
     },
     { "id": "4", "name": "Carlsberg",
       "image": "4.jpg",
