@@ -1,5 +1,167 @@
 {
   "caps": [
+    { "id": "360", "name": "Патра",
+      "image": "360.jpg",
+      "tags": "Патра",
+      "condition": "bad (из земли)",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/73617",
+      "position": "Album 3, page 6, line 5"
+    },
+    { "id": "359", "name": "Патра",
+      "image": "359.jpg",
+      "tags": "Патра",
+      "condition": "bad (из земли)",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/103629",
+      "position": "Album 3, page 6, line 5"
+    },
+    { "id": "358", "name": "Патра",
+      "image": "358.jpg",
+      "tags": "Патра",
+      "condition": "коцки",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/58104",
+      "position": "Album 3, page 6, line 5"
+    },
+    { "id": "357", "name": "Патра",
+      "image": "357.jpg",
+      "tags": "Патра",
+      "condition": "bad (из земли, гнутая)",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/77007",
+      "position": "Album 3, page 6, line 5"
+    },
+    { "id": "356", "name": "Патра",
+      "image": "356.jpg",
+      "tags": "Патра",
+      "condition": "bad (из земли)",
+      "country": "Россия",
+      "town": "Екатеринбург (Ekaterinburg)",
+      "pivzavod": "Филиал «Патра» ООО «ОПХ» (branch Patra of Heineken)",
+      "pzlink": "http://www.patra.ru/",
+      "ccilink": "http://crowncaps.info/caps/93994",
+      "position": "Album 3, page 6, line 5"
+    },
+    { "id": "355", "name": "Пивоварни Ивана Таранова",
+      "image": "355.jpg",
+      "tags": "Сыграй, аршавиным, пивоварни, ивана, таранова",
+      "condition": "not bad (из земли)",
+      "country": "Россия",
+      "town": "Калининград (Kaliningrad)",
+      "pivzavod": "Пивоварни Ивана Таранова (Pivovarni Ivana Taranova)",
+      "pzlink": "http://www.глотокприроды.рф/",
+      "ccilink": "http://crowncaps.info/caps/111207",
+      "position": "Album 3, page 6, line 3"
+    },
+    { "id": "354", "name": "Тагильское пиво ТАПИ",
+      "image": "354.jpg",
+      "tags": "Тагильское, ТАПИ",
+      "condition": "very bad (из земли)",
+      "country": "Россия",
+      "town": "Нижний Тагил (Nizhny Tagil)",
+      "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
+      "pzlink": "http://goldenbeer.ru/",
+      "ccilink": "http://crowncaps.info/caps/73925",
+      "position": "Album 3, page 6, line 4"
+    },
+    { "id": "353", "name": "Пивоварни Ивана Таранова",
+      "image": "353.jpg",
+      "tags": "Пивоварни, Ивана, Таранова",
+      "condition": "bad (из земли)",
+      "country": "Россия",
+      "town": "Новотроицк (Novotroitsk)",
+      "pivzavod": "Филиал `Пивоварни Ивана Таранова` (Ivan Taranov Brewery)",
+      "ccilink": "http://crowncaps.info/caps/36589",
+      "position": "Album 1, page 3, line 2"
+    },
+    { "id": "352", "name": "Taiyangdao pijiu",
+      "image": "352.jpg",
+      "tags": "Taiyangdao, pijiu",
+      "condition": "very bad (из земли)",
+      "country": "Китай",
+      "town": "Harbin",
+      "pivzavod": "Harbin Brewing Co., Ltd.",
+      "ccilink": "http://crowncaps.info/caps/71381",
+      "position": "Album 3, page 6, line 2"
+    },
+    { "id": "351", "name": "Клинское",
+      "image": "351.jpg",
+      "tags": "Клинское",
+      "condition": "not bad (из земли)",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
+      "pzlink": "https://abinbevefes.ru/",
+      "ccilink": "http://crowncaps.info/caps/47089",
+      "position": "Album 1, page 3, line 2"
+    },
+    { "id": "350", "name": "Клинское",
+      "image": "350.jpg",
+      "tags": "Клинское",
+      "condition": "коцки",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
+      "pzlink": "https://abinbevefes.ru/",
+      "ccilink": "http://crowncaps.info/caps/42077",
+      "position": "Album 1, page 3, line 1"
+    },
+    { "id": "349", "name": "Miller",
+      "image": "349.jpg",
+      "tags": "Miller, mdg",
+      "condition": "not bad (из земли)",
+      "country": "США",
+      "town": "Milwaukee, Wisconsin",
+      "pivzavod": "Miller Brewing Company",
+      "pzlink": "http://www.millerbrewing.com/",
+      "ccilink": "http://crowncaps.info/caps/105643",
+      "position": "Album 3, page 1, line 1"
+    },
+    { "id": "348", "name": "Белый медведь",
+      "image": "348.jpg",
+      "tags": "Белый, медведь",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Уфа (Ufa)",
+      "pivzavod": "Филиал ЗАО «Пивоварня Москва-Эфес» в г. Уфа",
+      "ccilink": "http://crowncaps.info/caps/90698",
+      "position": "Album 3, page 6, line 3"
+    },
+    { "id": "347", "name": "Calsberg",
+      "image": "347.jpg",
+      "tags": "Calsberg",
+      "condition": "bad (из земли)",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
+      "pzlink": "http://baltika.ru/",
+      "ccilink": "http://crowncaps.info/caps/144919",
+      "position":"Album 1, page 1, line 2"
+    },
+    { "id": "346", "name": "Мотор",
+      "image": "346.jpg",
+      "tags": "Мотор, флаг",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165393",
+      "position":"Album 3, page 3, line 6"
+    },
     { "id": "345", "name": "Brewlok Craft",
       "image": "345.jpg",
       "tags": "Brewlok, Craft, classic, brewery",
@@ -131,7 +293,7 @@
       "pivzavod": "Пивоварня Москва-Эфес в г. Казань (Pivovarnia Moskva-Efes)",
       "pzlink": "http://www.efesrussia.ru/factory/f3.html",
       "ccilink": "http://crowncaps.info/caps/58873",
-      "position":"Album 3, page 5, line 6"
+      "position":"Album 3, page 6, line 4"
     },
     { "id": "333", "name": "В игре!",
       "image": "333.jpg",
@@ -631,7 +793,7 @@
       "pivzavod": "ООО «Суздальская пивоварня» (Suzdalskaya Pivovarnia)",
       "pzlink": "http://yuzberg.com",
       "ccilink": "http://crowncaps.info/caps/85175",
-      "position":"Album 3, page 3, line 6"
+      "position":"Album 3, page 6, line 2"
     },
     { "id": "287", "name": "Cidre Royal",
       "image": "287.jpg",
@@ -719,7 +881,8 @@
       "town": "Нижний Тагил (Nizhny Tagil)",
       "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
       "pzlink": "http://goldenbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/75886"
+      "ccilink": "http://crowncaps.info/caps/75886",
+      "position": "Album 1, page 1, line 2"
     },
     { "id": "279", "name": "AF brew",
       "image": "279.jpg",
@@ -1493,7 +1656,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "pzlink": "http://baltika.ru/",
-      "ccilink": "http://crowncaps.info/caps/158739"
+      "ccilink": "http://crowncaps.info/caps/158739",
+      "position": "Album 3, page 5, line 6"
     },
     { "id": "205", "name": "Фонте",
       "image": "205.jpg",
@@ -2082,7 +2246,8 @@
       "town": "Томск (Tomsk)",
       "pivzavod": "ОАО «Томское пиво» (Tomskoe Pivo)",
       "pzlink": "http://www.tomskbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/73285"
+      "ccilink": "http://crowncaps.info/caps/73285",
+      "position": "Album 3, page 6, line 2"
     },
     { "id": "146", "name": "СССР",
       "image": "146.jpg",
@@ -2376,7 +2541,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/38313"
+      "ccilink": "http://crowncaps.info/caps/38313",
+      "position": "Album 1, page 1, line 2"
     },
     { "id": "120", "name": "Полевская пивоварня",
       "image": "120.jpg",
@@ -2676,7 +2842,8 @@
       "country": "Россия",
       "town": "Уфа (Ufa)",
       "pivzavod": "Филиал ЗАО «Пивоварня Москва-Эфес» в г. Уфа",
-      "ccilink": "http://crowncaps.info/caps/34413"
+      "ccilink": "http://crowncaps.info/caps/34413",
+      "position": "Album 3, page 6, line 3"
     },
     { "id": "92", "name": "Белый медведь",
       "image": "92.jpg",
@@ -2685,7 +2852,8 @@
       "country": "Россия",
       "town": "Уфа (Ufa)",
       "pivzavod": "Филиал ЗАО «Пивоварня Москва-Эфес» в г. Уфа",
-      "ccilink": "http://crowncaps.info/caps/34412"
+      "ccilink": "http://crowncaps.info/caps/34412",
+      "position": "Album 3, page 6, line 3"
     },
     { "id": "91", "name": "Белый медведь",
       "image": "91.jpg",
@@ -2694,7 +2862,8 @@
       "country": "Россия",
       "town": "Уфа (Ufa)",
       "pivzavod": "Филиал ЗАО «Пивоварня Москва-Эфес» в г. Уфа",
-      "ccilink": "http://crowncaps.info/caps/155172"
+      "ccilink": "http://crowncaps.info/caps/155172",
+      "position": "Album 3, page 6, line 3"
     },
     { "id": "90", "name": "Mookhomor",
       "image": "90.jpg",
@@ -3032,7 +3201,8 @@
       "town": "Нижний Тагил (Nizhny Tagil)",
       "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
       "pzlink": "http://goldenbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/78850"
+      "ccilink": "http://crowncaps.info/caps/78850",
+      "position": "Album 3, page 6, line 4"
     },
     { "id": "56", "name": "Тагильское пиво",
       "image": "56.jpg",
@@ -3042,7 +3212,8 @@
       "town": "Нижний Тагил (Nizhny Tagil)",
       "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
       "pzlink": "http://goldenbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/48486"
+      "ccilink": "http://crowncaps.info/caps/48486",
+      "position": "Album 3, page 6, line 4"
     },
     { "id": "55", "name": "Тагильское пиво",
       "image": "55.jpg",
@@ -3052,7 +3223,8 @@
       "town": "Нижний Тагил (Nizhny Tagil)",
       "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
       "pzlink": "http://goldenbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/75841"
+      "ccilink": "http://crowncaps.info/caps/75841",
+      "position": "Album 3, page 6, line 4"
     },
     { "id": "54", "name": "Клинское",
       "image": "54.jpg",
@@ -3353,7 +3525,7 @@
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
       "ccilink": "http://crowncaps.info/caps/118102",
-      "position": "Album 3, page 6, line 1"
+      "position": "Album 1, page 1, line 2"
     },
     { "id": "23", "name": "Крым",
       "image": "23.jpg",
@@ -3474,7 +3646,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "https://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/169220"
+      "ccilink": "http://crowncaps.info/caps/169220",
+      "position": "Album 3, page 6, line 1"
     },
     { "id": "12", "name": "Heineken",
       "image": "12.jpg",
@@ -3484,7 +3657,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "https://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/33671"
+      "ccilink": "http://crowncaps.info/caps/33671",
+      "position": "Album 3, page 6, line 1"
     },
     { "id": "11", "name": "Heineken",
       "image": "11.jpg",
@@ -3494,7 +3668,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "https://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/155691"
+      "ccilink": "http://crowncaps.info/caps/155691",
+      "position": "Album 3, page 6, line 1"
     },
     { "id": "10", "name": "Heineken 0.0",
       "image": "10.jpg",
@@ -3504,7 +3679,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "https://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/111482"
+      "ccilink": "http://crowncaps.info/caps/111482",
+      "position": "Album 3, page 6, line 1"
     },
     { "id": "9", "name": "Bud 66",
       "image": "9.jpg",
