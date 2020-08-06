@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "361", "name": "Мотор",
+      "image": "361.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165388",
+      "position": "Album 3, page 3, line 6"
+    },
     { "id": "360", "name": "Патра",
       "image": "360.jpg",
       "tags": "Патра",
@@ -803,7 +814,8 @@
       "town": "Золотоноша, Черкаська обл. (Zolotonosha, Cherkaska obl.)",
       "pivzavod": "ДП «Роял Фрут Гарден Іст» (Royal Fruit Garden East)",
       "pzlink": "http://royalfruit.com.ua",
-      "ccilink": "http://crowncaps.info/caps/140119"
+      "ccilink": "http://crowncaps.info/caps/140119",
+      "position": "Album 3, page 6, line 6"
     },
     { "id": "286", "name": "Лимонаш",
       "image": "286.jpg",
@@ -2542,7 +2554,7 @@
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
       "ccilink": "http://crowncaps.info/caps/38313",
-      "position": "Album 1, page 1, line 2"
+      "position": "Album 3, page 6, line 6"
     },
     { "id": "120", "name": "Полевская пивоварня",
       "image": "120.jpg",
