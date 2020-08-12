@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "363", "name": "Мотор",
+      "image": "363.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165391",
+      "position": "Album 3, page 3, line 6"
+    },
     { "id": "362", "name": "Bali Hai",
       "image": "362.jpg",
       "tags": "Bali, Hai",
@@ -7,8 +18,8 @@
       "country": "Индонезия",
       "town": "Bekasi -Tambun, West Java",
       "pivzavod": "PT Bali Hai Brewery Indonesia",
-      "pzlink": "http://mosbrew.ru/",
-      "ccilink": "http://www.balihaibeer.com/",
+      "pzlink": "http://www.balihaibeer.com/",
+      "ccilink": "http://crowncaps.info/caps/102171",
       "position": "Album 3, page 3, line 6"
     },
     { "id": "361", "name": "Мотор",
@@ -835,7 +846,8 @@
       "country": "Россия",
       "town": "Дубрава (Dubrava)",
       "pivzavod": "ООО «Сантар» (Santar)",
-      "ccilink": "http://crowncaps.info/caps/30194"
+      "ccilink": "http://crowncaps.info/caps/30194",
+      "position": "Album 3, page 6, line 6"
     },
     { "id": "285", "name": "Pepsi max",
       "image": "285.jpg",
