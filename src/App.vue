@@ -190,6 +190,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+html
+  scroll-behavior: smooth
+
 #app
   font-family: Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
@@ -334,7 +337,7 @@ footer
     display: flex
     flex-wrap: wrap
     justify-content: center
-    margin: 0;
+    margin: 0
     padding-left: 0
 
     list-style: none
