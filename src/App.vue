@@ -28,9 +28,9 @@
 
     CountriesList
 
-    .row
+    .row(v-lazy-container="{selector:'img'}")
       .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' v-bind:class='cap.country' data-toggle='modal' data-target='#capModal')
-        img.mw-100.cap-image(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
+        img.mw-100.cap-image(:data-src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
         h5 {{cap.name}}
         p.cursive
           | {{cap.country}}, {{cap.town}}
@@ -40,15 +40,15 @@
         p.tags.badge.badge-primary {{cap.tags | toLowerCase}}
         p.links
           a(v-if='cap.pzlink' :href='cap.pzlink' target='_blank')
-            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+            img.pzicon(:data-src="require('./assets/icons/factory.svg')" :alt='cap.pivzavod')
           a(v-if='cap.pzlink_alt' :href='cap.pzlink_alt' target='_blank')
-            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+            img.pzicon(:data-src="require('./assets/icons/factory.svg')" :alt='cap.pivzavod')
           a(v-if='cap.pzlink_another_alt' :href='cap.pzlink_another_alt' target='_blank')
-            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+            img.pzicon(:data-src="require('./assets/icons/factory.svg')" :alt='cap.pivzavod')
           a(v-if='cap.pzlink_super_alt' :href='cap.pzlink_super_alt' target='_blank')
-            img.pzicon(src='./assets/icons/factory.svg' :alt='cap.pivzavod')
+            img.pzicon(:data-src="require('./assets/icons/factory.svg')" :alt='cap.pivzavod')
           a(v-if='cap.ccilink' :href='cap.ccilink' target='_blank')
-            img.pzicon(src='./assets/icons/cci.svg' alt='CC.I link')
+            img.pzicon(:data-src="require('./assets/icons/cci.svg')" alt='CC.I link')
 
         //- <capModal />
 
@@ -64,7 +64,7 @@
                 button.close(type='button' data-dismiss='modal' aria-label='Close')
                   span(aria-hidden='true') &times;
               .modal-body
-                img.mw-100(:src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
+                img.mw-100(:data-src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
                 p {{cap.country}}, {{cap.town}}
                 p {{cap.pivzavod}}
                 .alert.alert-danger(v-if="cap.condition!='good'")
