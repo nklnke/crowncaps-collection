@@ -26,44 +26,7 @@
         form.form-inline.my-2.my-lg-0
           input.form-control(v-model="search" type="search" placeholder="Search" aria-label="Search")
 
-    .countries-list
-      //-
-        <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
-        <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
-        регуляркой отсечь всё, что после ` <`
-      a.list-inline-item Все
-      //- <span class="badge badge-light counter">2</span>
-      a.list-inline-item Австрия
-      a.list-inline-item Армения
-      a.list-inline-item Бельгия
-      a.list-inline-item Великобритания
-      a.list-inline-item Германия
-      a.list-inline-item Греция
-      a.list-inline-item Грузия
-      a.list-inline-item Дания
-      a.list-inline-item Индонезия
-      a.list-inline-item Испания
-      a.list-inline-item Италия
-      a.list-inline-item Казахстан
-      a.list-inline-item Китай
-      a.list-inline-item Латвия
-      a.list-inline-item Литва
-      a.list-inline-item Мексика
-      a.list-inline-item Нидерланды
-      a.list-inline-item Польша
-      a.list-inline-item Россия
-      a.list-inline-item Румыния
-      a.list-inline-item СССР
-      a.list-inline-item США
-      a.list-inline-item Таиланд
-      a.list-inline-item Турция
-      a.list-inline-item Украина
-      a.list-inline-item Финляндия
-      a.list-inline-item Франция
-      a.list-inline-item Хорватия
-      a.list-inline-item Чехия
-      a.list-inline-item Юж.Корея
-      a.list-inline-item N/A
+    CountriesList
 
     .row
       .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' v-bind:class='cap.country' data-toggle='modal' data-target='#capModal')
@@ -88,6 +51,9 @@
             img.pzicon(src='./assets/icons/cci.svg' alt='CC.I link')
 
         //- <capModal />
+
+        modal(name="modalSuka")
+          | MODAL SUKA
 
         //- capModal window
         #capModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='capModalLabel' aria-hidden='true')
@@ -116,28 +82,8 @@
               .modal-footer
                 button.btn.btn-secondary(type='button' data-dismiss='modal') Close
 
-    footer.footer.bg-secondary.fixed-bottom
-      ul
-        li
-          a.text-white(href='https://github.com/nklnke/crowncaps-collection' target='_blank') github
-        li |
-        li
-          a.text-white(href='https://vuejs.org' target='_blank') vue.js
-        li
-          a.text-white(href='https://cli.vuejs.org/' target='_blank') vue-cli
-        li
-          a.text-white(href='https://vuex.vuejs.org' target='_blank') vuex
-        li
-          a.text-white(href='https://getbootstrap.com' target='_blank') bootstrap
-        li |
-        li
-          a.text-white(href='https://nodejs.org' target='_blank') node.js
-        li
-          a.text-white(href='https://github.com/typicode/json-server' target='_blank') json-server
-        li
-          #btnTop.fixed-action-btn.smooth-scroll(style='bottom: 45px; right: 24px; display: none;')
-            a.btn-floating.btn-large.red(href='#topSection')
-              i.fa.fa-arrow-up
+    Footer
+
 </template>
 
 <script>
@@ -145,11 +91,15 @@ import { countryFilter } from "./modules/countryFilter.js";
 import { allCapsCounter } from "./modules/allCapsCounter.js";
 //- import { backToTop } from "./modules/backToTop.js";
 //- import capModal from './components/cap-modal';
+import CountriesList from "./components/CountriesList";
+import Footer from "./components/Footer";
 
 export default {
   name: "crowncaps-collection",
   components: {
     //- capModal
+    CountriesList,
+    Footer
   },
   data() {
     return {
@@ -186,7 +136,17 @@ export default {
       return str.toLowerCase();
     },
   },
-  methods: {},
+  methods: {
+    show() {
+      this.$modal.show("modalSuka");
+    },
+    hide() {
+      this.$modal.hide("modalSuka");
+    }
+  },
+  mount() {
+    this.show();
+  }
 };
 </script>
 
@@ -259,26 +219,6 @@ header
 .form-group
   margin: $margin * 2 $margin * 2 0
 
-.countries-list
-  display: flex
-  justify-content: center
-  flex-wrap: wrap
-  width: 100%
-  height: 100%
-
-  background: $lightblue
-
-  a
-    padding: $padding/1.5 $padding/1.15
-    margin: 0
-    color: white
-    cursor: pointer
-
-    &:hover
-      color: white
-      background-color: $blue
-      text-decoration: none
-
 .v-catalog-item
   min-width: 150px
   max-width: 220px
@@ -327,22 +267,4 @@ header
 
 .pzicon
   max-height: 20px
-
-footer
-  padding: $padding
-
-  font-size: 0.8rem
-  color: white
-
-  ul
-    display: flex
-    flex-wrap: wrap
-    justify-content: center
-    margin: 0
-    padding-left: 0
-
-    list-style: none
-
-    li
-      margin: 0 $margin
 </style>
