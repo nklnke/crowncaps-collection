@@ -6,6 +6,7 @@
         регуляркой отсечь всё, что после ` <`
       a.list-inline-item Все
       //- <span class="badge badge-light counter">2</span>
+      a.list-inline-item Австралия
       a.list-inline-item Австрия
       a.list-inline-item Армения
       a.list-inline-item Бельгия
