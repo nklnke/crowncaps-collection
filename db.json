@@ -1,5 +1,16 @@
 {
   "caps": [
+    { "id": "369", "name": "Coopers",
+      "image": "369.jpg",
+      "tags": "Coopers",
+      "condition": "коцки",
+      "country": "Австралия",
+      "town": "Regency Park, South Australia",
+      "pivzavod": "Coopers Brewery",
+      "pzlink": "http://www.coopers.com.au/",
+      "ccilink": "http://crowncaps.info/caps/15195",
+      "position":"Album 3, page 7, line 1"
+    },
     { "id": "368", "name": "Imperial porteris",
       "image": "368.jpg",
       "tags": "anno, 1853",
