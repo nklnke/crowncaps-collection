@@ -151,34 +151,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-html
-  scroll-behavior: smooth
-
-#app
-  font-family: Helvetica, Arial, sans-serif
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  font-size: $font-size
-  text-align: center
-  line-height: 1.2
-
-.btn-primary
-  transition: 0s
-
-.cursive
-  font-style: italic
-  font-size: 0.933333 * $font-size
-
-.counter
-  position: relative
-  height: fit-content
-  margin-top: 15px
-  margin-left: -25px
-
-a[href]:not([class])
-  color: $blue
-  text-decoration: underline
-
 header
   ul
     display: flex
