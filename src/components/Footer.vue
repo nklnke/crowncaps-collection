@@ -31,7 +31,7 @@ export default {
 
 <style lang="sass" scoped>
 footer
-  padding: $padding
+  padding: $padding/2
 
   font-size: 0.8rem
   color: white
@@ -47,4 +47,7 @@ footer
 
     li
       margin: 0 $margin
+      
+      a
+        padding: $padding/2 0
 </style>
