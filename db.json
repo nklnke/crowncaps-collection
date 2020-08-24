@@ -1943,7 +1943,8 @@
       "town": "Мытищи (Mytischi)",
       "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
       "pzlink": "http://mosbrew.ru/",
-      "ccilink": "http://crowncaps.info/caps/101550"
+      "ccilink": "http://crowncaps.info/caps/101550",
+      "position": "Album 3, page 7, line 2"
     },
     { "id": "187", "name": "Essa",
       "image": "187.jpg",
@@ -1952,7 +1953,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/106148"
+      "ccilink": "http://crowncaps.info/caps/106148",
+      "position": "Album 2, page 4, line 1"
     },
     { "id": "186", "name": "Essa",
       "image": "186.jpg",
@@ -1961,7 +1963,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/156470"
+      "ccilink": "http://crowncaps.info/caps/156470",
+      "position": "Album 2, page 4, line 1"
     },
     { "id": "185", "name": "Essa",
       "image": "185.jpg",
@@ -1970,7 +1973,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/34419"
+      "ccilink": "http://crowncaps.info/caps/34419",
+      "position": "Album 2, page 4, line 1"
     },
     { "id": "184", "name": "Essa",
       "image": "184.jpg",
@@ -1979,7 +1983,8 @@
       "country": "Россия",
       "town": "Калуга (Kaluga)",
       "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
-      "ccilink": "http://crowncaps.info/caps/156784"
+      "ccilink": "http://crowncaps.info/caps/156784",
+      "position": "Album 2, page 4, line 1"
     },
     { "id": "183", "name": "Spaten",
       "image": "183.jpg",
