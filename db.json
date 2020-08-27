@@ -1,5 +1,26 @@
 {
   "caps": [
+    { "id": "371", "name": "Волковская пивоварня",
+      "image": "371.jpg",
+      "tags": "Волковская, пивоварня, волк",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "ООО «Волковская пивоварня» (Volkovskaya Brewery)",
+      "ccilink": "http://crowncaps.info/caps/101553",
+      "position": "Album 2, page 1, line 1"
+    },
+    { "id": "370", "name": "JC 1859",
+      "image": "370.jpg",
+      "tags": "JC, 1859",
+      "condition": "good",
+      "country": "Бельгия",
+      "town": "Bree-Opitter, Limburg",
+      "pivzavod": "Brouwerij Sint-Jozef / Brouwerij Cornelissen",
+      "pzlink": "http://www.brouwerijsintjozef.be/",
+      "ccilink": "http://crowncaps.info/caps/128573",
+      "position":"Album 3, page 7, line 2"
+    },
     { "id": "369", "name": "Coopers",
       "image": "369.jpg",
       "tags": "Coopers",
@@ -2867,7 +2888,8 @@
       "town": "Чистополь (Chistopol)",
       "pivzavod": "Пивзавод «Белый Кремль» (Beliy Kreml)",
       "pzlink": "http://tatspirtprom.ru/",
-      "ccilink": "http://crowncaps.info/caps/137636"
+      "ccilink": "http://crowncaps.info/caps/137636",
+      "position": "Album 3, page 7, line 2"
     },
     { "id": "100", "name": "Gösser",
       "image": "100.jpg",
@@ -2896,7 +2918,8 @@
       "country": "Россия",
       "town": "Мытищи (Mytischi)",
       "pivzavod": "ООО «Волковская пивоварня» (Volkovskaya Brewery)",
-      "ccilink": "http://crowncaps.info/caps/101553"
+      "ccilink": "http://crowncaps.info/caps/101553",
+      "position": "Album 2, page 1, line 1"
     },
     { "id": "97", "name": "Stella Artois",
       "image": "97.jpg",
