@@ -1,5 +1,49 @@
 {
   "caps": [
+    { "id": "375", "name": "Schlenkerla",
+      "image": "375.jpg",
+      "tags": "Schlenkerla",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Bamberg, Bayern",
+      "pivzavod": "Brauerei Schlenkerla ('Heller-Bräu' Trum GmbH)",
+      "pzlink": "http://www.schlenkerla.de/",
+      "ccilink": "http://crowncaps.info/caps/24237",
+      "position": "Album 3, page 7, line 3"
+    },
+    { "id": "374", "name": "Schlenkerla",
+      "image": "374.jpg",
+      "tags": "Schlenkerla",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Bamberg, Bayern",
+      "pivzavod": "Brauerei Schlenkerla ('Heller-Bräu' Trum GmbH)",
+      "pzlink": "http://www.schlenkerla.de/",
+      "ccilink": "http://crowncaps.info/caps/17399",
+      "position": "Album 3, page 7, line 3"
+    },
+    { "id": "373", "name": "Schlenkerla",
+      "image": "373.jpg",
+      "tags": "Schlenkerla",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Bamberg, Bayern",
+      "pivzavod": "Brauerei Schlenkerla ('Heller-Bräu' Trum GmbH)",
+      "pzlink": "http://www.schlenkerla.de/",
+      "ccilink": "http://crowncaps.info/caps/35755",
+      "position": "Album 3, page 7, line 3"
+    },
+    { "id": "372", "name": "Budweiser",
+      "image": "372.jpg",
+      "tags": "Budweiser, lion, лев, castle, замок",
+      "condition": "good",
+      "country": "Чехия",
+      "town": "České Budějovice",
+      "pivzavod": "Budweiser Budvar, National Corporation",
+      "pzlink": "http://budweiser-budvar.cz/",
+      "ccilink": "http://crowncaps.info/caps/177783",
+      "position": "Album 1, page 1, line 4"
+    },
     { "id": "371", "name": "Волковская пивоварня",
       "image": "371.jpg",
       "tags": "Волковская, пивоварня, волк",
@@ -1542,12 +1586,13 @@
     { "id": "228", "name": "Jaws brew",
       "image": "228.jpg",
       "tags": "Jaws, brew",
-      "condition": "lil коцки",
+      "condition": "good",
       "country": "Россия",
       "town": "Заречный (Zarechny)",
       "pivzavod": "ООО «Эталон-Продукт» (Etalon-Product)",
       "pzlink": "http://jawsbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/104550"
+      "ccilink": "http://crowncaps.info/caps/104550",
+      "position": "Album 3, page 1, line 6"
     },
     { "id": "227", "name": "Jaws brew",
       "image": "227.jpg",
@@ -1567,7 +1612,8 @@
       "town": "Заречный (Zarechny)",
       "pivzavod": "ООО «Эталон-Продукт» (Etalon-Product)",
       "pzlink": "http://jawsbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/158315"
+      "ccilink": "http://crowncaps.info/caps/158315",
+      "position": "Album 3, page 1, line 5"
     },
     { "id": "225", "name": "Jaws brew",
       "image": "225.jpg",
@@ -2390,12 +2436,13 @@
     { "id": "145", "name": "Goose Island",
       "image": "145.jpg",
       "tags": "Goose, Island",
-      "condition": "нехорошо открыли, царапина на юбке",
+      "condition": "good",
       "country": "США",
       "town": "Chicago, Illinois",
       "pivzavod": "Goose Island Beer Company",
       "pzlink": "http://www.gooseisland.com/",
-      "ccilink": "http://crowncaps.info/caps/53108"
+      "ccilink": "http://crowncaps.info/caps/53108",
+      "position": "Album 3, page 4, line 5"
     },
     { "id": "144", "name": "Goose Island",
       "image": "144.jpg",
@@ -2405,7 +2452,8 @@
       "town": "Chicago, Illinois",
       "pivzavod": "Goose Island Beer Company",
       "pzlink": "http://www.gooseisland.com/",
-      "ccilink": "http://crowncaps.info/caps/172047"
+      "ccilink": "http://crowncaps.info/caps/172047",
+      "position": "Album 3, page 4, line 5"
     },
     { "id": "143", "name": "Schöfferhofer",
       "image": "143.jpg",
@@ -3935,7 +3983,8 @@
       "town": "Guadalajara",
       "pivzavod": "Cervecería Modelo de Guadalajara S.A.",
       "pzlink": "https://www.gmodelo.mx/en",
-      "ccilink": "http://crowncaps.info/caps/56525"
+      "ccilink": "http://crowncaps.info/caps/56525",
+      "position": "Album 3, page 7, line 2"
     },
     { "id": "0-1", "name": "Булгарпиво",
       "image": "0-1.jpg",
