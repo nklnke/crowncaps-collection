@@ -11,8 +11,8 @@
             a.navbar-brand.text-light.btn.btn-primary(href='/') Collection of crowncaps
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Row
-          a.nav-link.text-light.btn.btn-primary(href='/') List
           li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='/') List
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Show only bad
           li.nav-item
@@ -20,16 +20,18 @@
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
           li.nav-item
-            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank")
+            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank") Всего крышек: {{caps.length}}
 
       .navbar-nav.flex-row.ml-md-auto.d-md-flex
         form.form-inline.my-2.my-lg-0
           input.form-control(v-model="search" type="search" placeholder="Search" aria-label="Search")
 
+    Modal
+
     CountriesList
 
     .row(v-lazy-container="{selector:'img'}")
-      .v-catalog-item.col-md-2(class='Все' v-for='cap in filterCapsArray' :key='cap.id' v-bind:class='cap.country' data-toggle='modal' data-target='#capModal')
+      .v-catalog-item.col-md-2(v-on:click='openModal(cap.id)' class='Все' v-for='cap in filterCapsArray' :key='cap.id' v-bind:class='cap.country' data-toggle='modal' data-target='#cap-modal')
         img.mw-100.cap-image(:data-src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
         h5 {{cap.name}}
         p.cursive
@@ -50,61 +52,30 @@
           a(v-if='cap.ccilink' :href='cap.ccilink' target='_blank')
             img.pzicon(:data-src="require('./assets/icons/cci.svg')" alt='CC.I link')
 
-        //- <capModal />
-
-        modal(name="modalSuka")
-          | MODAL SUKA
-
-        //- capModal window
-        #capModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='capModalLabel' aria-hidden='true')
-          .modal-dialog.modal-dialog-centered(role='document')
-            .modal-content
-              .modal-header
-                h5#capModalLabel.modal-title {{cap.name}}
-                button.close(type='button' data-dismiss='modal' aria-label='Close')
-                  span(aria-hidden='true') &times;
-              .modal-body
-                img.mw-100(:data-src="require('../src/assets/images/' + cap.image)" :alt='cap.name')
-                p {{cap.country}}, {{cap.town}}
-                p {{cap.pivzavod}}
-                .alert.alert-danger(v-if="cap.condition!='good'")
-                  | Cap condition: {{cap.condition}}
-                .alert.alert-success(v-else)
-                  | Cap condition: {{cap.condition}}
-                p.tags.badge.badge-primary {{cap.tags}}
-                p.links
-                  a(:href='cap.pzlink' target='_blank') {{cap.pzlink}}
-                p.links
-                  a(:href='cap.pzlink_alt' target='_blank') {{cap.pzlink_alt}}
-                p.links
-                  a(:href='cap.ccilink' target='_blank') {{cap.ccilink}}
-                p.cap-position Position: {{cap.position}}
-              .modal-footer
-                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
-
     Footer
 
 </template>
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
-import { allCapsCounter } from "./modules/allCapsCounter.js";
 //- import { backToTop } from "./modules/backToTop.js";
-//- import capModal from './components/cap-modal';
+//- import { capModal } from './components/cap-modal';
 import CountriesList from "./components/CountriesList";
 import Footer from "./components/Footer";
+import Modal from "./components/Modal";
 
 export default {
   name: "crowncaps-collection",
   components: {
     //- capModal
     CountriesList,
-    Footer
+    Footer,
+    Modal
   },
   data() {
+    console.log(this.$store.state)
     return {
-      search: "",
-      caps: [],
+      search: ""
     };
   },
   computed: {
@@ -118,18 +89,20 @@ export default {
           item.pivzavod.toLowerCase().indexOf(this.search) !== -1
       );
     },
+    caps() {
+      return this.$store.state.capsData;
+    },
+    openedCapModalId() {
+      return this.$store.state.openedCapModalId;
+    }
   },
   beforeMount() {
-    fetch("http://localhost:3000/caps")
-      .then((response) => response.json())
-      .then((json) => {
-        this.caps = json;
-      });
+    this.$store.dispatch('fetchCaps');
   },
   mounted() {
     countryFilter();
-    allCapsCounter();
     //- backToTop();
+
   },
   filters: {
     toLowerCase: function(str) {
@@ -137,16 +110,11 @@ export default {
     },
   },
   methods: {
-    show() {
-      this.$modal.show("modalSuka");
-    },
-    hide() {
-      this.$modal.hide("modalSuka");
+    openModal(id) {
+      this.$store.commit('toggleCapModal', id)
     }
   },
-  mount() {
-    this.show();
-  }
+  mount() {}
 };
 </script>
 
