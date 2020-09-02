@@ -18,9 +18,9 @@
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Caps for exchange
           li.nav-item
-            a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
+            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank") Всего: {{caps.length}}шт.
           li.nav-item
-            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank")
+            a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
 
       .navbar-nav.flex-row.ml-md-auto.d-md-flex
         form.form-inline.my-2.my-lg-0
@@ -88,7 +88,6 @@
 
 <script>
 import { countryFilter } from "./modules/countryFilter.js";
-import { allCapsCounter } from "./modules/allCapsCounter.js";
 //- import { backToTop } from "./modules/backToTop.js";
 //- import capModal from './components/cap-modal';
 import CountriesList from "./components/CountriesList";
@@ -128,7 +127,6 @@ export default {
   },
   mounted() {
     countryFilter();
-    allCapsCounter();
     //- backToTop();
   },
   filters: {
