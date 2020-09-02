@@ -1,5 +1,49 @@
 {
   "caps": [
+    { "id": "379", "name": "Клинское",
+      "image": "379.jpg",
+      "tags": "Клинское",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
+      "pzlink": "https://abinbevefes.ru/",
+      "ccilink": "http://crowncaps.info/caps/169295",
+      "position":"Album 1, page 3, line 1"
+    },
+    { "id": "378", "name": "Strongbow",
+      "image": "378.jpg",
+      "tags": "Strongbow, cider",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
+      "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
+      "ccilink": "http://crowncaps.info/caps/181318",
+      "position":"Album 3, page 5, line 5"
+    },
+    { "id": "377", "name": "Brahma",
+      "image": "377.jpg",
+      "tags": "brahma, cerveja, do, brasil",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Клин (Klin)",
+      "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
+      "pzlink": "https://abinbevefes.ru/",
+      "ccilink": "http://crowncaps.info/caps/34469",
+      "position": "Album 3, page 7, line 3"
+    },
+    { "id": "376", "name": "Балтика",
+      "image": "376.jpg",
+      "tags": "Schlenkerla",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
+      "pzlink": "http://baltika.ru/",
+      "ccilink": "http://crowncaps.info/caps/176519",
+      "position": "Album 1, page 3, line 4"
+    },
     { "id": "375", "name": "Schlenkerla",
       "image": "375.jpg",
       "tags": "Schlenkerla",
@@ -668,7 +712,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "ccilink": "http://crowncaps.info/caps/174874",
-      "pzlink": "http://baltika.ru/"
+      "pzlink": "http://baltika.ru/",
+      "position": "Album 1, page 3, line 4"
     },
     { "id": "314", "name": "Sunny Breeze",
       "image": "314.jpg",
@@ -770,14 +815,14 @@
     },
     { "id": "305", "name": "Barley Bros",
       "image": "305.jpg",
-      "tags": "Лысковский, пивоваренный, завод, ЛПЗ",
+      "tags": "barley, bros",
       "condition": "good",
       "country": "Россия",
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "pzlink": "http://baltika.ru/",
       "ccilink": "http://crowncaps.info/caps/154321",
-      "position": ""
+      "position": "Album 3, page 4, line 6"
     },
     { "id": "304", "name": "Лысковский пивоваренный завод",
       "image": "304.jpg",
@@ -786,7 +831,8 @@
       "country": "Россия",
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
-      "ccilink": "http://crowncaps.info/caps/181442"
+      "ccilink": "http://crowncaps.info/caps/181442",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "303", "name": "Miller Genuine Draft",
       "image": "303.jpg",
@@ -1459,14 +1505,14 @@
     },
     { "id": "240", "name": "Plzeň",
       "image": "240.jpg",
-      "tags": "Plzeň, PlzeN, бочка",
+      "tags": "Plzeň, PlzeN, бочка, буква, символ, letter, symbol",
       "condition": "good",
       "country": "Чехия",
       "town": "Plzeň",
       "pivzavod": "Plzeňský Prazdroj a.s.",
       "pzlink": "http://www.prazdroj.cz/en/",
       "ccilink": "http://crowncaps.info/caps/70724",
-      "position":"Album 3, page 5, line 5"
+      "position":"Album 3, page 7, line 3"
     },
     { "id": "239", "name": "Newcastle",
       "image": "239.jpg",
@@ -1956,7 +2002,8 @@
       "town": "Калининград (Kaliningrad)",
       "pivzavod": "Пивоварни Ивана Таранова (Pivovarni Ivana Taranova)",
       "pzlink": "http://www.глотокприроды.рф/",
-      "ccilink": "http://crowncaps.info/caps/49729"
+      "ccilink": "http://crowncaps.info/caps/49729",
+      "position": "Album 1, page 3, line 4"
     },
     { "id": "192", "name": "Bud Light",
       "image": "192.jpg",
@@ -3290,7 +3337,9 @@
       "town": "Рудный (Rudny)",
       "pivzavod": "ТОО «Фирма Арасан» (Arasan)",
       "pzlink": "http://www.arsn.com.kz/",
-      "ccilink": "http://crowncaps.info/caps/96906"
+      "ccilink": "http://crowncaps.info/caps/96906",
+      "position": "Album 3, page71, line 2"
+
     },
     { "id": "65", "name": "Harp",
       "image": "65.jpg",
@@ -3300,7 +3349,8 @@
       "town": "Мытищи (Mytischi)",
       "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
       "pzlink": "http://mosbrew.ru/",
-      "ccilink": "http://crowncaps.info/caps/121641"
+      "ccilink": "http://crowncaps.info/caps/121641",
+      "position": "Album 3, page 7, line 4"
     },
     { "id": "64", "name": "Henninger",
       "image": "64.jpg",
@@ -3360,7 +3410,8 @@
       "country": "Россия",
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
-      "ccilink": "http://crowncaps.info/caps/135163"
+      "ccilink": "http://crowncaps.info/caps/135163",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "58", "name": "Лысковский пивоваренный завод",
       "image": "58.jpg",
@@ -3369,7 +3420,8 @@
       "country": "Россия",
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
-      "ccilink": "http://crowncaps.info/caps/104726"
+      "ccilink": "http://crowncaps.info/caps/104726",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "57", "name": "Bergauer",
       "image": "57.jpg",
@@ -3452,7 +3504,7 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/1309"
+      "ccilink": "http://crowncaps.info/caps/130009"
     },
     { "id": "49", "name": "Strongbow",
       "image": "49.jpg",
