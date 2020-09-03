@@ -1,5 +1,28 @@
 {
   "caps": [
+    { "id": "381", "name": "Schöfferhofer Grapefruit",
+      "image": "381.jpg",
+      "tags": "Schofferhofer, Grapefruit",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Frankfurt am Main, Hessen",
+      "pivzavod": "Binding-Brauerei AG; Schöfferhofer Weizenbier GmbH (Radeberger-Gruppe)",
+      "pzlink": "http://www.binding.de/",
+      "pzlink_alt": "http://www.schoefferhofer.de/",
+      "ccilink": "http://crowncaps.info/caps/150163",
+      "position": "Album 2, page 2, line 4"
+    },
+    { "id": "380", "name": "Kozel Bez Alkoholu",
+      "image": "380.jpg",
+      "tags": "kozel, bez, alkoholy",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Калуга (Kaluga)",
+      "pivzavod": "Филиал АО «Пивоварня Москва-Эфес» (Pivovarnia Moskva-Efes)",
+      "pzlink": "http://www.sabmillerrus.ru/",
+      "ccilink": "http://crowncaps.info/caps/92712",
+      "position": "Album 1, page 2, line 3"
+    },
     { "id": "379", "name": "Клинское",
       "image": "379.jpg",
       "tags": "Клинское",
@@ -9,7 +32,7 @@
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
       "ccilink": "http://crowncaps.info/caps/169295",
-      "position":"Album 1, page 3, line 1"
+      "position": "Album 1, page 3, line 1"
     },
     { "id": "378", "name": "Strongbow",
       "image": "378.jpg",
@@ -20,7 +43,7 @@
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
       "ccilink": "http://crowncaps.info/caps/181318",
-      "position":"Album 3, page 5, line 5"
+      "position": "Album 3, page 5, line 5"
     },
     { "id": "377", "name": "Brahma",
       "image": "377.jpg",
@@ -2468,7 +2491,7 @@
       "pivzavod": "ОАО «Томское пиво» (Tomskoe Pivo)",
       "pzlink": "http://www.tomskbeer.ru/",
       "ccilink": "http://crowncaps.info/caps/73285",
-      "position": "Album 3, page 6, line 2"
+      "position": "Album 3, page 7, line 4"
     },
     { "id": "146", "name": "СССР",
       "image": "146.jpg",
@@ -2478,7 +2501,8 @@
       "town": "Томск (Tomsk)",
       "pivzavod": "ОАО «Томское пиво» (Tomskoe Pivo)",
       "pzlink": "http://www.tomskbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/27331"
+      "ccilink": "http://crowncaps.info/caps/27331",
+      "position": "Album 3, page 7, line 4"
     },
     { "id": "145", "name": "Goose Island",
       "image": "145.jpg",
@@ -2511,7 +2535,8 @@
       "pivzavod": "Binding-Brauerei AG; Schöfferhofer Weizenbier GmbH (Radeberger-Gruppe)",
       "pzlink": "http://www.binding.de/",
       "pzlink_alt": "http://www.schoefferhofer.de/",
-      "ccilink": "http://crowncaps.info/caps/75308"
+      "ccilink": "http://crowncaps.info/caps/75308",
+      "position": "Album 2, page 2, line 4"
     },
     { "id": "142", "name": "Schöfferhofer",
       "image": "142.jpg",
@@ -2522,7 +2547,8 @@
       "pivzavod": "Binding-Brauerei AG; Schöfferhofer Weizenbier GmbH (Radeberger-Gruppe)",
       "pzlink": "http://www.binding.de/",
       "pzlink_alt": "http://www.schoefferhofer.de/",
-      "ccilink": "http://crowncaps.info/caps/75308"
+      "ccilink": "http://crowncaps.info/caps/75308",
+      "position": "Album 2, page 2, line 4"
     },
     { "id": "141", "name": "Schöfferhofer",
       "image": "141.jpg",
@@ -2533,7 +2559,8 @@
       "pivzavod": "Binding-Brauerei AG; Schöfferhofer Weizenbier GmbH (Radeberger-Gruppe)",
       "pzlink": "http://www.binding.de/",
       "pzlink_alt": "http://www.schoefferhofer.de/",
-      "ccilink": "http://crowncaps.info/caps/41686"
+      "ccilink": "http://crowncaps.info/caps/41686",
+      "position": "Album 2, page 2, line 4"
     },
     { "id": "140", "name": "Kirin",
       "image": "140.jpg",
@@ -3765,7 +3792,8 @@
       "town": "Симферополь (Simferopol)",
       "pivzavod": "АО «Пивобезалкогольный комбинат „Крым“»",
       "pzlink": "http://www.krym-pbk.ru/",
-      "ccilink": "http://crowncaps.info/caps/156782"
+      "ccilink": "http://crowncaps.info/caps/156782",
+      "position": "Album 3, page 7, line 4"
     },
     { "id": "22", "name": "Глазов",
       "image": "22.jpg",
