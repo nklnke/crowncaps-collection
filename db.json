@@ -1,5 +1,36 @@
 {
   "caps": [
+    { "id": "384", "name": "Борихинский пивзавод",
+      "image": "384.jpg",
+      "tags": "Борихинский",
+      "condition": "чуть съехала печать",
+      "town": "п. Бориха (Boriha)",
+      "pivzavod": "ООО «Борихинский пивзавод» (Borihinskij)",
+      "pzlink": "https://boriha.ru/",
+      "ccilink": "http://crowncaps.info/caps/176136",
+      "position": "Album 3, page 7, line 5"
+    },
+    { "id": "383", "name": "Чапецкое",
+      "image": "383.jpg",
+      "tags": "Чапецкое",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Глазов (Glazov)",
+      "pivzavod": "ООО «Пивоваренный завод» (OOO «Pivovarennyi zavod»)",
+      "ccilink": "http://crowncaps.info/caps/171271",
+      "position": "Album 1, page 1, line 5"
+    },
+    { "id": "382", "name": "Erdinger Weissbräu Dunkel",
+      "image": "382.jpg",
+      "tags": "Erdinger, Weissbrau, Dunkel",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Erding, Bayern",
+      "pivzavod": "Privatbrauerei Erdinger Weißbräu Werner Brombach GmbH",
+      "pzlink": "http://www.erdinger.de/",
+      "ccilink": "http://crowncaps.info/caps/28290",
+      "position": "Album 3, page 3, line 3"
+    },
     { "id": "381", "name": "Schöfferhofer Grapefruit",
       "image": "381.jpg",
       "tags": "Schofferhofer, Grapefruit",
@@ -109,7 +140,7 @@
       "pivzavod": "Budweiser Budvar, National Corporation",
       "pzlink": "http://budweiser-budvar.cz/",
       "ccilink": "http://crowncaps.info/caps/177783",
-      "position": "Album 1, page 1, line 4"
+      "position": "Album 1, page 1, line 2"
     },
     { "id": "371", "name": "Волковская пивоварня",
       "image": "371.jpg",
@@ -1118,7 +1149,7 @@
       "pivzavod": "ООО «Тагильское пиво» (Tagilskoye Pivo)",
       "pzlink": "http://goldenbeer.ru/",
       "ccilink": "http://crowncaps.info/caps/75886",
-      "position": "Album 1, page 1, line 2"
+      "position": "Album 3, page 7, line 5"
     },
     { "id": "279", "name": "AF brew",
       "image": "279.jpg",
@@ -1174,13 +1205,14 @@
     },
     { "id": "274", "name": "Erdinger Weissbräu",
       "image": "274.jpg",
-      "tags": "Erdinger, Weissbräu, weissbrau",
+      "tags": "Erdinger, weissbrau",
       "condition": "good",
       "country": "Германия",
       "town": "Erding, Bayern",
       "pivzavod": "Privatbrauerei Erdinger Weißbräu Werner Brombach GmbH",
       "pzlink": "http://www.erdinger.de/",
-      "ccilink": "http://crowncaps.info/caps/93904"
+      "ccilink": "http://crowncaps.info/caps/93904",
+      "position": "Album 3, page 3, line 3"
     },
     { "id": "273", "name": "Hamburg",
       "image": "273.jpg",
@@ -1220,7 +1252,8 @@
       "town": "Krušovice; Радомишль (Radomyshl)",
       "pivzavod": "Královský Pivovar Krušovice a.s.; ПАТ «ПБК „Радомишль“» (Radomyshl brewery)",
       "pzlink": "http://www.krusovice.cz/",
-      "ccilink": "http://crowncaps.info/caps/87009"
+      "ccilink": "http://crowncaps.info/caps/87009",
+      "position": "Album 3, page 7, line 4"
     },
     { "id": "269", "name": "Türk Kizilayi",
       "image": "269.jpg",
@@ -3802,8 +3835,8 @@
       "country": "Россия",
       "town": "Глазов (Glazov)",
       "pivzavod": "ООО «Пивоваренный завод» (OOO «Pivovarennyi zavod»)",
-      "pzlink": "",
-      "ccilink": "http://crowncaps.info/caps/54039"
+      "ccilink": "http://crowncaps.info/caps/54039",
+      "position": "Album 1, page 1, line 4"
     },
     { "id": "21", "name": "Guinness",
       "image": "21.jpg",
