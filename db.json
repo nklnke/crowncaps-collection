@@ -1,9 +1,20 @@
 {
   "caps": [
+    { "id": "385", "name": "Harbin beer",
+      "image": "385.jpg",
+      "tags": "Harbin",
+      "condition": "good",
+      "country": "Китай",
+      "town": "Harbin",
+      "pivzavod": "Harbin Brewing Co., Ltd.",
+      "ccilink": "http://crowncaps.info/caps/61037",
+      "position": "Album 3, page 7, line 6"
+    },
     { "id": "384", "name": "Борихинский пивзавод",
       "image": "384.jpg",
       "tags": "Борихинский",
       "condition": "чуть съехала печать",
+      "country": "Россия",
       "town": "п. Бориха (Boriha)",
       "pivzavod": "ООО «Борихинский пивзавод» (Borihinskij)",
       "pzlink": "https://boriha.ru/",
