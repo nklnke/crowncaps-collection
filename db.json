@@ -1,5 +1,27 @@
 {
   "caps": [
+    { "id": "387", "name": "Young's",
+      "image": "387.jpg",
+      "tags": "Young, ram, баран",
+      "condition": "good",
+      "country": "Великобритания",
+      "town": "Bedford",
+      "pivzavod": "Wells & Young's Brewing Company Ltd.",
+      "pzlink": "http://www.charleswells.co.uk/",
+      "ccilink": "http://crowncaps.info/caps/64951",
+      "position": "Album 3, page 7, line 5"
+    },
+    { "id": "386", "name": "Camba Bayern",
+      "image": "386.jpg",
+      "tags": "Camba, Bayern",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Seeon, Bayern",
+      "pivzavod": "Camba Bavaria GmbH",
+      "pzlink": "http://www.camba-bavaria.de/",
+      "ccilink": "http://crowncaps.info/caps/104162",
+      "position": "Album 3, page 7, line 5"
+    },
     { "id": "385", "name": "Harbin beer",
       "image": "385.jpg",
       "tags": "Harbin",
@@ -8,7 +30,7 @@
       "town": "Harbin",
       "pivzavod": "Harbin Brewing Co., Ltd.",
       "ccilink": "http://crowncaps.info/caps/61037",
-      "position": "Album 3, page 7, line 6"
+      "position": "Album 3, page 7, line 5"
     },
     { "id": "384", "name": "Борихинский пивзавод",
       "image": "384.jpg",
