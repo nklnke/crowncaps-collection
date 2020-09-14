@@ -1,5 +1,26 @@
 {
   "caps": [
+    { "id": "392", "name": "Harbin beer",
+      "image": "392.jpg",
+      "tags": "Harbin",
+      "condition": "good",
+      "country": "Китай",
+      "town": "Harbin",
+      "pivzavod": "Harbin Brewing Co., Ltd.",
+      "ccilink": "http://crowncaps.info/caps/26924",
+      "position": "Album 3, page 7, line 5"
+    },
+    { "id": "391", "name": "Hoegaarden Rosée",
+      "image": "391.jpg",
+      "tags": "Hoegaarden, Rosee",
+      "condition": "good",
+      "country": "Бельгия",
+      "town": "Hoegaarden",
+      "pivzavod": "Brouwerij Hoegaarden (InBev)",
+      "pzlink": "http://www.hoegaarden.com/",
+      "ccilink": "http://crowncaps.info/caps/136048",
+      "position": "Album 2 page 1, line 3"
+    },
     { "id": "390", "name": "St. Peters Brewery",
       "image": "390.jpg",
       "tags": "Peters, bird, птица, key, ключ",
@@ -53,7 +74,7 @@
       "pivzavod": "Camba Bavaria GmbH",
       "pzlink": "http://www.camba-bavaria.de/",
       "ccilink": "http://crowncaps.info/caps/104162",
-      "position": "Album 3, page 7, line 5"
+      "position": "Album 3, page 7, line 6"
     },
     { "id": "385", "name": "Harbin beer",
       "image": "385.jpg",
@@ -1895,7 +1916,7 @@
     },
     { "id": "214", "name": "Мягкий солод",
       "image": "214.jpg",
-      "tags": "Мягкий, солод, трёхсосенский",
+      "tags": "Мягкий, солод",
       "condition": "good",
       "country": "Россия",
       "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
@@ -2925,13 +2946,14 @@
     },
     { "id": "117", "name": "Трёхсосенское",
       "image": "117.jpg",
-      "tags": "Трёхсосенское",
+      "tags": "Трёхсосенское, деревья, сосны",
       "condition": "good",
       "country": "Россия",
       "town": "Димитровград & Ульяновск (Dimitrovgrad & Ulyanovsk)",
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
-      "ccilink": "http://crowncaps.info/caps/44953"
+      "ccilink": "http://crowncaps.info/caps/44953",
+      "position": "Album 1, page 4, line 6"
     },
     { "id": "116", "name": "Affligem Blonde",
       "image": "116.jpg",
@@ -3059,7 +3081,8 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/34476"
+      "ccilink": "http://crowncaps.info/caps/34476",
+      "position": "Album 2, page 1, line 3"
     },
     { "id": "104-1", "name": "Булгарпиво",
       "image": "104-1.jpg",
