@@ -1,5 +1,49 @@
 {
   "caps": [
+    { "id": "396", "name": "Охота Лондонский портер",
+      "image": "396.jpg",
+      "tags": "Охота, лондонский, портер",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
+      "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
+      "ccilink": "http://crowncaps.info/caps/171090",
+      "position": "Album 1, page 4, line 6"
+    },
+    { "id": "395", "name": "Hoegaarden",
+      "image": "395.jpg",
+      "tags": "hoegaarden",
+      "condition": "good",
+      "country": "Бельгия",
+      "town": "Hoegaarden",
+      "pivzavod": "Brouwerij Hoegaarden (InBev)",
+      "pzlink": "http://www.hoegaarden.com/",
+      "ccilink": "http://crowncaps.info/caps/124638",
+      "position": "Album 2, page 1, line 3"
+    },
+    { "id": "394", "name": "Мотор",
+      "image": "394.jpg",
+      "tags": "Мотор",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Мытищи (Mytischi)",
+      "pivzavod": "Московская Пивоваренная Компания (Moskovskaya Pivovarennaya Kompania)",
+      "pzlink": "http://mosbrew.ru/",
+      "ccilink": "http://crowncaps.info/caps/165399",
+      "position": "Album 3, page 3, line 6"
+    },
+    { "id": "393", "name": "Paulaner",
+      "image": "393.jpg",
+      "tags": "Paulaner",
+      "condition": "good",
+      "country": "Германия",
+      "town": "München, Bayern",
+      "pivzavod": "Paulaner Brauerei GmbH & Co. KG",
+      "pzlink": "http://www.paulaner.de/",
+      "ccilink": "http://crowncaps.info/caps/172141",
+      "position": "Album 3, page 2, line 1"
+    },
     { "id": "392", "name": "Harbin beer",
       "image": "392.jpg",
       "tags": "Harbin",
@@ -1729,7 +1773,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/154894"
+      "ccilink": "http://crowncaps.info/caps/154894",
+      "position": "Album 3, page 7, line 6"
     },
     { "id": "232", "name": "Paulaner",
       "image": "232.jpg",
@@ -1739,7 +1784,8 @@
       "town": "München, Bayern",
       "pivzavod": "Paulaner Brauerei GmbH & Co. KG",
       "pzlink": "http://www.paulaner.de/",
-      "ccilink": "http://crowncaps.info/caps/33039"
+      "ccilink": "http://crowncaps.info/caps/33039",
+      "position": "Album 3, page 2, line 1"
     },
     { "id": "231", "name": "Paulaner",
       "image": "231.jpg",
@@ -1749,7 +1795,8 @@
       "town": "München, Bayern",
       "pivzavod": "Paulaner Brauerei GmbH & Co. KG",
       "pzlink": "http://www.paulaner.de/",
-      "ccilink": "http://crowncaps.info/caps/33038"
+      "ccilink": "http://crowncaps.info/caps/33038",
+      "position": "Album 3, page 2, line 1"
     },
     { "id": "230", "name": "Трое в лодке",
       "image": "230.jpg",
@@ -3003,10 +3050,10 @@
       "pzlink": "http://www.tomskbeer.ru/",
       "ccilink": "http://crowncaps.info/caps/54910"
     },
-    { "id": "111", "name": "Охота",
+    { "id": "111", "name": "Efes",
       "image": "111.jpg",
-      "tags": "Охота",
-      "condition": "чуток мятенькая",
+      "tags": "Efes",
+      "condition": "good",
       "country": "Россия",
       "town": "Казань (Kazan)",
       "pivzavod": "Пивоварня Москва-Эфес в г. Казань (Pivovarnia Moskva-Efes)",
@@ -3021,7 +3068,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/99446"
+      "ccilink": "http://crowncaps.info/caps/99446",
+      "position": "Album 1, page 4, line 6"
     },
     { "id": "109", "name": "Охота",
       "image": "109.jpg",
@@ -3031,7 +3079,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Объединённые Пивоварни Хейнекен (Obyedinionnye Pivovarni Heineken)",
       "pzlink": "http://www.heinekenrussia.ru/brands/heineken/",
-      "ccilink": "http://crowncaps.info/caps/28413"
+      "ccilink": "http://crowncaps.info/caps/28413",
+      "position": "Album 1, page 4, line 6"
     },
     { "id": "108-1", "name": "Варим сусло",
       "image": "108-1.jpg",
