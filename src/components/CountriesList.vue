@@ -1,14 +1,10 @@
 <template lang="pug">
   .countries-list
-    //-
-      <a class="list-inline-item">Германия <span class="badge badge-light">12</span></a>
-      <a class="list-inline-item">Китай <span class="badge badge-light">2</span></a>
-      регуляркой отсечь всё, что после ` <`
     a.list-inline-item Все
-    //- <span class="badge badge-light counter">2</span>
     a.list-inline-item Австралия
     a.list-inline-item Австрия
     a.list-inline-item Армения
+    a.list-inline-item Белоруссия
     a.list-inline-item Бельгия
     a.list-inline-item Великобритания
     a.list-inline-item Германия
