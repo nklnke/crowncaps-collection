@@ -1,5 +1,61 @@
 {
   "caps": [
+    { "id": "422", "name": "Tripel Karmeliet",
+      "image": "422.jpg",
+      "tags": "Tripel, Karmeliet, 1679",
+      "condition": "good",
+      "country": "Бельгия",
+      "town": "Buggenhout, Oost-Vlaanderen",
+      "pivzavod": "Brouwerij Bosteels N.V.",
+      "pzlink": "http://www.bestbelgianspecialbeers.be/",
+      "ccilink": "http://crowncaps.info/caps/26060",
+      "position": "Album 3, page 8, line 5"
+    },
+    { "id": "421", "name": "Budweiser",
+      "image": "421.jpg",
+      "tags": "Budweiser, lion, лев, castle, замок",
+      "condition": "good",
+      "country": "Чехия",
+      "town": "České Budějovice",
+      "pivzavod": "Budweiser Budvar, National Corporation",
+      "pzlink": "http://budweiser-budvar.cz/",
+      "ccilink": "http://crowncaps.info/caps/181299",
+      "position": "Album 1, page 1, line 4"
+    },
+    { "id": "420", "name": "Лiдскае",
+      "image": "420.jpg",
+      "tags": "Лiдскае, лидское",
+      "condition": "good",
+      "country": "Белоруссия",
+      "town": "Лида (Lida); Минск (Minsk)",
+      "pivzavod": "ААТ «Лідскае піва» (Olvi) (AOZT); ОАО «Криница» (Krinitsa)",
+      "pzlink": "http://lidskoe.by/",
+      "pzlink_alt": "http://www.krinitsa.by/",
+      "ccilink": "http://crowncaps.info/caps/112197",
+      "position": "Album 3, page 8, line 5"
+    },
+    { "id": "419", "name": "Brewlok Brewery",
+      "image": "419.jpg",
+      "tags": "Brewlok, classic, brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Воронеж (Voronezh)",
+      "pivzavod": "ООО «Кварта» (Kvarta)",
+      "pzlink": "http://www.brewlok.ru/",
+      "ccilink": "http://crowncaps.info/caps/181591",
+      "position": "Album 3, page 6, line 2"
+    },
+    { "id": "418", "name": "Brewlok Brewery",
+      "image": "418.jpg",
+      "tags": "Brewlok, classic, brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Воронеж (Voronezh)",
+      "pivzavod": "ООО «Кварта» (Kvarta)",
+      "pzlink": "http://www.brewlok.ru/",
+      "ccilink": "http://crowncaps.info/caps/181588",
+      "position": "Album 3, page 6, line 2"
+    },
     { "id": "417", "name": "Gasparch Brewery",
       "image": "417.jpg",
       "tags": "Gasparch, Brewery",
@@ -371,15 +427,15 @@
       "ccilink": "http://crowncaps.info/caps/176136",
       "position": "Album 3, page 7, line 5"
     },
-    { "id": "383", "name": "Чапецкое",
+    { "id": "383", "name": "Чепецкое",
       "image": "383.jpg",
-      "tags": "Чапецкое",
+      "tags": "Чепецкое",
       "condition": "good",
       "country": "Россия",
       "town": "Глазов (Glazov)",
       "pivzavod": "ООО «Пивоваренный завод» (OOO «Pivovarennyi zavod»)",
       "ccilink": "http://crowncaps.info/caps/171271",
-      "position": "Album 1, page 1, line 5"
+      "position": "Album 3, page 8, line 5"
     },
     { "id": "382", "name": "Erdinger Weissbräu Dunkel",
       "image": "382.jpg",
@@ -501,7 +557,7 @@
       "pivzavod": "Budweiser Budvar, National Corporation",
       "pzlink": "http://budweiser-budvar.cz/",
       "ccilink": "http://crowncaps.info/caps/177783",
-      "position": "Album 1, page 1, line 2"
+      "position": "Album 1, page 1, line 4"
     },
     { "id": "371", "name": "Волковская пивоварня",
       "image": "371.jpg",
@@ -558,9 +614,9 @@
       "ccilink": "http://crowncaps.info/caps/56321",
       "position":"Album 3, page 7, line 1"
     },
-    { "id": "366", "name": "Brewlok Craft",
+    { "id": "366", "name": "Brewlok Brewery",
       "image": "366.jpg",
-      "tags": "Brewlok, Craft, classic, brewery",
+      "tags": "Brewlok, classic, brewery",
       "condition": "good",
       "country": "Россия",
       "town": "Воронеж (Voronezh)",
@@ -786,9 +842,9 @@
       "ccilink": "http://crowncaps.info/caps/165393",
       "position":"Album 3, page 3, line 6"
     },
-    { "id": "345", "name": "Brewlok Craft",
+    { "id": "345", "name": "Brewlok Brewery",
       "image": "345.jpg",
-      "tags": "Brewlok, Craft, classic, brewery",
+      "tags": "Brewlok, classic, brewery",
       "condition": "good",
       "country": "Россия",
       "town": "Воронеж (Voronezh)",
@@ -817,7 +873,7 @@
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
       "ccilink": "http://crowncaps.info/caps/158118",
-      "position":"Album 3, page 3, line 4"
+      "position":"Album 1, page 4, line 5"
     },
     { "id": "342", "name": "Bud non-alcohol",
       "image": "342.jpg",
@@ -1309,7 +1365,7 @@
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
       "ccilink": "http://crowncaps.info/caps/180538",
-      "position":"Album 3, page 3, line 4"
+      "position":"Album 1, page 4, line 5"
     },
     { "id": "297", "name": "I'nice",
       "image": "297.jpg",
@@ -1419,7 +1475,7 @@
       "pivzavod": "ООО «Суздальская пивоварня» (Suzdalskaya Pivovarnia)",
       "pzlink": "http://yuzberg.com",
       "ccilink": "http://crowncaps.info/caps/85175",
-      "position":"Album 3, page 6, line 2"
+      "position":"Album 3, page 8, line 4"
     },
     { "id": "287", "name": "Cidre Royal",
       "image": "287.jpg",
@@ -1499,7 +1555,8 @@
       "town": "Томск (Tomsk)",
       "pivzavod": "ОАО «Томское пиво» (Tomskoe Pivo)",
       "pzlink": "http://www.tomskbeer.ru/",
-      "ccilink": "http://crowncaps.info/caps/110016"
+      "ccilink": "http://crowncaps.info/caps/110016",
+      "position": "Album 3, page 8, line 5"
     },
     { "id": "280", "name": "Demidov Brewery",
       "image": "280.jpg",
@@ -1543,7 +1600,7 @@
       "pivzavod": "Завод Трёхсосенский (Zavod Trehosensky)",
       "pzlink": "http://trehsosensky.ru/",
       "ccilink": "http://crowncaps.info/caps/157450",
-      "position":"Album 3, page 3, line 4"
+      "position": "Album 1, page 4, line 5"
     },
     { "id": "276", "name": "Тинькофф",
       "image": "276.jpg",
@@ -4356,7 +4413,7 @@
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
       "ccilink": "http://crowncaps.info/caps/148733",
-      "position":"Album 1, page 1, line 4"
+      "position":"Album 1, page 1, line 2"
     },
     { "id": "8", "name": "Bud",
       "image": "8.jpg",
