@@ -1,5 +1,38 @@
 {
   "caps": [
+    { "id": "425", "name": "N. Rigas Brewery",
+      "image": "425.jpg",
+      "tags": "Rigas, Brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "д. Лешково (Leshkovo)",
+      "pivzavod": "ООО «Пивоварня Новорижская» (Pivovarnya Novorizhskaya)",
+      "pzlink": "http://nrbrewery.ru/",
+      "ccilink": "http://crowncaps.info/caps/146909",
+      "position": "Album 3, page 8, line 6"
+    },
+    { "id": "424", "name": "Lion",
+      "image": "424.jpg",
+      "tags": "Lion",
+      "condition": "good",
+      "country": "Чехия",
+      "town": "Havlíčkův Brod; Hradec Kralove",
+      "pivzavod": "Měšťanský Pivovar Havlíčkův Brod, a.s.; Právovárečný pivovar a.s.",
+      "pzlink": "http://www.hbrebel.cz/",
+      "ccilink": "http://crowncaps.info/caps/94652",
+      "position": "Album 3, page 8, line 6"
+    },
+    { "id": "423", "name": "Gasparch Brewery",
+      "image": "423.jpg",
+      "tags": "Gasparch, Brewery",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Тюмень (Tyumen)",
+      "pivzavod": "ООО «Техимпекс» (Gasparch Brewery)",
+      "pzlink": "https://www.gasparchbeer.com/",
+      "ccilink": "http://crowncaps.info/caps/171365",
+      "position": "Album 3, page 8, line 4"
+    },
     { "id": "422", "name": "Tripel Karmeliet",
       "image": "422.jpg",
       "tags": "Tripel, Karmeliet, 1679",
@@ -64,7 +97,7 @@
       "town": "Тюмень (Tyumen)",
       "pivzavod": "ООО «Техимпекс» (Gasparch Brewery)",
       "pzlink": "https://www.gasparchbeer.com/",
-      "ccilink": "http://crowncaps.info/caps/155190 ",
+      "ccilink": "http://crowncaps.info/caps/155190",
       "position": "Album 3, page 8, line 4"
     },
     { "id": "416", "name": "Augustijn",
@@ -1475,7 +1508,7 @@
       "pivzavod": "ООО «Суздальская пивоварня» (Suzdalskaya Pivovarnia)",
       "pzlink": "http://yuzberg.com",
       "ccilink": "http://crowncaps.info/caps/85175",
-      "position":"Album 3, page 8, line 4"
+      "position":"Album 3, page 8, line 5"
     },
     { "id": "287", "name": "Cidre Royal",
       "image": "287.jpg",
@@ -2495,7 +2528,7 @@
       "town": "Клин (Klin)",
       "pivzavod": "АО «АБ ИнБев Эфес» (AB InBev Efes)",
       "pzlink": "https://abinbevefes.ru/",
-      "ccilink": "http://crowncaps.info/caps/137855",
+      "ccilink": "http://crowncaps.info/caps/169807",
       "position":"Album 1, page 1, line 4"
     },
     { "id": "191", "name": "Бочкари Weissberg",
