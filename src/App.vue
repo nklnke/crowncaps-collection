@@ -11,14 +11,14 @@
             a.navbar-brand.text-light.btn.btn-primary(href='/') Collection of crowncaps
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Row
-          a.nav-link.text-light.btn.btn-primary(href='/') List
           li.nav-item
+            a.nav-link.text-light.btn.btn-primary(href='/') List
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Show only bad
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='/') Caps for exchange
           li.nav-item
-            a#capsCounterBtn.nav-link.text-light.btn.btn-primary(href="" target="_blank") Всего: {{caps.length}}шт.
+            a.nav-link.text-light.btn.btn-primary Всего: {{caps.length}}шт.
           li.nav-item
             a.nav-link.text-light.btn.btn-primary(href='https://github.com/nklnke/crowncaps-collection' target='_blank') Github
 
