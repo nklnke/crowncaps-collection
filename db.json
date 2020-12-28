@@ -1,5 +1,82 @@
 {
   "caps": [
+    { "id": "444", "name": "Ehrenberger Pilgerstoff",
+      "image": "444.jpg",
+      "tags": "Ehrenberger, Pilgerstoff, буква, символ, letter, symbol",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Motten, Bayern",
+      "pivzavod": "Will-Bräu Hochstiftliches Brauhaus in Bayern GmbH & Co. KG",
+      "pzlink": "http://www.will-braeu.de/",
+      "ccilink": "http://crowncaps.info/caps/148283",
+      "position": "Album 4, page 2, line 3"
+    },
+    { "id": "443", "name": "Ehrenberger Pilgerstoff",
+      "image": "443.jpg",
+      "tags": "Ehrenberger, Pilgerstoff, буква, символ, letter, symbol",
+      "condition": "good",
+      "country": "Германия",
+      "town": "Motten, Bayern",
+      "pivzavod": "Will-Bräu Hochstiftliches Brauhaus in Bayern GmbH & Co. KG",
+      "pzlink": "http://www.will-braeu.de/",
+      "ccilink": "http://crowncaps.info/caps/141104",
+      "position": "Album 4, page 2, line 3"
+    },
+    { "id": "442", "name": "Neuzeller Kloster-Bräu",
+      "image": "442.jpg",
+      "tags": "Neuzeller, Kloster, Brau",
+      "condition": "lil коцки",
+      "country": "Германия",
+      "town": "Neuzelle, Brandenburg",
+      "pivzavod": "Klosterbrauerei Neuzelle GmbH",
+      "pzlink": "http://www.klosterbrauerei.com/",
+      "ccilink": "http://crowncaps.info/caps/51102",
+      "position": "Album 4, page 2, line 2"
+    },
+    { "id": "441", "name": "Somersby",
+      "image": "441.jpg",
+      "tags": "Somersby, cider",
+      "condition": "good",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
+      "pzlink": "http://baltika.ru/",
+      "ccilink": "http://crowncaps.info/caps/95052",
+      "position": "Album 1, page 3, line 3"
+    },
+    { "id": "440", "name": "Medovarus",
+      "image": "440.jpg",
+      "tags": "medovarus, organic, brewery",
+      "condition": "bad (мятая, нехорошо открыли)",
+      "country": "Россия",
+      "town": "Санкт-Петербург (Saint Petersburg)",
+      "pivzavod": "ООО «Медоварус» (Medovarus)",
+      "pzlink": "http://www.medovarus.ru/",
+      "ccilink": "http://crowncaps.info/caps/102906",
+      "position":"Album 3, page 5, line 6"
+    },
+    { "id": "439", "name": "Birra del Borgo",
+      "image": "439.jpg",
+      "tags": "Birra, del, Borgo, цвет, color, синий, blue, башня, tower",
+      "condition": "good",
+      "country": "Италия",
+      "town": "Borgorose (RI)",
+      "pivzavod": "Birra del Borgo S.r.l.",
+      "pzlink": "http://www.birradelborgo.it/",
+      "ccilink": "http://crowncaps.info/caps/134101",
+      "position": "Album 3, page 8, line 2"
+    },
+    { "id": "438", "name": "Birra del Borgo",
+      "image": "438.jpg",
+      "tags": "Birra, del, Borgo, цвет, color, синий, blue, башня, tower",
+      "condition": "good",
+      "country": "Италия",
+      "town": "Borgorose (RI)",
+      "pivzavod": "Birra del Borgo S.r.l.",
+      "pzlink": "http://www.birradelborgo.it/",
+      "ccilink": "http://crowncaps.info/caps/19595",
+      "position": "Album 3, page 8, line 2"
+    },
     { "id": "437", "name": "Cebada",
       "image": "437.jpg",
       "tags": "Cebada, Virgen, Cerveza, Madrid, Desde",
@@ -371,7 +448,7 @@
       "pivzavod": "ТОО `Первый Пивзавод` (Pervy Pivzavod)",
       "pzlink": "http://www.pivzavod1.kz/",
       "ccilink": "http://crowncaps.info/caps/181164",
-      "position": "Album 3, page 8, line 2"
+      "position": "Album 1, page 4, line 3"
     },
     { "id": "403", "name": "Мастер труда и отдыха",
       "image": "403.jpg",
@@ -524,7 +601,7 @@
       "pivzavod": "St. Peters Brewery",
       "pzlink": "http://www.stpetersbrewery.co.uk/",
       "ccilink": "http://crowncaps.info/caps/19718",
-      "position": "Album 3, page 7, line 6"
+      "position": "Album 1, page 4, line 3"
     },
     { "id": "389", "name": "Кроп-пиво",
       "image": "389.jpg",
@@ -1467,7 +1544,7 @@
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
       "ccilink": "http://crowncaps.info/caps/181442",
-      "position": "Album 1, page 3, line 3"
+      "position": "Album 4, page 2, line 2"
     },
     { "id": "303", "name": "Miller Genuine Draft",
       "image": "303.jpg",
@@ -1952,7 +2029,7 @@
     { "id": "258", "name": "Ayinger",
       "image": "258.jpg",
       "tags": "Ayinger, дом",
-      "condition": "вмятина",
+      "condition": "good",
       "country": "Германия",
       "town": "Aying, Bayern",
       "pivzavod": "Brauerei Aying Franz Inselkammer KG",
@@ -4032,7 +4109,8 @@
       "town": "Санкт-Петербург (Saint Petersburg)",
       "pivzavod": "Пивоваренная Компания «Балтика» (Pivovarennaya Kompania «Baltika»)",
       "pzlink": "http://baltika.ru/",
-      "ccilink": "http://crowncaps.info/caps/167461"
+      "ccilink": "http://crowncaps.info/caps/167461",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "62", "name": "Somersby",
       "image": "62.jpg",
@@ -4042,7 +4120,8 @@
       "town": "Hamburg - Altona",
       "pivzavod": "The Carlsberg Breweries - Carlsberg Bier GmbH",
       "pzlink": "http://www.carlsbergdeutschland.de/",
-      "ccilink": "http://crowncaps.info/caps/107711"
+      "ccilink": "http://crowncaps.info/caps/107711",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "61", "name": "Somersby",
       "image": "61.jpg",
@@ -4052,7 +4131,8 @@
       "town": "København",
       "pivzavod": "Carlsberg Danmark A/S",
       "pzlink": "http://www.carlsberg.dk/",
-      "ccilink": "http://crowncaps.info/caps/148567"
+      "ccilink": "http://crowncaps.info/caps/148567",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "60", "name": "Somersby",
       "image": "60.jpg",
@@ -4062,7 +4142,8 @@
       "town": "Koprivnica",
       "pivzavod": "Carlsberg Croatia D.O.O.",
       "pzlink": "https://carlsbergcroatia.hr/",
-      "ccilink": "http://crowncaps.info/caps/65383"
+      "ccilink": "http://crowncaps.info/caps/65383",
+      "position": "Album 1, page 3, line 3"
     },
     { "id": "59", "name": "Лысковский пивоваренный завод",
       "image": "59.jpg",
@@ -4072,7 +4153,7 @@
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
       "ccilink": "http://crowncaps.info/caps/135163",
-      "position": "Album 1, page 3, line 3"
+      "position": "Album 4, page 2, line 2"
     },
     { "id": "58", "name": "Лысковский пивоваренный завод",
       "image": "58.jpg",
@@ -4082,7 +4163,7 @@
       "town": "Лысково (Lyskovo)",
       "pivzavod": "Лысковский Пивзавод (Lyskovsky Pivzavod)",
       "ccilink": "http://crowncaps.info/caps/104726",
-      "position": "Album 1, page 3, line 3"
+      "position": "Album 4, page 2, line 2"
     },
     { "id": "57", "name": "Bergauer",
       "image": "57.jpg",
