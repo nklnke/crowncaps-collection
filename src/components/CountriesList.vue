@@ -12,6 +12,7 @@
     a.list-inline-item Грузия
     a.list-inline-item Дания
     a.list-inline-item Индонезия
+    a.list-inline-item Ирландия
     a.list-inline-item Испания
     a.list-inline-item Италия
     a.list-inline-item Казахстан
